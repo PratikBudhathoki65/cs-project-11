@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CoreDeck — Late Night Study</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =============================================
+       NAVIGATION
+  ============================================= -->
+  <nav class="navbar">
+    <div class="nav-logo">Core<span>Deck</span></div>
+    <ul class="nav-links">
+      <li><a href="#toolkit-section">Tools</a></li>
+      <li><a href="#mission">Mission</a></li>
+    </ul>
+  </nav>
+
+  <!-- =============================================
+       HERO SECTION (full-screen, 100vh)
+       Contains: Star Constellation + Mountain Silhouette + Text
+  ============================================= -->
+  <section class="hero" id="home">
+
+    <!--
+      STAR CONSTELLATION
+      ─────────────────────────────────────────────
+      Each .star is a tiny CSS-generated dot (border-radius: 50%).
+      The 'pulse-glow' animation uses box-shadow to create a soft,
+      expanding luminous ring and opacity to gently fade in/out.
+      animation-delay is varied per star so they don't pulse in sync,
+      giving the sky a natural, alive feeling.
+      ─────────────────────────────────────────────
+    -->
+    <div class="stars-container" aria-hidden="true">
+      <!-- Scattered stars — positions set via inline style -->
+      <span class="star s1"  style="top:8%;  left:12%"></span>
+      <span class="star s2"  style="top:5%;  left:28%"></span>
+      <span class="star s3"  style="top:13%; left:45%"></span>
+      <span class="star s4"  style="top:7%;  left:61%"></span>
+      <span class="star s5"  style="top:15%; left:73%"></span>
+      <span class="star s6"  style="top:4%;  left:84%"></span>
+      <span class="star s7"  style="top:22%; left:9%"></span>
+      <span class="star s8"  style="top:18%; left:36%"></span>
+      <span class="star s9"  style="top:25%; left:55%"></span>
+      <span class="star s10" style="top:10%; left:92%"></span>
+      <span class="star s11" style="top:30%; left:80%"></span>
+      <span class="star s12" style="top:38%; left:22%"></span>
+      <span class="star s13" style="top:35%; left:67%"></span>
+      <span class="star s14" style="top:42%; left:48%"></span>
+      <span class="star s15" style="top:20%; left:50%"></span>
+      <span class="star s16" style="top:28%; left:4%"></span>
+      <span class="star s17" style="top:45%; left:88%"></span>
+      <span class="star s18" style="top:6%;  left:70%"></span>
+      <span class="star s19" style="top:33%; left:95%"></span>
+      <span class="star s20" style="top:50%; left:15%"></span>
+
+      <!-- Constellation connector lines (SVG overlay) -->
+      <svg class="constellation-lines" viewBox="0 0 1440 900" preserveAspectRatio="none" aria-hidden="true">
+        <line x1="173"  y1="72"  x2="403"  y2="45"  />
+        <line x1="403"  y1="45"  x2="648"  y2="117" />
+        <line x1="648"  y1="117" x2="878"  y2="63"  />
+        <line x1="878"  y1="63"  x2="1051" y2="135" />
+        <line x1="130"  y1="198" x2="519"  y2="162" />
+        <line x1="519"  y1="162" x2="720"  y2="225" />
+        <line x1="720"  y1="225" x2="965"  y2="315" />
+        <line x1="172"  y1="72"  x2="130"  y2="198" />
+        <line x1="648"  y1="117" x2="519"  y2="162" />
+      </svg>
+    </div>
+
+    <!-- Hero text block -->
+    <div class="hero-content">
+      <p class="hero-eyebrow">&#9670; &nbsp; Class XI · Study Companion · 2025</p>
+      <h1 class="hero-title">Core<span>Deck</span></h1>
+      <p class="hero-tagline">One tab. Deep focus. Everything you need — and nothing you don't.</p>
+
+      <div class="hero-cta-group">
+        <a href="#toolkit-section" class="btn btn-primary">Explore Tools</a>
+        <a href="#mission"  class="btn btn-ghost">Our Mission</a>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-hint" aria-label="Scroll down">
+      <span class="scroll-label">SCROLL</span>
+      <div class="scroll-arrow"></div>
+    </div>
+
+    <!--
+      MOUNTAIN SILHOUETTE
+      ─────────────────────────────────────────────
+      Three layered SVG mountain ranges sit at the bottom of the hero.
+      Each layer is a different shade of near-black to create depth.
+      They overlap so the darkest (foreground) covers the others.
+      ─────────────────────────────────────────────
+    -->
+    <div class="mountains" aria-hidden="true">
+      <!-- Back range -->
+      <svg class="mountain-layer mountain-back" viewBox="0 0 1440 220" preserveAspectRatio="none">
+        <path d="M0,220 L0,160 L120,90 L260,140 L400,60 L560,120 L700,40 L860,110 L1000,70 L1150,130 L1280,80 L1440,110 L1440,220 Z"/>
+      </svg>
+      <!-- Mid range -->
+      <svg class="mountain-layer mountain-mid" viewBox="0 0 1440 220" preserveAspectRatio="none">
+        <path d="M0,220 L0,180 L90,130 L200,170 L350,100 L500,150 L640,80 L780,140 L920,100 L1080,160 L1220,110 L1360,150 L1440,130 L1440,220 Z"/>
+      </svg>
+      <!-- Front range -->
+      <svg class="mountain-layer mountain-front" viewBox="0 0 1440 220" preserveAspectRatio="none">
+        <path d="M0,220 L0,200 L80,160 L180,195 L320,140 L440,175 L580,130 L700,165 L840,120 L980,170 L1100,140 L1250,180 L1380,150 L1440,165 L1440,220 Z"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- =============================================
+       FEATURES GALLERY SECTION
+       ─────────────────────────────────────────────
+       SMOOTH SCROLL LOGIC
+       The navbar links use href="#toolkit-section" (anchor).
+       CSS sets html { scroll-behavior: smooth } so the browser
+       animates the scroll position natively — no JS needed.
+       The hero's 100vh height ensures the gallery section begins
+       just below the fold, making the scroll feel like a cinematic
+       reveal rather than an abrupt jump.
+       ─────────────────────────────────────────────
+  ============================================= -->
+  <section class="features" id="toolkit-section">
+    <div class="section-header">
+      <span class="section-label">THE TOOLKIT</span>
+      <h2 class="section-title">Built for the <em>grind</em></h2>
+      <p class="section-sub">Four tools engineered around one goal: getting into the zone and staying there.</p>
+    </div>
+
+    <div class="cards-grid">
+
+      <!-- Card 1: Focus Timer -->
+      <a href="timer.html" class="card-link">
+        <article class="feature-card" data-index="01">
+          <div class="card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="26" r="16" stroke="currentColor" stroke-width="2"/>
+              <path d="M24 18v8l5 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M20 8h8M24 8v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="card-title">Focus Timer</h3>
+          <p class="card-desc">Pomodoro-based deep work sessions with ambient soundscapes — rain, forest, white noise — to lock in your flow state.</p>
+          <span class="card-tag">Productivity</span>
+        </article>
+      </a>
+
+      <!-- Card 2: Video Vault -->
+      <a href="videos.html" class="card-link">
+        <article class="feature-card" data-index="02">
+          <div class="card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="10" width="36" height="24" rx="3" stroke="currentColor" stroke-width="2"/>
+              <path d="M20 38h8M24 34v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M20 19l10 5-10 5V19z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="card-title">Video Vault</h3>
+          <p class="card-desc">Curated Physics, Chemistry & Math lecture playlists. Bookmark timestamps, take inline notes, and revisit only what matters.</p>
+          <span class="card-tag">Resources</span>
+        </article>
+      </a>
+
+      <!-- Card 3: Library -->
+      <a href="library.html" class="card-link">
+        <article class="feature-card" data-index="03">
+          <div class="card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="8" width="10" height="32" rx="2" stroke="currentColor" stroke-width="2"/>
+              <rect x="20" y="12" width="10" height="28" rx="2" stroke="currentColor" stroke-width="2"/>
+              <rect x="32" y="6" width="10" height="34" rx="2" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3 class="card-title">Library</h3>
+          <p class="card-desc">Chapter notes, past papers, and formula sheets — all indexed and searchable. Your second brain for the +2 syllabus.</p>
+          <span class="card-tag">Knowledge</span>
+        </article>
+      </a>
+
+      <!-- Card 4: AI Tutor -->
+      <a href="tutor.html" class="card-link">
+        <article class="feature-card" data-index="04">
+          <div class="card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 8a16 16 0 110 32A16 16 0 0124 8z" stroke="currentColor" stroke-width="2"/>
+              <path d="M18 20c0-3.31 2.69-6 6-6s6 2.69 6 6c0 2.5-1.5 4.5-4 5.5V33" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="24" cy="37" r="1.5" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3 class="card-title">AI Tutor</h3>
+          <p class="card-desc">Ask anything. Get step-by-step breakdowns, concept explanations, and practice questions generated on demand — 24/7.</p>
+          <span class="card-tag">Intelligence</span>
+        </article>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- =============================================
+       MISSION SECTION (anchor: #mission)
+  ============================================= -->
+  <section class="mission" id="mission">
+    <div class="mission-inner">
+      <div class="mission-text">
+        <span class="section-label">OUR MISSION</span>
+        <h2 class="section-title">Quiet the noise.<br/><em>Amplify the signal.</em></h2>
+        <p>CoreDeck was built by a Class 11 student for Class 11 students. The idea is simple: most study apps overwhelm you. CoreDeck gives you just what you need — a clean space to think, plan, and actually understand the material.</p>
+        <p>No ads. No streaks. No gamification guilt. Just a tool that respects your focus.</p>
+      </div>
+      <div class="mission-stats">
+        <div class="stat">
+          <span class="stat-num">4</span>
+          <span class="stat-label">Core Tools</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">6</span>
+          <span class="stat-label">Subjects Covered</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">∞</span>
+          <span class="stat-label">Focus Sessions</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       FOOTER
+  ============================================= -->
+  <footer class="footer">
+    <span class="footer-logo">Core<span>Deck</span></span>
+    <span class="footer-copy">Built with ☕ for the +2 grind · 2025</span>
+  </footer>
+
+</body>
+</html>
