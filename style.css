@@ -74,6 +74,14 @@ em { font-style: italic; color: var(--accent); }
 
 /* ─────────────────────────────────────────────────
    NAVIGATION
+   ──────────────────────────────────────────────────
+   Glassmorphism: rgba(0,0,0,0.2) gives just enough
+   dark tint to keep links readable while the hero sky
+   bleeds through — matching the original screenshot.
+   blur(12px) softens whatever star/gradient sits behind
+   without creating a visible frosted panel.
+   No border-bottom so the bar truly dissolves into
+   the night sky rather than sitting on top of it.
    ───────────────────────────────────────────────── */
 .navbar {
   position: fixed;
@@ -84,33 +92,66 @@ em { font-style: italic; color: var(--accent); }
   justify-content: space-between;
   padding: 0 clamp(24px, 5vw, 72px);
   z-index: 100;
-  background: linear-gradient(to bottom, rgba(8,10,15,0.85) 0%, transparent 100%);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+
+  /* Seamless transparent glass — matches original image */
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  /* No border — lets the bar blend into the night sky */
 }
 
 .nav-logo {
-  font-family: 'Lora', serif;
+  font-family: 'Lora', serif;    /* Serif to match hero title branding */
   font-size: 1.35rem;
   font-weight: 700;
   letter-spacing: -0.01em;
-  color: var(--text-primary);
+  color: var(--text-primary);    /* Ivory */
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
-.nav-logo span { color: var(--accent); }
+.nav-logo span { color: var(--accent); }  /* Sage Green — two-tone logo */
 
+/* ── Nav links — 6 items, compact but readable ── */
+/*
+  SPACING RATIONALE FOR 6 LINKS
+  ─────────────────────────────────────────────────
+  gap reduced from 2.5rem → 1.6rem so the six links
+  fit between logo and right edge without overflow.
+  font-size dropped slightly to 0.72rem.
+  Padding on each <a> remains generous enough to hit
+  easily on touch / trackpad.
+*/
 .nav-links {
   display: flex;
-  gap: 2.5rem;
+  align-items: center;
+  gap: 0;             /* padding on each <a> handles spacing cleanly */
 }
+
 .nav-links a {
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--text-secondary);
-  transition: color var(--transition);
+  color: var(--text-secondary);   /* soft ivory at rest */
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  transition: color var(--transition), background var(--transition);
+  white-space: nowrap;
+  text-decoration: none;
 }
-.nav-links a:hover { color: var(--text-primary); }
+
+/* Hover → full Ivory (matches original "TOOLS / MISSION" style) */
+.nav-links a:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Active page highlight — Sage Green */
+.nav-links a.active {
+  color: var(--accent);
+}
 
 /* ─────────────────────────────────────────────────
    HERO SECTION
@@ -283,38 +324,51 @@ em { font-style: italic; color: var(--accent); }
 
 /* ─────────────────────────────────────────────────
    BUTTONS
+   ──────────────────────────────────────────────────
+   border-radius: 50px → pill / capsule shape at any width.
+   Both .btn-primary and .btn-ghost share the same radius
+   so they look like a matched pair in the hero CTA row.
    ───────────────────────────────────────────────── */
 .btn {
   display: inline-block;
-  padding: 0.78rem 2rem;
+  padding: 0.82rem 2.2rem;
   font-family: 'DM Sans', sans-serif;
   font-size: 0.82rem;
   font-weight: 500;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  border-radius: 6px;
+  border-radius: 50px;           /* pill shape */
   transition: all var(--transition);
   cursor: pointer;
+  text-decoration: none;
 }
 
+/* Primary — Sage Green fill, Midnight text */
 .btn-primary {
-  background-color: var(--accent);
-  color: #06080c;
+  background-color: var(--accent);   /* #8DAA91 */
+  color: #06080c;                     /* near-black for contrast */
+  border: 1px solid var(--accent);
 }
 .btn-primary:hover {
   background-color: #a3c0a7;
-  box-shadow: 0 0 22px var(--accent-glow);
+  border-color: #a3c0a7;
+  /* Sage Green glow as specified */
+  box-shadow: 0 0 15px rgba(141, 170, 145, 0.4),
+              0 0 30px rgba(141, 170, 145, 0.15);
   transform: translateY(-1px);
 }
 
+/* Ghost — outlined pill, matches primary radius */
 .btn-ghost {
   background: transparent;
   color: var(--text-secondary);
-  border: 1px solid rgba(255,255,255,0.12);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 50px;
 }
 .btn-ghost:hover {
   border-color: var(--accent);
   color: var(--accent);
+  background: rgba(141, 170, 145, 0.06);
   transform: translateY(-1px);
 }
 
@@ -623,11 +677,16 @@ em { font-style: italic; color: var(--accent); }
     gap: 2rem;
     flex-wrap: wrap;
   }
-  .nav-links { gap: 1.4rem; }
+  /* Tighten link spacing at tablet width before full collapse */
+  .nav-links a { padding: 0.4rem 0.55rem; font-size: 0.68rem; }
+}
+
+@media (max-width: 640px) {
+  /* Hide all links; show only logo on small screens */
+  .nav-links { display: none; }
 }
 
 @media (max-width: 480px) {
   .hero-title { font-size: 3.2rem; }
   .hero-cta-group { flex-direction: column; align-items: center; }
-  .nav-links { display: none; }
 }
