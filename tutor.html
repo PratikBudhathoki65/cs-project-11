@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CoreDeck — AI Tutor</title>
+  <title>CoreDeck — Curiosity AI</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="tutor.css" />
 </head>
@@ -37,12 +37,12 @@
       <!-- Sidebar Header -->
       <div class="sidebar-header">
         <svg class="sidebar-logo" viewBox="0 0 24 24" fill="none"
-             stroke="currentColor" stroke-width="2">
-          <circle cx="12" cy="12" r="10"/>
-          <path d="M9 10c0-2 1.5-3 3-3s3 1 3 3c0 1.5-.8 2.5-2 3v1"/>
-          <circle cx="12" cy="17" r=".8" fill="currentColor" stroke="none"/>
+             stroke="currentColor" stroke-width="1.8">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
+          <path d="M12 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" fill="currentColor" stroke="none" opacity="0.6"/>
+          <path d="M12 14c-2.67 0-8 1.34-8 4v1h16v-1c0-2.66-5.33-4-8-4z" opacity="0.5"/>
         </svg>
-        <span>AI Tutor</span>
+        <span>Curiosity</span>
         <button class="sidebar-collapse" id="sidebarCollapse"
                 aria-label="Collapse sidebar">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -61,8 +61,7 @@
           </svg>
           New Chat
         </button>
-        <button class="clear-btn-top" id="clearHistoryBtn"
-                title="Clear all chats">
+        <button class="clear-btn-top" id="clearHistoryBtn" title="Clear all chats">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <polyline points="3 6 5 6 21 6"/>
             <path d="M19 6l-1 14H6L5 6"/>
@@ -73,7 +72,7 @@
       </div>
 
       <!-- History Label -->
-      <p class="chat-history-label">Recent Chats</p>
+      <p class="chat-history-label">Recent Learning</p>
 
       <!-- History List -->
       <div class="chat-history-list" id="chatHistoryList"></div>
@@ -85,8 +84,7 @@
 
       <!-- Topbar -->
       <div class="tutor-topbar">
-        <button class="topbar-menu-btn" id="sidebarOpen"
-                aria-label="Toggle sidebar">
+        <button class="topbar-menu-btn" id="sidebarOpen" aria-label="Toggle sidebar">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="3" y1="6"  x2="21" y2="6"/>
             <line x1="3" y1="12" x2="21" y2="12"/>
@@ -95,7 +93,7 @@
         </button>
 
         <div class="topbar-center">
-          <span class="topbar-title" id="chatTitle">AI Tutor</span>
+          <span class="topbar-title" id="chatTitle">Curiosity</span>
         </div>
 
         <div class="topbar-right">
@@ -112,16 +110,17 @@
         <!-- Welcome State -->
         <div class="welcome-state" id="welcomeState">
           <div class="welcome-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                 stroke-width="1.5" stroke-linecap="round">
-              <circle cx="12" cy="12" r="10"/>
-              <path d="M9 10c0-2 1.5-3 3-3s3 1 3 3c0 1.5-.8 2.5-2 3v1"/>
-              <circle cx="12" cy="17" r=".8" fill="currentColor" stroke="none"/>
+            <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="18" cy="18" r="17" stroke="currentColor" stroke-width="1.2" opacity="0.3"/>
+              <path d="M18 8C13.03 8 9 12.03 9 17c0 3.09 1.57 5.82 3.97 7.47V27l3.47-1.74A9.03 9.03 0 0018 26c4.97 0 9-4.03 9-9s-4.03-9-9-9z" fill="currentColor" opacity="0.15"/>
+              <circle cx="13.5" cy="17" r="1.5" fill="currentColor"/>
+              <circle cx="18"   cy="17" r="1.5" fill="currentColor"/>
+              <circle cx="22.5" cy="17" r="1.5" fill="currentColor"/>
             </svg>
           </div>
-          <h2>How can I help you study?</h2>
-          <p>Ask me anything about Physics, Chemistry, Math, Biology
-             or any Class 11 topic. Powered by Llama AI!</p>
+          <h2>What are we learning today?</h2>
+          <p>Your personal AI tutor is ready. Ask anything about Physics, Chemistry,
+             Math, Biology or any Class 11 topic.</p>
 
           <div class="welcome-grid">
 
@@ -171,15 +170,12 @@
         </div>
 
         <!-- Typing Indicator -->
-        <div class="typing-indicator" id="typingIndicator"
-             style="display:none">
+        <div class="typing-indicator" id="typingIndicator" style="display:none">
           <div class="msg-avatar ai">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                 stroke-width="2">
-              <circle cx="12" cy="12" r="10"/>
-              <path d="M9 10c0-2 1.5-3 3-3s3 1 3 3c0 1.5-.8 2.5-2 3v1"/>
-              <circle cx="12" cy="17" r=".8" fill="currentColor"
-                      stroke="none"/>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="9" cy="12" r="1.5" fill="currentColor" stroke="none"/>
+              <circle cx="12" cy="12" r="1.5" fill="currentColor" stroke="none" opacity="0.7"/>
+              <circle cx="15" cy="12" r="1.5" fill="currentColor" stroke="none" opacity="0.4"/>
             </svg>
           </div>
           <div class="typing-dots">
@@ -194,12 +190,11 @@
         <div class="centered-input">
 
           <!-- Image Preview -->
-          <div class="image-preview-row" id="imagePreviewRow"
-               style="display:none">
+          <div class="image-preview-row" id="imagePreviewRow" style="display:none">
             <div class="image-preview-list" id="imagePreviewList"></div>
           </div>
 
-          <!-- Input Box -->
+          <!-- Pill Input Box -->
           <div class="input-box">
             <button class="input-icon-btn" id="imageBtn"
                     aria-label="Attach image"
@@ -211,19 +206,17 @@
                 <polyline points="21 15 16 10 5 21"/>
               </svg>
             </button>
-            <input type="file" id="imageInput" accept="image/*"
-                   multiple style="display:none"/>
+            <input type="file" id="imageInput" accept="image/*" multiple style="display:none"/>
 
             <textarea id="chatInput" rows="1"
-                      placeholder="Ask anything… (Enter to send, Shift+Enter for new line)"
+                      placeholder="Ask anything…"
                       maxlength="4000"></textarea>
 
             <span class="char-count" id="charCount">0/4000</span>
 
-            <button class="send-btn" id="sendBtn" disabled
-                    aria-label="Send message">
+            <button class="send-btn" id="sendBtn" disabled aria-label="Send message">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                   stroke-width="2" stroke-linecap="round">
+                   stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                 <line x1="22" y1="2" x2="11" y2="13"/>
                 <polygon points="22 2 15 22 11 13 2 9 22 2"/>
               </svg>
@@ -256,6 +249,7 @@
   </footer>
 
   <script src="tutor.js"></script>
-
+ <script src="timer-persistence.js"></script>
+<script src="miniplayer.js"></script>
 </body>
 </html>

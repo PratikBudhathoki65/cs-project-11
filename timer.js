@@ -3,6 +3,26 @@
    Focus Timer + Stopwatch Logic
    Uses setInterval for all timing.
 
+   ── PERSISTENCE INTEGRATION ─────────────────────
+   This file now communicates with timer-persistence.js
+   via window.TimerPersistence (a global API object).
+
+   Key moments where state is saved:
+     startTimer()  → saves {status:'running', endTime, ...}
+     pauseTimer()  → saves {status:'paused', remainingSeconds, ...}
+     resetTimer()  → clears localStorage entirely
+     session end   → clears localStorage (session complete)
+     init()        → restores state from localStorage on page load
+
+   The endTime strategy:
+     Instead of trusting setInterval's 1-second tick to
+     always be exactly 1000ms (it can drift when the tab
+     is backgrounded), we save the absolute epoch timestamp
+     at which the timer will hit zero. On page load we
+     recalculate remaining seconds as (endTime - Date.now()).
+     This means the timer is accurate to within 1 second
+     even if the user was away for minutes.
+
    HOW setInterval WORKS (for documentation):
    ────────────────────────────────────────────
    setInterval(callback, delay) calls 'callback' every
@@ -71,6 +91,43 @@ const dots = [
 
 
 /* ─────────────────────────────────────────────────
+   PERSISTENCE HELPER
+   ────────────────────────────────────────────────
+   A thin wrapper so timer.js never has to null-check
+   TimerPersistence directly. If the script loaded out
+   of order, these are safe no-ops.
+   ───────────────────────────────────────────────── */
+function persistSave(data) {
+  if (window.TimerPersistence) window.TimerPersistence.save(data);
+}
+function persistClear() {
+  if (window.TimerPersistence) window.TimerPersistence.clear();
+}
+
+/*
+  buildStateSnapshot()
+  ────────────────────
+  Assembles the object that gets written to localStorage.
+  Reads activeSound from the global set by sound.js so that
+  both modules stay in sync without tight coupling.
+*/
+function buildStateSnapshot(status) {
+  return {
+    status:            status,
+    /* endTime is only meaningful when running — calculated here so it's
+       based on the exact moment startTimer() is called, not a future tick. */
+    endTime:           status === 'running'
+                         ? Date.now() + secondsLeft * 1000
+                         : null,
+    remainingSeconds:  secondsLeft,
+    sessionsCompleted: sessionsCompleted,
+    /* window.activeSound is set by sound.js — undefined if not loaded */
+    activeSound:       window.activeSound || null,
+  };
+}
+
+
+/* ─────────────────────────────────────────────────
    UTILITY: formatTime(totalSeconds)
    ────────────────────────────────────────────────
    Converts a raw number of seconds into "MM:SS" format.
@@ -134,11 +191,16 @@ function updateDots() {
    ───────────────────────────────────────────────── */
 function tickPulse() {
   timeDisplay.classList.add('tick');
-  setTimeout(function() {
-    timeDisplay.classList.remove('tick');
-  }, 80);
-}
+setTimeout(function () {
+  if (!widget) return;
 
+  window.TimerPersistence.patch({ miniHidden: true });
+
+  if (widget.parentNode) {
+    widget.parentNode.removeChild(widget);
+  }
+}, 300);
+}
 
 /* ─────────────────────────────────────────────────
    UTILITY: setButtonState(running)
@@ -158,7 +220,8 @@ function setButtonState(running) {
    ────────────────────────────────────────────────
    1. Guard: if already running, do nothing.
    2. Set isRunning = true, update button states.
-   3. Call setInterval with a 1-second delay.
+   3. Save running state to localStorage (persistence).
+   4. Call setInterval with a 1-second delay.
       Inside the callback:
         • If Focus mode: decrement secondsLeft by 1.
           If it hits 0, session is complete.
@@ -171,6 +234,15 @@ function startTimer() {
 
   isRunning = true;
   setButtonState(true); /* disable START, enable PAUSE */
+
+  /* ── PERSISTENCE: save running state ──────────────
+     We write endTime = now + remaining milliseconds.
+     This absolute timestamp lets us recover accurately
+     even if the tab was backgrounded (setInterval drifts).
+  ─────────────────────────────────────────────────── */
+  if (currentMode === 'focus') {
+    persistSave(buildStateSnapshot('running'));
+  }
 
   /* setInterval fires the callback every 1000ms (1 second) */
   intervalId = setInterval(function() {
@@ -214,6 +286,12 @@ function startTimer() {
 
         /* Play a soft browser beep (if supported) */
         playBeep();
+
+        /* ── PERSISTENCE: clear state on session completion ──
+           The session is done — nothing to restore.
+           A new session will create fresh state when started.
+        ─────────────────────────────────────────────────── */
+        persistClear();
 
         /* Optionally auto-reset for next session */
         secondsLeft = FOCUS_TOTAL_SECONDS;
@@ -268,6 +346,15 @@ function pauseTimer() {
   isRunning = false;
 
   setButtonState(false); /* enable START, disable PAUSE */
+
+  /* ── PERSISTENCE: save paused snapshot ────────────
+     We write remainingSeconds instead of endTime here.
+     When paused, Date.now() keeps advancing but the timer
+     doesn't, so an endTime would become wrong.
+  ─────────────────────────────────────────────────── */
+  if (currentMode === 'focus') {
+    persistSave(buildStateSnapshot('paused'));
+  }
 }
 
 
@@ -304,6 +391,13 @@ function resetTimer() {
     stopwatchSeconds = 0;
     timeDisplay.textContent = '00:00';
   }
+
+  /* ── PERSISTENCE: wipe stored state ───────────────
+     The user explicitly reset — nothing to restore.
+     The mini-player on other pages will disappear within
+     one tick (updateWidget sees 'idle' and self-removes).
+  ─────────────────────────────────────────────────── */
+  persistClear();
 }
 
 
@@ -330,6 +424,9 @@ function switchMode(mode) {
   }
   isRunning = false;
   setButtonState(false);
+
+  /* ── PERSISTENCE: switching mode clears focus state ── */
+  persistClear();
 
   /* Update the mode variable */
   currentMode = mode;
@@ -414,11 +511,228 @@ function playBeep() {
 
 /* ─────────────────────────────────────────────────
    INIT — run on page load
-   Sets the initial state of the display and ring.
+   ──────────────────────────────────────────────────
+   Extended from the original to restore timer state
+   from localStorage when the user returns to this page.
+
+   RESTORATION FLOW:
+   1. Load state from localStorage via TimerPersistence.
+   2. If no state (or 'idle'), set default display and exit.
+   3. If 'running':
+        a. Compute remaining seconds from saved endTime.
+        b. If time has already expired (user was away too long),
+           log the completed session and show a notification.
+        c. Otherwise restore secondsLeft + sessionsCompleted
+           and auto-start the countdown.
+   4. If 'paused':
+        Restore secondsLeft + sessionsCompleted,
+        leave the timer stopped (user must re-click Start).
+   5. Restore the active sound button highlight (visual only —
+      audio cannot auto-play across navigation).
    ───────────────────────────────────────────────── */
 (function init() {
-  timeDisplay.textContent = formatTime(FOCUS_TOTAL_SECONDS); /* "25:00" */
-  updateRing(FOCUS_TOTAL_SECONDS);  /* ring starts fully drawn */
-  updateDots();                     /* all dots start empty    */
-  setButtonState(false);            /* PAUSE starts disabled   */
+
+  /* ── Try to restore from localStorage ── */
+  const stored = window.TimerPersistence ? window.TimerPersistence.load() : null;
+
+  if (!stored || stored.status === 'idle' || !stored.status) {
+    /* No active session — initialise defaults */
+    timeDisplay.textContent = formatTime(FOCUS_TOTAL_SECONDS);
+    updateRing(FOCUS_TOTAL_SECONDS);
+    updateDots();
+    setButtonState(false);
+    return;
+  }
+
+  /* ── Restore session-count dots ── */
+  if (typeof stored.sessionsCompleted === 'number') {
+    sessionsCompleted = stored.sessionsCompleted;
+  }
+
+  /* ── RUNNING state: calculate true remaining time ── */
+  if (stored.status === 'running' && stored.endTime) {
+    const msLeft   = stored.endTime - Date.now();
+    const secsLeft = Math.max(0, Math.round(msLeft / 1000));
+
+    if (secsLeft <= 0) {
+      /*
+        Timer expired while the user was on another page.
+        Count the session and show a friendly notification.
+        We use a short setTimeout so the page renders first.
+      */
+      if (sessionsCompleted < 4) sessionsCompleted += 1;
+
+      secondsLeft = FOCUS_TOTAL_SECONDS;
+      timeDisplay.textContent = formatTime(secondsLeft);
+      updateRing(secondsLeft);
+      updateDots();
+      setButtonState(false);
+      persistClear();
+
+      setTimeout(function() {
+        playBeep();
+        alert('Your focus session completed while you were away! Take a 5-minute break.');
+      }, 400);
+
+    } else {
+      /*
+        Timer is still running. Restore state and auto-start
+        so the user sees a live countdown immediately.
+      */
+      secondsLeft = secsLeft;
+      timeDisplay.textContent = formatTime(secondsLeft);
+      updateRing(secondsLeft);
+      updateDots();
+
+      /* Apply warning colour if ≤5 min remain */
+      if (secondsLeft <= 300) {
+        timeDisplay.classList.add('warn');
+      }
+
+      setButtonState(false); /* start button enabled before calling startTimer */
+      startTimer();           /* auto-resume the countdown */
+    }
+
+  /* ── PAUSED state: restore display, leave clock stopped ── */
+  } else if (stored.status === 'paused') {
+    secondsLeft = stored.remainingSeconds || FOCUS_TOTAL_SECONDS;
+    timeDisplay.textContent = formatTime(secondsLeft);
+    updateRing(secondsLeft);
+    updateDots();
+
+    if (secondsLeft <= 300) {
+      timeDisplay.classList.add('warn');
+    }
+
+    setButtonState(false); /* user must manually click Start to resume */
+  }
+
+  /* ── Restore sound button highlight ──────────────────
+     We cannot auto-play audio (browser blocks it without
+     a fresh user gesture). Instead, we visually pre-select
+     the button for the previously active sound so the user
+     can re-enable it with a single click.
+
+     This runs after a short delay to ensure sound.js has
+     finished initialising its 'sounds' map.
+  ─────────────────────────────────────────────────── */
+  if (stored.activeSound) {
+    setTimeout(function() {
+      const soundBtns = {
+        rain:   document.getElementById('snd-rain'),
+        forest: document.getElementById('snd-forest'),
+        lofi:   document.getElementById('snd-lofi'),
+      };
+
+      const targetBtn = soundBtns[stored.activeSound];
+      if (targetBtn) {
+        /* Add a 'resume-hint' class for a subtle visual cue.
+           The button is not set to 'active' (that requires audio playing),
+           just visually highlighted so the user knows to click it. */
+        targetBtn.classList.add('sound-resume-hint');
+        targetBtn.title = 'Click to resume ' + stored.activeSound + ' sounds';
+      }
+    }, 200);
+  }
+
+})();
+
+
+/* ─────────────────────────────────────────────────
+   SOUND RESUME HINT STYLES
+   ──────────────────────────────────────────────────
+   Injects a subtle CSS rule for the .sound-resume-hint
+   class added by init() above. Keeps this self-contained
+   without modifying timer.css.
+   ───────────────────────────────────────────────── */
+(function injectResumeHintStyle() {
+  const style = document.createElement('style');
+  style.textContent = [
+    '/* Subtle hint that a sound was playing before navigation */',
+    '.sound-btn.sound-resume-hint {',
+    '  border-color: rgba(143, 166, 122, 0.35);',
+    '  color: rgba(143, 166, 122, 0.65);',
+    '  background: rgba(143, 166, 122, 0.04);',
+    '}',
+    '.sound-btn.sound-resume-hint::after {',
+    '  content: "↩";',
+    '  position: absolute;',
+    '  top: 4px;',
+    '  right: 5px;',
+    '  font-size: 0.55rem;',
+    '  color: rgba(143,166,122,0.6);',
+    '}',
+    '/* Remove hint once the button becomes properly active */',
+    '.sound-btn.active { position: relative; }',
+    '.sound-btn.active.sound-resume-hint::after { display: none; }',
+  ].join('\n');
+  document.head.appendChild(style);
+})();
+/* ─────────────────────────────────────────────────
+   INIT — RESTORATION LOGIC (FIXED)
+   ───────────────────────────────────────────────── */
+(function init() {
+  // 1. Small delay to ensure TimerPersistence is fully loaded in the DOM
+  setTimeout(() => {
+    const stored = window.TimerPersistence ? window.TimerPersistence.load() : null;
+
+    console.log("Restoring Timer State:", stored); // Debugging line
+
+    // If no state exists or it's explicitly idle, set defaults and stop
+    if (!stored || !stored.status || stored.status === 'idle') {
+      secondsLeft = FOCUS_TOTAL_SECONDS;
+      timeDisplay.textContent = formatTime(secondsLeft);
+      updateRing(secondsLeft);
+      updateDots();
+      setButtonState(false);
+      return;
+    }
+
+    // Restore completed sessions
+    if (typeof stored.sessionsCompleted === 'number') {
+      sessionsCompleted = stored.sessionsCompleted;
+    }
+
+    // CASE 1: TIMER WAS RUNNING
+    if (stored.status === 'running' && stored.endTime) {
+      const now = Date.now();
+      const msLeft = stored.endTime - now;
+      const secsLeft = Math.max(0, Math.round(msLeft / 1000));
+
+      if (secsLeft <= 0) {
+        // Timer finished while user was on another page
+        if (sessionsCompleted < 4) sessionsCompleted += 1;
+        secondsLeft = FOCUS_TOTAL_SECONDS;
+        updateDots();
+        persistClear();
+        
+        timeDisplay.textContent = formatTime(secondsLeft);
+        updateRing(secondsLeft);
+        setButtonState(false);
+        
+        alert('Your focus session completed while you were away!');
+      } else {
+        // IMPORTANT: Update the GLOBAL variables first!
+        secondsLeft = secsLeft; 
+        
+        // Update UI immediately before starting the interval
+        timeDisplay.textContent = formatTime(secondsLeft);
+        updateRing(secondsLeft);
+        updateDots();
+        if (secondsLeft <= 300) timeDisplay.classList.add('warn');
+
+        setButtonState(true); // Set buttons to 'Running' state
+        startTimer();         // This kicks off the setInterval
+      }
+    } 
+    // CASE 2: TIMER WAS PAUSED
+    else if (stored.status === 'paused') {
+      secondsLeft = stored.remainingSeconds || FOCUS_TOTAL_SECONDS;
+      timeDisplay.textContent = formatTime(secondsLeft);
+      updateRing(secondsLeft);
+      updateDots();
+      if (secondsLeft <= 300) timeDisplay.classList.add('warn');
+      setButtonState(false);
+    }
+  }, 50); // 50ms delay solves the race condition
 })();

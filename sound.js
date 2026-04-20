@@ -15,7 +15,47 @@
         animation shows on the correct button.
    The volume slider updates all tracks at once by
    setting their .volume property (0.0 to 1.0).
+
+   ── PERSISTENCE INTEGRATION ─────────────────────
+   This file now patches window.TimerPersistence with
+   the activeSound key whenever a sound starts or stops.
+
+   Why 'patch' not 'save'?
+   We only own the activeSound field. The full state
+   object (endTime, sessionsCompleted, etc.) is managed
+   by timer.js. Using patch() merges our update into the
+   existing object without overwriting the timer fields.
+
+   Audio cannot persist across page navigations.
+   Browsers block autoplay without a fresh user gesture.
+   The persisted key is used by:
+     • timer.js init() — to re-highlight the button
+     • timer-persistence.js — to show the sound label
+       in the mini-player on other pages
    ================================================= */
+
+
+/* ─────────────────────────────────────────────────
+   PERSISTENCE HELPER
+   ────────────────────────────────────────────────
+   Safely patches localStorage with the current sound
+   state. If TimerPersistence isn't loaded (e.g. on a
+   page that skipped the script), this is a no-op.
+   ───────────────────────────────────────────────── */
+function persistSound(key) {
+  /* key is a string ('rain') or null (sound stopped) */
+  if (window.TimerPersistence) {
+    window.TimerPersistence.patch({ activeSound: key });
+  }
+
+  /*
+    Also expose the active sound key as a global variable
+    so timer.js can read it when building state snapshots.
+    Using a simple global here avoids import/export overhead
+    in a plain HTML project.
+  */
+  window.activeSound = key;
+}
 
 
 /* ─────────────────────────────────────────────────
@@ -65,6 +105,11 @@ let activeSound = null;   /* e.g. 'rain', 'forest', 'lofi', or null */
    ───────────────────────────────────────────────── */
 function toggleSound(key) {
 
+  /* Remove the resume hint styling on any click (user interacted) */
+  Object.keys(sounds).forEach(function(k) {
+    sounds[k].btn.classList.remove('sound-resume-hint');
+  });
+
   /* ── Case A: clicking the currently active sound → stop it ── */
   if (activeSound === key) {
     stopAllSounds();
@@ -104,11 +149,18 @@ function startSound(key) {
         /* Playback started successfully */
         activeSound = key;
         setActiveButton(key);
+
+        /* ── PERSISTENCE: save active sound to localStorage ──
+           patch() merges this into the existing timer state so
+           we don't overwrite the timer's endTime / remainingSeconds.
+        ─────────────────────────────────────────────────── */
+        persistSound(key);
       })
       .catch(function(error) {
         /* Autoplay was blocked or stream failed to load */
         console.warn('CoreDeck sound: could not play "' + key + '":', error);
         activeSound = null;
+        persistSound(null);
       });
   }
 }
@@ -147,6 +199,9 @@ function stopAllSounds() {
   /* Clear the active state */
   activeSound = null;
   clearActiveButtons();
+
+  /* ── PERSISTENCE: clear sound from localStorage ── */
+  persistSound(null);
 }
 
 
@@ -230,6 +285,10 @@ function setVolume(value) {
    This matters because if a user quickly drags the
    slider before clicking a sound, the volume should
    already be correct when playback starts.
+
+   Also initialises window.activeSound to null so
+   timer.js can safely read it even before any sound
+   has been played.
    ───────────────────────────────────────────────── */
 (function initSoundDeck() {
   const defaultVol = 0.6;
@@ -243,4 +302,7 @@ function setVolume(value) {
   if (slider) {
     slider.style.setProperty('--fill', '60%');
   }
+
+  /* Expose activeSound as a global (null initially) */
+  window.activeSound = null;
 })();

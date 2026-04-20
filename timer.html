@@ -176,10 +176,10 @@
           https://pixabay.com/sound-effects/ (search "rain", "forest")
         The Lofi link is a live radio stream — no file download needed.
       -->
-      <audio id="audio-rain"   loop preload="none"
-             src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
-      <audio id="audio-forest" loop preload="none"
-             src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"></audio>
+      <audio id="audio-rain"   loop preload="auto"
+             src="assets\sounds\rain.mp3"></audio>
+      <audio id="audio-forest" loop preload="auto"
+             src="assets\sounds\forest.mp3"></audio>
       <audio id="audio-lofi"        preload="none"
              src="https://stream.zeno.fm/0r0xa792kwzuv"></audio>
       <!-- Note: 'loop' is omitted on the stream because it is already continuous -->
@@ -295,7 +295,8 @@
        Uses setInterval for both countdown and stopwatch.
   ============================================= -->
   <script src="timer.js"></script>
-  <script src="sound.js"></script>
-
+<script src="timer-persistence.js"></script>
+<script src="miniplayer.js"></script>
+<script src="sound.js"></script>
 </body>
 </html>
