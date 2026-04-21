@@ -1,0 +1,104 @@
+[
+  {
+    "id": "chem",
+    "name": "Chemistry",
+    "icon": "🧪",
+    "desc": "Physical, Organic & Inorganic chemistry notes.",
+    "badge": "CLASS 11",
+    "chapters": [
+      {
+        "id": "chem_ch1",
+        "num": "01",
+        "title": "Language of Chemistry",
+        "sub": "Symbols, Valency, Equations",
+        "file": "data/chemistry/chem_ch1.json"
+      },
+      {
+        "id": "chem_ch2",
+        "num": "02",
+        "title": "States of Matter",
+        "sub": "Gas Laws, Kinetic Theory, Liquid & Solid State",
+        "file": "data/chemistry/chem_ch2.json"
+      },
+      {
+        "id": "chem_ch3",
+        "num": "03",
+        "title": "Atomic Structure",
+        "sub": "Subatomic Particles, Bohr's Model, Quantum Numbers",
+        "file": "data/chemistry/chem_ch3.json"
+      },
+      {
+        "id": "chem_ch4",
+        "num": "04",
+        "title": "Chemical Bonding & Shape of Molecules",
+        "sub": "Ionic, Covalent, VSEPR Theory, Hybridization",
+        "file": "data/chemistry/chem_ch4.json"
+      },
+      {
+        "id": "chem_ch5",
+        "num": "05",
+        "title": "Periodic Classification of Elements",
+        "sub": "Periodic Table, Periodic Trends, Properties",
+        "file": "data/chemistry/chem_ch5.json"
+      },
+      {
+        "id": "chem_ch6",
+        "num": "06",
+        "title": "Oxidation and Reduction",
+        "sub": "Redox Reactions, Oxidation Number, Balancing",
+        "file": "data/chemistry/chem_ch6.json"
+      },
+      {
+        "id": "chem_ch7",
+        "num": "07",
+        "title": "Equilibria",
+        "sub": "Chemical Equilibrium, Le Chatelier's Principle, Ionic Equilibrium",
+        "file": "data/chemistry/chem_ch7.json"
+      }
+    ]
+  },
+  {
+    "id": "phy",
+    "name": "Physics",
+    "icon": "⚛️",
+    "desc": "Mechanics, Thermodynamics, Waves & Modern Physics notes.",
+    "badge": "CLASS 11",
+    "chapters": [
+      {
+        "id": "phy_ch1",
+        "num": "01",
+        "title": "Physical Quantities & Measurement",
+        "sub": "Units, Dimensions, Errors",
+        "file": "data/physics/phy_ch1.json"
+      },
+      {
+        "id": "phy_ch2",
+        "num": "02",
+        "title": "Scalars & Vectors",
+        "sub": "Vector Algebra, Resolution, Products",
+        "file": "data/physics/phy_ch2.json"
+      },
+      {
+        "id": "phy_ch3",
+        "num": "03",
+        "title": "Kinematics",
+        "sub": "Motion in 1D & 2D, Projectile",
+        "file": "data/physics/phy_ch3.json"
+      },
+      {
+        "id": "phy_ch4",
+        "num": "04",
+        "title": "Laws of Motion",
+        "sub": "Newton's Laws, Friction, Circular Motion",
+        "file": "data/physics/phy_ch4.json"
+      },
+      {
+        "id": "phy_ch5",
+        "num": "05",
+        "title": "Work, Energy & Power",
+        "sub": "Work-Energy Theorem, Conservation",
+        "file": "data/physics/phy_ch5.json"
+      }
+    ]
+  }
+]
