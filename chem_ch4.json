@@ -1,0 +1,372 @@
+{
+  "subjectTag": "Chemistry",
+  "title": "Chemical Bonding and Shape of Molecules",
+  "subtitle": "Chapter 4: Chemical Bonding — Complete NEB Notes",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Introduction to Chemical Bonding"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Chemical bond is the attractive force that holds various constituents (atoms, ions, or molecules) together in a chemical species. Bond formation results in decrease in energy and increase in stability."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Valence Electrons:</strong> Electrons in the outermost shell of an atom are called valence electrons. Only valence electrons participate in chemical bonding."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2. Kossel-Lewis Approach to Chemical Bonding"
+    },
+    {
+      "blockType": "note-text",
+      "text": "In 1916, Kossel and Lewis independently proposed a theory to explain chemical bonding based on the inertness of noble gases."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Lewis Symbols:</strong> Dots around the element symbol represent valence electrons. Example: Oxygen (O) with 6 valence electrons is shown as :O: with 6 dots."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2.1 Octet Rule"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Atoms tend to gain, lose, or share electrons to achieve a stable configuration of 8 electrons in their valence shell (like noble gases). This is called the octet rule."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Exceptions to Octet Rule:</strong> • Hydrogen and Helium (need only 2 electrons) • Elements beyond period 2 can have expanded octet (PCl₅, SF) • Molecules with odd electrons (NO, NO₂)"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "💡 Quick Tip",
+      "text": "Noble gases (except He) have 8 valence electrons → very stable → chemically inert. All other elements try to achieve this configuration."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "3. Lewis Structures"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Lewis structure is a diagrammatic representation showing chemical bonds and lone pairs of electrons in a molecule."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Examples:</strong> • H₂O: H-O-H with 2 lone pairs on O • NH₃: N with 3 H atoms and 1 lone pair • CH₄: C with 4 H atoms (tetrahedral) • CO₂: O=C=O (linear) • N₂: N≡N (triple bond)"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "✏️ Drawing Steps",
+      "text": "1. Count total valence electrons • 2. Write skeletal structure • 3. Place single bonds • 4. Complete octets • 5. Check formal charges"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "4. Types of Chemical Bonds"
+    },
+    {
+      "blockType": "note-text",
+      "text": "There are three main types of chemical bonds: <strong>Ionic (Electrovalent)</strong>, <strong>Covalent</strong>, and <strong>Metallic</strong> bonds."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "4.1 Ionic (Electrovalent) Bond"
+    },
+    {
+      "blockType": "note-def",
+      "text": "The bond formed by complete transfer of one or more valence electrons from one atom (metal) to another (non-metal), resulting in electrostatic attraction between oppositely charged ions."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example - NaCl Formation:</strong> Na (2,8,1) → Na⁺ (2,8) + e⁻ [Loses 1 electron] Cl (2,8,7) + e⁻ → Cl⁻ (2,8,8) [Gains 1 electron] Na⁺ + Cl⁻ → NaCl (ionic bond)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Conditions for Ionic Bond Formation:</strong> • Metal should have low ionization energy • Non-metal should have high electron affinity • Large electronegativity difference (>1.7)"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "Properties of Ionic Compounds"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. <strong>Physical State:</strong> Solid crystalline at room temperature • 2. <strong>Melting/Boiling Point:</strong> High (strong electrostatic forces) • 3. <strong>Solubility:</strong> Soluble in polar solvents (water), insoluble in non-polar solvents • 4. <strong>Electrical Conductivity:</strong> Conduct electricity in molten state or aqueous solution (ions are mobile) • 5. <strong>Brittleness:</strong> Brittle in nature • 6. <strong>Non-directional:</strong> Ionic bond is non-directional"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "4.2 Covalent Bond"
+    },
+    {
+      "blockType": "note-def",
+      "text": "The bond formed by mutual sharing of electrons between two atoms (usually non-metals) to achieve stable electronic configuration."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Types of Covalent Bonds:</strong> • <strong>Single bond:</strong> One shared pair (H-H, H-Cl) • <strong>Double bond:</strong> Two shared pairs (O=O, C=O) • <strong>Triple bond:</strong> Three shared pairs (N≡N, C≡C)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Examples:</strong> • H₂: H-H (single bond) • O₂: O=O (double bond) • N₂: N≡N (triple bond) • H₂O: Two O-H single bonds • CO₂: O=C=O (two double bonds)"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "Properties of Covalent Compounds"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. <strong>Physical State:</strong> Can be gas, liquid, or solid • 2. <strong>Melting/Boiling Point:</strong> Low (weak van der Waals forces) • 3. <strong>Solubility:</strong> Soluble in non-polar solvents, insoluble in water • 4. <strong>Electrical Conductivity:</strong> Poor conductors (no ions) • 5. <strong>Directional:</strong> Covalent bonds are directional"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "4.3 Coordinate (Dative) Covalent Bond"
+    },
+    {
+      "blockType": "note-def",
+      "text": "A special type of covalent bond in which both electrons of the shared pair are contributed by one atom (donor) and accepted by another atom (acceptor)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Notation:</strong> Represented by an arrow (→) pointing from donor to acceptor."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Examples:</strong> • <strong>Ammonium ion (NH₄⁺):</strong> NH₃ + H⁺ → NH₄⁺ (N donates lone pair) • <strong>Hydronium ion (H₃O⁺):</strong> H₂O + H⁺ → H₃O⁺ • <strong>Sulfur dioxide (SO₂):</strong> Contains coordinate bond • <strong>Ozone (O₃):</strong> Contains coordinate bond"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "5. Hydrogen Bonding"
+    },
+    {
+      "blockType": "note-def",
+      "text": "The attractive force between hydrogen atom covalently bonded to a highly electronegative atom (F, O, N) and another electronegative atom in the same or different molecule."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Conditions:</strong> • H must be bonded to F, O, or N • Size of electronegative atom should be small • High electronegativity difference"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "Types of Hydrogen Bonding"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Intermolecular H-bonding:</strong> Between different molecules. Example: H₂O, NH₃, HF (increases boiling point)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Intramolecular H-bonding:</strong> Within the same molecule. Example: o-nitrophenol (decreases boiling point, called chelation)"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "🌡️ Effect on Properties",
+      "text": "H-bonding increases: • Boiling point (H₂O > H₂S) • Solubility in water • Viscosity • Surface tension"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "6. Metallic Bonding"
+    },
+    {
+      "blockType": "note-def",
+      "text": "The bond formed by the attraction between positively charged metal ions (kernels) and a 'sea' of delocalized valence electrons."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Electron Sea Model:</strong> Metal atoms release valence electrons which move freely throughout the metal lattice, creating a 'sea of electrons' that holds positive ions together."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Properties due to Metallic Bonding:</strong> • Electrical conductivity (mobile electrons) • Thermal conductivity • Malleability and ductility • Metallic luster • High melting points (except Na, K)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "7. Polar and Non-Polar Covalent Bonds"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Non-polar covalent bond:</strong> Equal sharing of electrons between identical atoms. Example: H₂, Cl₂, O₂ (electronegativity difference = 0)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Polar covalent bond:</strong> Unequal sharing of electrons between different atoms. Example: H-Cl, H₂O (electronegativity difference > 0 but < 1.7)"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "7.1 Dipole Moment (μ)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "The product of magnitude of charge (q) and distance (d) between the charges. It measures the polarity of a bond or molecule."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Formula",
+      "formula": "\\mu = q \\times d",
+      "note": "Unit: Debye (D) or Coulomb-meter (C·m). 1 D = 3.33564 × 10⁻³⁰ C·m"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Applications:</strong> • μ = 0 → Non-polar molecule (CO₂, CH₄) • μ ≠ 0 → Polar molecule (H₂O, NH₃) • Helps determine molecular geometry • Percentage ionic character can be calculated"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "📊 Examples",
+      "text": "CO₂ (linear): μ = 0 (non-polar) • H₂O (bent): μ = 1.84 D (polar) • BF₃ (trigonal planar): μ = 0 • NH₃ (pyramidal): μ = 1.47 D"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "8. Resonance"
+    },
+    {
+      "blockType": "note-def",
+      "text": "When a molecule or ion cannot be represented by a single Lewis structure but by two or more structures (called resonating or canonical structures), the actual structure is a hybrid of all these structures."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Examples:</strong> • <strong>Ozone (O₃):</strong> Two resonating structures • <strong>Carbonate ion (CO₃²⁻):</strong> Three resonating structures • <strong>Benzene (C₆H₆):</strong> Two Kekulé structures • <strong>Nitrate ion (NO₃⁻):</strong> Three resonating structures"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "⚡ Key Points",
+      "text": "• Resonance increases stability • All C-O bonds in CO₃²⁻ are equal • Actual structure is more stable than any resonating structure • Resonance energy = Energy of hybrid - Energy of most stable resonating structure"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "9. VSEPR Theory (Valence Shell Electron Pair Repulsion)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "The shape of a molecule is determined by the repulsion between electron pairs (bonding and lone pairs) in the valence shell of the central atom."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Postulates:</strong> • Electron pairs repel each other • They arrange to minimize repulsion • Order of repulsion: Lone pair-Lone pair > Lone pair-Bond pair > Bond pair-Bond pair • Lone pairs occupy more space than bond pairs"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "9.1 Molecular Shapes Based on VSEPR"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>2 electron pairs:</strong> Linear (180°) - BeCl₂, CO₂"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>3 electron pairs:</strong> • Trigonal planar (120°) - BF₃ (0 lone pairs) • Bent/V-shaped - SO₂ (1 lone pair)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>4 electron pairs:</strong> • Tetrahedral (109.5°) - CH₄, NH₄⁺ (0 lone pairs) • Trigonal pyramidal (107°) - NH₃ (1 lone pair) • Bent/V-shaped (104.5°) - H₂O (2 lone pairs)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>5 electron pairs:</strong> • Trigonal bipyramidal - PCl₅ (0 lone pairs) • See-saw - SF₄ (1 lone pair) • T-shaped - ClF₃ (2 lone pairs) • Linear - XeF₂ (3 lone pairs)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>6 electron pairs:</strong> • Octahedral - SF₆ (0 lone pairs) • Square pyramidal - BrF₅ (1 lone pair) • Square planar - XeF₄ (2 lone pairs)"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "🎯 Memory Trick",
+      "text": "Count total electron pairs = (Bond pairs + Lone pairs). Arrange to minimize repulsion. Lone pairs cause more repulsion → reduce bond angles."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "10. Hybridization"
+    },
+    {
+      "blockType": "note-def",
+      "text": "The process of mixing atomic orbitals of nearly equal energy to form new orbitals of equivalent energy and shape is called hybridization."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "10.1 Types of Hybridization"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>sp hybridization:</strong> • 1 s + 1 p → 2 sp orbitals • Linear geometry (180°) • Example: BeCl₂, C₂H₂ (acetylene), CO₂"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>sp² hybridization:</strong> • 1 s + 2 p → 3 sp² orbitals • Trigonal planar (120°) • Example: BF₃, C₂H₄ (ethylene), SO₃"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>sp³ hybridization:</strong> • 1 s + 3 p → 4 sp³ orbitals • Tetrahedral (109.5°) • Example: CH₄, NH, H₂O, CCl₄"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>sp³d hybridization:</strong> • 1 s + 3 p + 1 d → 5 sp³d orbitals • Trigonal bipyramidal • Example: PCl₅"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>sp³d² hybridization:</strong> • 1 s + 3 p + 2 d → 6 sp³d² orbitals • Octahedral • Example: SF₆"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "10.2 Finding Hybridization"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Steric Number Method",
+      "formula": "\\text{Steric Number} = \\text{Bond pairs} + \\text{Lone pairs}",
+      "note": "SN=2 → sp • SN=3 → sp² • SN=4 → sp³ • SN=5 → sp³d • SN=6 → sp³d²"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": " Quick Method",
+      "text": "For CH₄: C has 4 bonds, 0 lone pairs → SN=4 → sp³ • For NH₃: N has 3 bonds, 1 lone pair → SN=4 → sp³ • For H₂O: O has 2 bonds, 2 lone pairs → SN=4 → sp³"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "11. Important Formulas Summary"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Dipole Moment",
+      "formula": "\\mu = q \\times d",
+      "note": "1 D = 3.33564 × 10⁻³⁰ C·m"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Percentage Ionic Character",
+      "formula": "\\% \\text{ Ionic Character} = \\frac{\\mu_{\\text{observed}}}{\\mu_{\\text{ionic}}} \\times 100",
+      "note": ""
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Steric Number",
+      "formula": "SN = \\text{Number of atoms bonded} + \\text{Number of lone pairs}",
+      "note": "Determines hybridization"
+    },
+
+    {
+      "blockType": "exam-tip",
+      "label": "🎓 Exam Tips",
+      "text": "• Ionic bond: Metal + Non-metal • Covalent bond: Non-metal + Non-metal • H-bonding: H attached to F, O, or N • sp³ with 0 lone pairs = tetrahedral (109.5°) • sp³ with 1 lone pair = pyramidal (107°) • sp³ with 2 lone pairs = bent (104.5°) • Resonance increases stability • Dipole moment = 0 for symmetrical molecules"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "12. Common Mistakes to Avoid"
+    },
+    {
+      "blockType": "note-text",
+      "text": "❌ Confusing bond pairs with lone pairs in VSEPR • ❌ Forgetting that coordinate bond is also covalent • ❌ Assuming all molecules with polar bonds are polar (CO₂ has polar bonds but is non-polar) • ❌ Mixing up hybridization with molecular geometry • ❌ Forgetting lone pairs when determining shape • ❌ Assuming H-bonding exists in all H-containing compounds (only with F, O, N)"
+    }
+  ]
+}
