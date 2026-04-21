@@ -1,0 +1,723 @@
+{
+  "subjectTag": "Physics",
+  "title": "Physical Quantities and Measurement",
+  "subtitle": "Chapter 1: Physical Quantities, Units, Dimensions and Measurement — Complete NEB Notes",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Physical Quantities"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Physical Quantity:</strong> Those quantities which can be measured and expressed in numerical values with units are called physical quantities. Example: Mass, length, time, temperature, etc."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Physical Quantity Representation",
+      "formula": "Q = N \\times U",
+      "note": "Where Q = Physical quantity, N = Numerical value, U = Unit"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2. Types of Physical Quantities"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>1. Fundamental Quantities:</strong> Those physical quantities which do not depend on other quantities for their measurement. Also called base quantities."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Examples:</strong> Length, Mass, Time, Temperature, Electric Current, Luminous Intensity, Amount of Substance"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>2. Derived Quantities:</strong> Those physical quantities which depend on fundamental quantities for their measurement."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Examples:</strong> Area, Volume, Density, Velocity, Acceleration, Force, Energy, Power, etc."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "3. Units"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Unit:</strong> A standard quantity of the same kind chosen as a reference for measurement of a physical quantity is called a unit."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Examples:</strong> Meter (m), Second (s), Kilogram (kg), Newton (N), etc."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "3.1 Types of Units"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>1. Fundamental Units:</strong> The units of fundamental quantities are called fundamental units."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Examples:</strong> m (meter), kg (kilogram), s (second), K (Kelvin), A (Ampere), cd (candela), mol (mole)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>2. Derived Units:</strong> The units of derived quantities are called derived units."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Examples:</strong> m/s (velocity), m/s² (acceleration), N (force), J (energy), W (power), etc."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "4. Systems of Units"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>1. FPS System (Foot-Pound-Second):</strong>"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Length → Foot (ft), Mass → Pound (lb), Time → Second (s)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>2. MKS System (Meter-Kilogram-Second):</strong>"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Length → Meter (m), Mass → Kilogram (kg), Time → Second (s)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>3. CGS System (Centimeter-Gram-Second):</strong>"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Length → Centimeter (cm), Mass → Gram (g), Time → Second (s)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "4.1 SI System (International System of Units)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>SI System:</strong> The internationally accepted system of units is called the SI system. It was adopted in 1960."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Seven Fundamental SI Units:</strong>"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. Length → Meter (m) • 2. Mass → Kilogram (kg) • 3. Time → Second (s) • 4. Temperature → Kelvin (K) • 5. Electric Current → Ampere (A) • 6. Luminous Intensity → Candela (cd) • 7. Amount of Substance → Mole (mol)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Supplementary Units:</strong> • Plane Angle → Radian (rad) • Solid Angle → Steradian (sr)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "5. Characteristics of Standard Units"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. <strong>Well-defined:</strong> Should be clearly defined and of suitable size"
+    },
+    {
+      "blockType": "note-text",
+      "text": "2. <strong>Reproducible:</strong> Should be easily reproducible at any place"
+    },
+    {
+      "blockType": "note-text",
+      "text": "3. <strong>Constant:</strong> Should not change with time and place"
+    },
+    {
+      "blockType": "note-text",
+      "text": "4. <strong>Universal:</strong> Should be universally accepted"
+    },
+    {
+      "blockType": "note-text",
+      "text": "5. <strong>Convenient:</strong> Should be convenient to use"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "6. Dimensions of Physical Quantities"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Dimensions:</strong> The powers to which the fundamental units are raised to represent a physical quantity are called dimensions."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Dimensional Formula:</strong> An expression showing which fundamental units and with what powers appear in a physical quantity."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Notation:</strong> [M] = Mass, [L] = Length, [T] = Time, [K] = Temperature, [A] = Electric Current"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "6.1 Dimensional Formulas of Some Physical Quantities"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>1. Speed/Velocity:</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "Speed = \\frac{Distance}{Time} = \\frac{[L]}{[T]} = [L^1 T^{-1}]",
+      "note": "Dimensional Formula: [M⁰L¹T⁻¹]"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>2. Acceleration:</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "Acceleration = \\frac{Velocity}{Time} = \\frac{[LT^{-1}]}{[T]} = [LT^{-2}]",
+      "note": "Dimensional Formula: [M⁰L¹T⁻²]"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>3. Force:</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "Force = Mass \\times Acceleration = [M] \\times [LT^{-2}] = [MLT^{-2}]",
+      "note": "Dimensional Formula: [M¹L¹T⁻²], SI Unit: Newton (N)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>4. Work/Energy:</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "Work = Force \\times Distance = [MLT^{-2}] \\times [L] = [ML^2T^{-2}]",
+      "note": "Dimensional Formula: [M¹L²T⁻²], SI Unit: Joule (J)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>5. Power:</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "Power = \\frac{Work}{Time} = \\frac{[ML^2T^{-2}]}{[T]} = [ML^2T^{-3}]",
+      "note": "Dimensional Formula: [M¹L²T⁻³], SI Unit: Watt (W)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>6. Momentum:</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "Momentum = Mass \\times Velocity = [M] \\times [LT^{-1}] = [MLT^{-1}]",
+      "note": "Dimensional Formula: [M¹L¹T⁻¹]"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>7. Density:</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "Density = \\frac{Mass}{Volume} = \\frac{[M]}{[L^3]} = [ML^{-3}]",
+      "note": "Dimensional Formula: [M¹L⁻³T⁰]"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>8. Pressure:</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "Pressure = \\frac{Force}{Area} = \\frac{[MLT^{-2}]}{[L^2]} = [ML^{-1}T^{-2}]",
+      "note": "Dimensional Formula: [M¹L⁻¹T⁻²], SI Unit: Pascal (Pa) or N/m²"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>9. Gravitational Constant (G):</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "F = G\\frac{m_1 m_2}{r^2} \\Rightarrow G = \\frac{Fr^2}{m_1 m_2}",
+      "note": "[G] = [MLT⁻²][L²]/[M²] = [M⁻¹L³T⁻²]"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>10. Surface Tension:</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "Surface Tension = \\frac{Force}{Length} = \\frac{[MLT^{-2}]}{[L]} = [MT^{-2}]",
+      "note": "Dimensional Formula: [M¹L⁰T⁻²], SI Unit: N/m"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>11. Coefficient of Viscosity (η):</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "F = \\eta A \\frac{dv}{dx} \\Rightarrow \\eta = \\frac{F}{A(dv/dx)}",
+      "note": "[η] = [MLT⁻²]/[L²][T⁻¹] = [ML⁻¹T¹]"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>12. Moment of Inertia (I):</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "I = Mass \\times (Distance)^2 = [M] \\times [L^2] = [ML^2]",
+      "note": "Dimensional Formula: [M¹L²T⁰], SI Unit: kg·m²"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>13. Angular Momentum:</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "Angular Momentum = Moment of Inertia \\times Angular Velocity",
+      "note": "[L] = [ML²] × [T⁻¹] = [ML²T⁻¹]"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>14. Torque:</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "Torque = Force \\times Distance = [MLT^{-2}] \\times [L] = [ML^2T^{-2}]",
+      "note": "Dimensional Formula: [M¹L²T⁻²], SI Unit: N·m"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>15. Frequency:</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "Frequency = \\frac{1}{Time Period} = \\frac{1}{[T]} = [T^{-1}]",
+      "note": "Dimensional Formula: [M⁰L⁰T⁻¹], SI Unit: Hertz (Hz)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>16. Specific Heat Capacity:</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "c = \\frac{Q}{m\\Delta T} = \\frac{[ML^2T^{-2}]}{[M][K]} = [L^2T^{-2}K^{-1}]",
+      "note": "Dimensional Formula: [M⁰L²T⁻²K⁻¹], SI Unit: J/kg·K"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>17. Strain:</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "Strain = \\frac{Change in dimension}{Original dimension} = \\frac{[L]}{[L]} = [L^0]",
+      "note": "Dimensional Formula: [M⁰L⁰T⁰] (Dimensionless quantity)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>18. Refractive Index:</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "n = \\frac{Speed of light in vacuum}{Speed of light in medium}",
+      "note": "Dimensional Formula: [M⁰L⁰T⁰] (Dimensionless quantity)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>19. Mechanical Advantage:</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "MA = \\frac{Load}{Effort} = \\frac{[MLT^{-2}]}{[MLT^{-2}]} = [M^0L^0T^0]",
+      "note": "Dimensional Formula: [M⁰L⁰T⁰] (Dimensionless quantity)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>20. Electric Charge:</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "Charge = Current \\times Time = [A] \\times [T] = [AT]",
+      "note": "Dimensional Formula: [M⁰L⁰T¹A¹], SI Unit: Coulomb (C)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>21. Electric Resistance:</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "R = \\frac{V}{I} = \\frac{[ML^2T^{-3}A^{-1}]}{[A]} = [ML^2T^{-3}A^{-2}]",
+      "note": "Dimensional Formula: [M¹L²T⁻³A⁻²], SI Unit: Ohm (Ω)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>22. Boltzmann's Constant (k):</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "k = \\frac{Energy}{Temperature} = \\frac{[ML^2T^{-2}]}{[K]} = [ML^2T^{-2}K^{-1}]",
+      "note": "Dimensional Formula: [M¹L²T⁻²K⁻¹], SI Unit: J/K"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>23. Planck's Constant (h):</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "E = h\\nu \\Rightarrow h = \\frac{E}{\\nu} = \\frac{[ML^2T^{-2}]}{[T^{-1}]} = [ML^2T^{-1}]",
+      "note": "Dimensional Formula: [M¹L²T⁻¹], SI Unit: J·s"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>24. Angle:</strong>"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "Angle = \\frac{Arc}{Radius} = \\frac{[L]}{[L]} = [L^0]",
+      "note": "Dimensional Formula: [M⁰L⁰T⁰] (Dimensionless), SI Unit: Radian (rad)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "7. Principle of Homogeneity of Dimensions"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Principle:</strong> For a physical equation to be dimensionally correct, the dimensions of all terms on both sides of the equation must be the same."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example:</strong> Check if s = ut + ½at² is dimensionally correct."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Solution",
+      "formula": "LHS: [s] = [L] = [M^0L^1T^0]\n\nRHS: [ut] = [LT^{-1}][T] = [L]\n[\\frac{1}{2}at^2] = [LT^{-2}][T^2] = [L]\n\nAll terms have [L], so equation is dimensionally correct.",
+      "note": "Note: ½ is dimensionless constant"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example:</strong> Check if v² = u² + 2as is dimensionally correct."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Solution",
+      "formula": "LHS: [v^2] = [LT^{-1}]^2 = [L^2T^{-2}]\n\nRHS: [u^2] = [LT^{-1}]^2 = [L^2T^{-2}]\n[2as] = [LT^{-2}][L] = [L^2T^{-2}]\n\nAll terms have [L²T⁻²], so equation is dimensionally correct.",
+      "note": "Note: 2 is dimensionless constant"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "8. Uses of Dimensional Analysis"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>1. To check the correctness of a physical equation</strong>"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>2. To derive relationships between physical quantities</strong>"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>3. To convert units from one system to another</strong>"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "8.1 Deriving Relations Using Dimensional Analysis"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example:</strong> Derive the dimensional relation for time period of a simple pendulum. It depends on length (l), mass (m), and acceleration due to gravity (g)."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Solution - Step by Step",
+      "formula": "Step 1: Let T \\propto l^a m^b g^c\nOr, T = k l^a m^b g^c \\quad \\text{(k = dimensionless constant)}\n\nStep 2: Write dimensional formula:\n[T] = [L]^a [M]^b [LT^{-2}]^c\n\nStep 3: Simplify:\n[M^0L^0T^1] = [M^b L^{a+c} T^{-2c}]\n\nStep 4: Equate powers:\nFor M: b = 0\nFor T: -2c = 1 \\Rightarrow c = -\\frac{1}{2}\nFor L: a + c = 0 \\Rightarrow a = -c = \\frac{1}{2}\n\nStep 5: Substitute values:\nT = k l^{1/2} m^0 g^{-1/2}\nT = k \\sqrt{\\frac{l}{g}}\n\nExperimentally, k = 2\\pi\n\\therefore T = 2\\pi \\sqrt{\\frac{l}{g}}",
+      "note": "Time period is independent of mass!"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example:</strong> Derive the relation for centripetal force. It depends on mass (m), velocity (v), and radius (r)."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Solution - Step by Step",
+      "formula": "Step 1: Let F \\propto m^a v^b r^c\nOr, F = k m^a v^b r^c\n\nStep 2: Write dimensional formula:\n[MLT^{-2}] = [M]^a [LT^{-1}]^b [L]^c\n\nStep 3: Simplify:\n[M^1L^1T^{-2}] = [M^a L^{b+c} T^{-b}]\n\nStep 4: Equate powers:\nFor M: a = 1\nFor T: -b = -2 \\Rightarrow b = 2\nFor L: b + c = 1 \\Rightarrow 2 + c = 1 \\Rightarrow c = -1\n\nStep 5: Substitute values:\nF = k m^1 v^2 r^{-1}\nF = k \\frac{mv^2}{r}\n\nExperimentally, k = 1\n\\therefore F = \\frac{mv^2}{r}",
+      "note": "This is the formula for centripetal force"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "8.2 Conversion of Units Using Dimensional Formula"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example:</strong> Convert 50 dyne to Newton."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Solution",
+      "formula": "Dimensional formula of force = [MLT^{-2}]\n\nIn CGS: M_1 = g, L_1 = cm, T_1 = s\nIn SI: M_2 = kg, L_2 = m, T_2 = s\n\nn_2 = n_1 \\left[\\frac{M_1}{M_2}\\right]^1 \\left[\\frac{L_1}{L_2}\\right]^1 \\left[\\frac{T_1}{T_2}\\right]^{-2}\n\nn_2 = 50 \\left[\\frac{1g}{1kg}\\right] \\left[\\frac{1cm}{1m}\\right] \\left[\\frac{1s}{1s}\\right]^{-2}\n\nn_2 = 50 \\left[\\frac{1}{1000}\\right] \\left[\\frac{1}{100}\\right] [1]^{-2}\n\nn_2 = 50 \\times 10^{-3} \\times 10^{-2} = 50 \\times 10^{-5}\n\n\\therefore 50 \\text{ dyne} = 5 \\times 10^{-4} \\text{ N}",
+      "note": "1 dyne = 10⁻⁵ N"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example:</strong> Convert 72 km/h to m/s."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Solution",
+      "formula": "72 \\text{ km/h} = 72 \\times \\frac{1000 \\text{ m}}{3600 \\text{ s}}\n\n= 72 \\times \\frac{1000}{3600} \\text{ m/s}\n\n= 72 \\times \\frac{5}{18} \\text{ m/s}\n\n= 4 \\times 5 = 20 \\text{ m/s}",
+      "note": "To convert km/h to m/s, multiply by 5/18"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "9. Limitations of Dimensional Analysis"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. Cannot determine dimensionless constants (like π, e, etc.)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "2. Cannot derive relations involving trigonometric, exponential, or logarithmic functions"
+    },
+    {
+      "blockType": "note-text",
+      "text": "3. Difficult to derive relations when more than 3 physical quantities are involved"
+    },
+    {
+      "blockType": "note-text",
+      "text": "4. Cannot distinguish between scalar and vector quantities"
+    },
+    {
+      "blockType": "note-text",
+      "text": "5. A dimensionally correct equation may not be physically correct"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "10. Measurement and Errors"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Measurement:</strong> The comparison of an unknown physical quantity with a standard known quantity of the same kind is called measurement."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>True Value:</strong> The actual value of a physical quantity."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Observed Value:</strong> The value obtained from measurement."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Error:</strong> The difference between true value and observed value."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Error Formula",
+      "formula": "\\text{Error} = \\text{True Value} - \\text{Observed Value}",
+      "note": "Error can be positive or negative"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "10.1 Types of Errors"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>1. Systematic Errors:</strong>"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Errors that occur due to faulty instruments, wrong technique, or personal bias. They are constant and can be corrected."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Examples:</strong> Zero error, calibration error, parallax error"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>2. Random Errors:</strong>"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Errors that occur due to unpredictable fluctuations in experimental conditions. They vary in magnitude and sign."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Examples:</strong> Temperature fluctuations, voltage fluctuations, vibrations"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "11. Accuracy and Precision"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Accuracy:</strong> The closeness of measured value to the true value. More accurate measurement has smaller error."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Precision:</strong> The closeness of repeated measurements to each other. It depends on the least count of the instrument."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Note:</strong> A measurement can be precise but not accurate, or accurate but not precise."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "12. Significant Figures"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Significant Figures:</strong> The meaningful digits in a measured or calculated quantity are called significant figures. They include all certain digits plus one uncertain digit."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Rules for Determining Significant Figures:</strong>"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. All non-zero digits are significant. (Example: 235 has 3 significant figures)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "2. Zeros between non-zero digits are significant. (Example: 2005 has 4 significant figures)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "3. Leading zeros (before first non-zero digit) are NOT significant. (Example: 0.0025 has 2 significant figures)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "4. Trailing zeros in a number with decimal point ARE significant. (Example: 2.500 has 4 significant figures)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "5. Trailing zeros in a number without decimal point are NOT significant. (Example: 2500 has 2 significant figures)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "6. Exact numbers (counting numbers) have infinite significant figures."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "12.1 Rules for Calculations with Significant Figures"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>For Addition/Subtraction:</strong>"
+    },
+    {
+      "blockType": "note-text",
+      "text": "The result should have the same number of decimal places as the number with the least decimal places."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example:</strong> 12.5 + 3.24 = 15.74 → 15.7 (one decimal place)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>For Multiplication/Division:</strong>"
+    },
+    {
+      "blockType": "note-text",
+      "text": "The result should have the same number of significant figures as the number with the least significant figures."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example:</strong> 2.5 × 3.42 = 8.55 → 8.6 (2 significant figures)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "13. Important Formulas Summary"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Physical Quantity",
+      "formula": "Q = N \\times U",
+      "note": "N = Numerical value, U = Unit"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Dimensional Formula",
+      "formula": "[Q] = [M^a L^b T^c]",
+      "note": "a, b, c are dimensions"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Unit Conversion",
+      "formula": "n_2 = n_1 \\left[\\frac{M_1}{M_2}\\right]^a \\left[\\frac{L_1}{L_2}\\right]^b \\left[\\frac{T_1}{T_2}\\right]^c",
+      "note": "For converting between systems"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Error",
+      "formula": "\\text{Error} = \\text{True Value} - \\text{Observed Value}",
+      "note": ""
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Percentage Error",
+      "formula": "\\% \\text{ Error} = \\frac{|\\text{Error}|}{\\text{True Value}} \\times 100",
+      "note": ""
+    },
+
+    {
+      "blockType": "exam-tip",
+      "label": "🎓 Exam Tips",
+      "text": "• Dimensionless quantities: Angle, Strain, Refractive Index, Mechanical Advantage • Same dimensions: Work & Energy, Torque & Energy, Pressure & Stress • Remember common dimensional formulas: Force [MLT⁻²], Energy [ML²T⁻²], Power [ML²T⁻³] • For checking homogeneity, all terms must have same dimensions • To derive relations, assume powers and equate dimensions • 1 N = 10⁵ dyne • 1 J = 10⁷ erg • km/h to m/s: multiply by 5/18 • m/s to km/h: multiply by 18/5"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "14. Common Mistakes to Avoid"
+    },
+    {
+      "blockType": "note-text",
+      "text": "❌ Forgetting that constants (π, ½, 2, etc.) are dimensionless • ❌ Not equating powers correctly in dimensional analysis • ❌ Confusing accuracy with precision • ❌ Miscounting significant figures (especially zeros) • ❌ Forgetting that dimensionally correct ≠ physically correct • ❌ Not converting units before calculations • ❌ Assuming all quantities can be derived dimensionally • ❌ Forgetting to check homogeneity in equations"
+    }
+  ]
+}
