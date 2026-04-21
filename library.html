@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CoreDeck Library — Complete NEB Class 11 Notes, Formulas, Reactions & Q&A" />
+  <title>CoreDeck — Library</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="library.css" />
+
+  <!-- KaTeX for Math & Chemistry Rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+  <!-- Favicon (Optional) -->
+  <!-- <link rel="icon" href="favicon.ico" /> -->
+</head>
+<body class="library-page">
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">Core<span>Deck</span></a>
+    <ul class="nav-links">
+      <li><a href="timer.html">Timer</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="library.html" class="active">Library</a></li>
+      <li><a href="tutor.html">Tutor</a></li>
+      <li><a href="index.html#mission">Mission</a></li>
+    </ul>
+  </nav>
+
+  <!-- STAR BACKGROUND -->
+  <div class="lib-bg" aria-hidden="true">
+    <div class="stars-container">
+      <span class="star s1"  style="top:5%;  left:10%"></span>
+      <span class="star s2"  style="top:3%;  left:25%"></span>
+      <span class="star s3"  style="top:12%; left:42%"></span>
+      <span class="star s4"  style="top:6%;  left:60%"></span>
+      <span class="star s5"  style="top:15%; left:75%"></span>
+      <span class="star s6"  style="top:4%;  left:88%"></span>
+      <span class="star s7"  style="top:22%; left:7%"></span>
+      <span class="star s8"  style="top:18%; left:35%"></span>
+      <span class="star s9"  style="top:25%; left:55%"></span>
+      <span class="star s10" style="top:8%;  left:93%"></span>
+      <span class="star s11" style="top:30%; left:80%"></span>
+      <span class="star s12" style="top:38%; left:20%"></span>
+      <span class="star s13" style="top:35%; left:68%"></span>
+      <span class="star s14" style="top:9%;  left:50%"></span>
+      <span class="star s15" style="top:20%; left:48%"></span>
+      <span class="star s16" style="top:28%; left:3%"></span>
+      <span class="star s17" style="top:42%; left:92%"></span>
+      <span class="star s18" style="top:7%;  left:70%"></span>
+      <span class="star s19" style="top:32%; left:97%"></span>
+      <span class="star s20" style="top:45%; left:14%"></span>
+      <svg class="constellation-lines" viewBox="0 0 1440 900" preserveAspectRatio="none">
+        <line x1="144" y1="45"  x2="360" y2="27"/>
+        <line x1="360" y1="27"  x2="605" y2="108"/>
+        <line x1="605" y1="108" x2="864" y2="54"/>
+        <line x1="864" y1="54"  x2="1267" y2="36"/>
+        <line x1="101" y1="198" x2="504" y2="162"/>
+        <line x1="504" y1="162" x2="792" y2="180"/>
+        <line x1="144" y1="45"  x2="101" y2="198"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- ══ VIEW: SUBJECTS ══ -->
+  <div class="lib-view" id="viewSubjects">
+    <section class="lib-hero">
+      <p class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="sep">›</span>Library
+      </p>
+      <div class="lib-hero-icon">
+        <svg viewBox="0 0 56 56" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+          <rect x="8"  y="8"  width="10" height="32" rx="2"/>
+          <rect x="20" y="12" width="10" height="28" rx="2"/>
+          <rect x="32" y="6"  width="10" height="34" rx="2"/>
+          <line x1="6" y1="44" x2="46" y2="44"/>
+        </svg>
+      </div>
+      <h1>The <span>Library</span></h1>
+      <p class="lib-hero-desc">
+        Complete NEB Class 11 notes — study here, score there.
+      </p>
+
+      <div class="lib-search-wrap">
+        <div class="lib-search-box" id="libSearchBox">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <circle cx="11" cy="11" r="8"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <input type="text" id="libSearchInput"
+                 placeholder="Search topics, formulas, chapters…"
+                 autocomplete="off"/>
+          <button class="lib-search-clear" id="libSearchClear">✕</button>
+        </div>
+        <div class="lib-search-results" id="libSearchResults"></div>
+      </div>
+    </section>
+
+    <section class="lib-subjects-section">
+      <div class="lib-subjects-grid" id="subjectsGrid">
+        <!-- Subjects will be injected by JS -->
+      </div>
+    </section>
+  </div>
+
+  <!-- ══ VIEW: CHAPTERS ══ -->
+  <div class="lib-view" id="viewChapters" style="display:none">
+    <div class="lib-inner">
+      <div class="lib-breadcrumb-nav">
+        <button class="lib-back-btn" id="backToSubjects">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+          </svg>
+          Subjects
+        </button>
+        <span class="lib-breadcrumb-trail" id="chapterBreadcrumb"></span>
+      </div>
+      <div class="lib-chapter-header" id="chapterHeader"></div>
+      <div class="lib-chapters-grid" id="chaptersGrid"></div>
+    </div>
+  </div>
+
+  <!-- ══ VIEW: NOTES ══ -->
+  <div class="lib-view" id="viewNotes" style="display:none">
+    <div class="lib-inner lib-notes-inner">
+      <div class="lib-breadcrumb-nav">
+        <button class="lib-back-btn" id="backToChapters">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+          </svg>
+          <span id="backChapterLabel">Chapters</span>
+        </button>
+        <span class="lib-breadcrumb-trail" id="notesBreadcrumb"></span>
+      </div>
+      <div class="notes-container" id="notesContainer"></div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="libFooter">
+    <a href="index.html" class="footer-logo">Core<span>Deck</span></a>
+    <span class="footer-copy">
+      Built with ☕ for the +2 grind · 2025
+    </span>
+  </footer>
+
+  <!-- CORS Warning Script (Helps debug file:// issues) -->
+  <script>
+    if (window.location.protocol === 'file:') {
+      console.warn('⚠️ CORS Warning: You are opening this file directly. JSON data may not load. Please use a local server (e.g., VS Code Live Server).');
+      
+      // Optional: Show UI warning
+      const warning = document.createElement('div');
+      warning.style.cssText = `
+        position: fixed; top: 20px; right: 20px; z-index: 9999;
+        background: #ff4444; color: white; padding: 12px 16px;
+        border-radius: 8px; font-size: 14px; max-width: 300px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      `;
+      warning.innerHTML = `
+        <strong>⚠️ Server Required</strong><br>
+        JSON data won't load with file:// protocol.<br>
+        Use <strong>Live Server</strong> in VS Code.
+      `;
+      document.body.appendChild(warning);
+      setTimeout(() => warning.remove(), 8000);
+    }
+  </script>
+
+  <!-- Main JS -->
+  <script src="library.js" defer></script>
+</body>
+</html>
