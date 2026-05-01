@@ -1,0 +1,61 @@
+{
+  "subjectTag": "Physics",
+  "title": "Heat and Temperature",
+  "subtitle": "Chapter 9: Heat and Temperature — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Introduction"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Heat: A form of energy that transfers due to temperature difference. Temperature: A measure of the degree of hotness or coldness."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2. Modes of Heat Transfer"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Conduction (through material), Convection (fluid movement), Radiation (electromagnetic waves, no medium required)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3. Temperature Scales"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Conversions",
+      "formula": "K = C + 273 \\quad F = \\frac{9}{5}C + 32",
+      "note": "Celsius (C), Kelvin (K), Fahrenheit (F)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "4. Thermal Expansion"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Expansion Types",
+      "formula": "\\Delta L = L_0\\alpha\\Delta T \\quad \\Delta A = A_0\\beta\\Delta T \\quad \\Delta V = V_0\\gamma\\Delta T",
+      "note": "$\\beta = 2\\alpha$, $\\gamma = 3\\alpha$."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5. Heat Capacity & Latent Heat"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Heat & Phase Change",
+      "formula": "Q = mc\\Delta T \\quad Q = mL",
+      "note": "c = specific heat capacity; L = latent heat (fusion or vaporization)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "6. Calorimetry"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Principle: Heat Lost = Heat Gained (in an isolated system)."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "subjectTag": "Physics",
+  "title": "Elasticity",
+  "subtitle": "Chapter 7: Elasticity — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Introduction to Elasticity"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Elasticity is the ability of a material to return to its original shape and size after the removal of an external force."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2. Stress and Strain"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Stress",
+      "formula": "Stress = \\frac{Force}{Area}",
+      "note": "Internal restoring force per unit area. Unit: Pascal (Pa). Types: Normal, Shear, and Bulk Stress."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Strain",
+      "formula": "Strain = \\frac{Change\\ in\\ dimension}{Original\\ dimension}",
+      "note": "Dimensionless quantity. Types: Longitudinal, Shear, and Volumetric Strain."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3. Hooke's Law"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Within the elastic limit, Stress is directly proportional to Strain ($\\text{Stress} \\propto \\text{Strain}$)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "4. Modulus of Elasticity"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Young's Modulus (Y)",
+      "formula": "Y = \\frac{Stress}{Longitudinal\\ Strain}",
+      "note": "Measures resistance to length change."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Bulk Modulus (K)",
+      "formula": "K = \\frac{Stress}{Volumetric\\ Strain}",
+      "note": "Measures resistance to volume change."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Shear Modulus (G)",
+      "formula": "G = \\frac{Stress}{Shear\\ Strain}",
+      "note": "Measures resistance to shape change."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5. Elastic vs Plastic Behavior"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Elastic Behavior: Material returns to original shape. Plastic Behavior: Material undergoes permanent deformation."
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "⚠️ Breaking Point",
+      "text": "If the applied force exceeds the elastic limit, the material reaches its breaking point and fails/fractures."
+    }
+  ]
+}

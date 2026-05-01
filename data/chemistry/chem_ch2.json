@@ -1,0 +1,410 @@
+{
+  "subjectTag": "Chemistry",
+  "title": "States of Matter",
+  "subtitle": "Chapter 2: Gases, Liquids and Solids — Complete NEB Notes",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Introduction to States of Matter"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Matter exists in three primary states: <strong>Solid</strong>, <strong>Liquid</strong>, and <strong>Gas</strong>. The state depends on intermolecular forces, temperature, and pressure."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Gas:</strong> No fixed shape or volume; highly compressible; molecules move randomly with high kinetic energy."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Liquid:</strong> Fixed volume but no fixed shape; moderate intermolecular forces; flows easily."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Solid:</strong> Fixed shape and volume; strong intermolecular forces; particles vibrate about fixed positions."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2. Gas Laws"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Gas laws describe the behavior of gases under varying conditions of pressure (P), volume (V), temperature (T), and amount (n)."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2.1 Boyle's Law (1662)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "At constant temperature and mass, the volume of a given mass of gas is inversely proportional to its pressure."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Mathematical Form",
+      "formula": "V \\propto \\frac{1}{P} \\quad \\text{or} \\quad PV = k \\quad \\text{(k = constant)}",
+      "note": "For two states: P₁V₁ = P₂V₂"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "⚠️ Important",
+      "text": "Boyle's law applies only to ideal gases at constant temperature. Graph of P vs V is hyperbolic; P vs 1/V is straight line through origin."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2.2 Charles's Law"
+    },
+    {
+      "blockType": "note-text",
+      "text": "At constant pressure, the volume of a given mass of gas is directly proportional to its absolute temperature (in Kelvin)."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Mathematical Form",
+      "formula": "V \\propto T \\quad \\text{or} \\quad \\frac{V}{T} = k",
+      "note": "For two states: V₁/T₁ = V₂/T₂. Temperature must be in Kelvin: T(K) = t(°C) + 273"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Absolute Zero:</strong> The theoretical temperature (-273.15°C or 0 K) at which the volume of an ideal gas becomes zero."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2.3 Combined Gas Law"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Combining Boyle's and Charles's laws:"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Combined Equation",
+      "formula": "\\frac{P_1 V_1}{T_1} = \\frac{P_2 V_2}{T_2}",
+      "note": "Used when P, V, and T all change for a fixed mass of gas."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2.4 Ideal Gas Equation"
+    },
+    {
+      "blockType": "note-text",
+      "text": "For n moles of an ideal gas:"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Ideal Gas Law",
+      "formula": "PV = nRT",
+      "note": "R = Universal gas constant = 0.0821 L·atm·mol⁻¹·K⁻¹ = 8.314 J·mol⁻¹·K⁻¹"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Derivation:</strong> From Avogadro's law (V ∝ n), Boyle's law (V ∝ 1/P), Charles's law (V ∝ T) → V ∝ nT/P → PV = nRT"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Density Form",
+      "formula": "PM = dRT",
+      "note": "Where M = molar mass, d = density (d = m/V)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2.5 Dalton's Law of Partial Pressures"
+    },
+    {
+      "blockType": "note-def",
+      "text": "The total pressure exerted by a mixture of non-reacting gases is equal to the sum of the partial pressures of individual gases."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Mathematical Form",
+      "formula": "P_{\\text{total}} = P_1 + P_2 + P_3 + \\dots",
+      "note": "Partial pressure of gas i: Pᵢ = xᵢ × Pₜₒₜₐₗ, where xᵢ = mole fraction"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "💡 Application",
+      "text": "Used in collecting gases over water: P₍₉ₐₛ₎ = P₍ₜₒₜₐₗ₎ - P₍ᵥₐₚₒᵣ₎ (aqueous tension)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2.6 Graham's Law of Diffusion/Effusion"
+    },
+    {
+      "blockType": "note-def",
+      "text": "At constant T and P, the rate of diffusion/effusion of a gas is inversely proportional to the square root of its molar mass."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Mathematical Form",
+      "formula": "\\frac{r_1}{r_2} = \\sqrt{\\frac{M_2}{M_1}} = \\sqrt{\\frac{d_2}{d_1}}",
+      "note": "r = rate of diffusion, M = molar mass, d = density. For time: t₁/t₂ = √(M₁/M₂)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Diffusion:</strong> Spreading of gas molecules throughout available space. <strong>Effusion:</strong> Escape of gas through a tiny hole."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "3. Numerical Examples (Gas Laws)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example 1:</strong> A gas occupies 200 mL at 760 mmHg. What volume at 950 mmHg (T constant)?"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Solution (Boyle's Law)",
+      "formula": "P_1V_1 = P_2V_2 \\Rightarrow V_2 = \\frac{760 \\times 200}{950} = 160 \\text{ mL}",
+      "note": ""
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example 2:</strong> Calculate molar mass of gas: 0.23 g occupies 126.4 mL at 760 mmHg and 27°C."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Solution (Ideal Gas Eq.)",
+      "formula": "M = \\frac{mRT}{PV} = \\frac{0.23 \\times 0.0821 \\times 300}{1 \\times 0.1264} \\approx 44.8 \\text{ g/mol}",
+      "note": "Possible gas: CO₂ (M = 44 g/mol)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example 3:</strong> Time for O₂ to diffuse vs H₂. M(O₂)=32, M(H₂)=2. If H₂ takes 5 min, O₂ takes?"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Solution (Graham's Law)",
+      "formula": "\\frac{t_{O_2}}{t_{H_2}} = \\sqrt{\\frac{M_{O_2}}{M_{H_2}}} = \\sqrt{\\frac{32}{2}} = 4 \\Rightarrow t_{O_2} = 4 \\times 5 = 20 \\text{ min}",
+      "note": ""
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "4. Liquid State"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Liquids have definite volume but no definite shape. Properties depend on intermolecular forces."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "4.1 Vapour Pressure"
+    },
+    {
+      "blockType": "note-def",
+      "text": "The pressure exerted by vapours in equilibrium with their liquid at a given temperature in a closed container."
+    },
+    {
+      "blockType": "note-text",
+      "text": "• Increases with temperature • Depends on nature of liquid (weaker forces → higher vapour pressure)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "4.2 Boiling Point"
+    },
+    {
+      "blockType": "note-def",
+      "text": "The temperature at which the vapour pressure of liquid becomes equal to the atmospheric pressure."
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "🌡️ Note",
+      "text": "Boiling point decreases at high altitudes (lower atmospheric pressure)."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "4.3 Surface Tension"
+    },
+    {
+      "blockType": "note-def",
+      "text": "The force acting per unit length perpendicular to the surface of a liquid, tending to minimize surface area."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Unit",
+      "formula": "\\text{N/m or dyne/cm}",
+      "note": "Causes spherical drops, capillary rise, insects walking on water"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Cohesive force:</strong> Attraction between like molecules. <strong>Adhesive force:</strong> Attraction between unlike molecules."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "4.4 Capillary Action"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Rise or fall of liquid in a narrow tube due to adhesive and cohesive forces."
+    },
+    {
+      "blockType": "note-text",
+      "text": "• Water in glass: concave meniscus (adhesive > cohesive) → rises • Mercury in glass: convex meniscus (cohesive > adhesive) → falls"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "4.5 Viscosity"
+    },
+    {
+      "blockType": "note-def",
+      "text": "The internal resistance to flow of a liquid. Due to friction between layers of liquid moving at different velocities."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Newton's Law of Viscosity",
+      "formula": "F = \\eta A \\frac{dv}{dx}",
+      "note": "η = coefficient of viscosity; Unit: poise (1 poise = 0.1 Pa·s)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Viscosity decreases with increase in temperature (molecules gain kinetic energy, overcome intermolecular forces)."
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "🧪 Example",
+      "text": "Glycerol > Water > Ethanol > Acetone (order of viscosity due to H-bonding strength)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "5. Solid State"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Solids have definite shape and volume due to strong intermolecular forces and fixed particle positions."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "5.1 Crystalline vs Amorphous Solids"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Crystalline Solids:</strong> Particles arranged in regular, repeating 3D pattern (long-range order). Sharp melting point, anisotropic. Examples: NaCl, diamond, quartz."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Amorphous Solids:</strong> Particles arranged randomly (short-range order). No sharp melting point, isotropic. Examples: glass, rubber, plastics."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Anisotropic:</strong> Physical properties (conductivity, refractive index) differ with direction. <strong>Isotropic:</strong> Same in all directions."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "5.2 Water of Crystallization"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Fixed number of water molecules loosely attached to one formula unit of a crystalline salt."
+    },
+    {
+      "blockType": "note-text",
+      "text": "Examples: CuSO₄·5H₂O (blue vitriol), Na₂CO₃·10H₂O (washing soda), FeSO₄·7H₂O (green vitriol)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Efflorescence:</strong> Loss of water of crystallization to atmosphere (e.g., Na₂CO₃·10H₂O → Na₂CO₃·H₂O + 9H₂O)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Hygroscopic:</strong> Absorbs moisture but doesn't dissolve (e.g., conc. H₂SO₄, CaO). <strong>Deliquescent:</strong> Absorbs moisture and dissolves to form solution (e.g., NaOH, CaCl₂)."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "5.3 Crystal Lattice and Unit Cell"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Crystal Lattice:</strong> Regular 3D arrangement of points representing constituent particles. <strong>Unit Cell:</strong> Smallest repeating unit that generates the entire lattice."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Types of Cubic Unit Cells:</strong>"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. <strong>Simple Cubic (SC):</strong> Particles only at corners. Coordination number = 6. Example: Polonium."
+    },
+    {
+      "blockType": "note-text",
+      "text": "2. <strong>Body-Centred Cubic (BCC):</strong> Corners + one at body centre. CN = 8. Examples: Na, K, Fe."
+    },
+    {
+      "blockType": "note-text",
+      "text": "3. <strong>Face-Centred Cubic (FCC):</strong> Corners + one at each face centre. CN = 12. Examples: Cu, Ag, Au, Al."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "5.4 Seven Crystal Systems"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Based on edge lengths (a, b, c) and interfacial angles (α, β, γ):"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. Cubic: a=b=c, α=β=γ=90° (NaCl, diamond) • 2. Tetragonal: a=b≠c, α=β=γ=90° (SnO₂) • 3. Orthorhombic: a≠b≠c, α=β=γ=90° (BaSO₄) • 4. Monoclinic: a≠b≠c, α=γ=90°, β≠90° (Na₂SO₄·10H₂O) • 5. Triclinic: a≠b≠c, α≠β≠γ≠90° (K₂Cr₂O₇) • 6. Trigonal/Rhombohedral: a=b=c, α=β=γ≠90° (Calcite) • 7. Hexagonal: a=b≠c, α=β=90°, γ=120° (Graphite, ZnO)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "6. Important Formulas Summary"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Gas Laws",
+      "formula": "PV = k \\quad ; \\quad \\frac{V}{T} = k \\quad ; \\quad \\frac{P_1V_1}{T_1} = \\frac{P_2V_2}{T_2} \\quad ; \\quad PV = nRT",
+      "note": ""
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Dalton's Law",
+      "formula": "P_{\\text{total}} = \\sum P_i \\quad ; \\quad P_i = x_i P_{\\text{total}}",
+      "note": ""
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Graham's Law",
+      "formula": "\\frac{r_1}{r_2} = \\sqrt{\\frac{M_2}{M_1}} = \\sqrt{\\frac{d_2}{d_1}} = \\frac{t_2}{t_1}",
+      "note": ""
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Density-Molar Mass",
+      "formula": "M = \\frac{dRT}{P} \\quad ; \\quad d = \\frac{PM}{RT}",
+      "note": ""
+    },
+
+    {
+      "blockType": "exam-tip",
+      "label": "🎯 Exam Tips",
+      "text": "• Always convert temperature to Kelvin for gas laws • STP: 0°C (273 K) and 1 atm (760 mmHg) • Molar volume at STP = 22.4 L/mol • For diffusion problems, use molar mass in g/mol • Surface tension and viscosity decrease with temperature • Crystalline solids are anisotropic; amorphous are isotropic"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "7. Common Mistakes to Avoid"
+    },
+    {
+      "blockType": "note-text",
+      "text": "❌ Using °C instead of K in gas law calculations • ❌ Forgetting that Dalton's law applies only to non-reacting gases • ❌ Confusing diffusion (spreading) with effusion (through hole) • ❌ Assuming all solids with water are hydrated (check if water is in crystal lattice) • ❌ Thinking amorphous solids have no order (they have short-range order)"
+    }
+  ]
+}

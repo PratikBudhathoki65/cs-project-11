@@ -1,0 +1,561 @@
+{
+  "subjectTag": "Chemistry",
+  "title": "Classification of Elements and Periodic Table",
+  "subtitle": "Chapter 5: Periodic Classification — Complete NEB Notes",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Introduction to Periodic Classification"
+    },
+    {
+      "blockType": "note-text",
+      "text": "The classification of elements into groups based on their similar properties is called periodic classification. The table in which elements are arranged in order of increasing atomic number is called the periodic table."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Periodic Table:</strong> A tabular arrangement of elements in which elements with similar properties are placed in the same vertical column (group) and dissimilar elements are separated."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2. Mendeleev's Periodic Law (1869)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Mendeleev's Periodic Law:</strong> \"The physical and chemical properties of elements are periodic functions of their atomic weights (masses).\""
+    },
+    {
+      "blockType": "note-text",
+      "text": "In 1869, Russian chemist Dmitri Mendeleev classified elements based on increasing atomic weight and proposed this law. Only 65 elements were known at that time."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2.1 Main Features of Mendeleev's Periodic Table"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>1. Horizontal Rows (Periods):</strong> Called periods. There were short and long periods."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>2. Vertical Columns (Groups):</strong> Called groups. Elements with similar properties were placed in the same group."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>3. Short Periods:</strong> First period contained 2 elements. Second and third periods contained 8 elements each."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>4. Long Periods:</strong> Fourth, fifth, and sixth periods were long periods containing 18, 18, and 32 elements respectively."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>5. Subgroups:</strong> Groups I to VII were divided into subgroups A and B. Group VIII consisted of inert gases (noble gases)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2.2 Advantages of Mendeleev's Periodic Table"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>1. Systematic Study:</strong> Made the study of elements systematic and easier."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>2. Prediction of New Elements:</strong> Predicted the existence of undiscovered elements (e.g., Eka-silicon, later discovered as Germanium)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>3. Correction of Atomic Weights:</strong> Corrected faulty atomic weights of some elements (e.g., Beryllium)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2.3 Defects/Anomalies of Mendeleev's Periodic Table"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>1. Position of Hydrogen:</strong> Hydrogen resembled both alkali metals (Group I) and halogens (Group VII), so its position was not well-defined."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>2. Anomalous Pairs:</strong> Elements with higher atomic mass were placed before elements with lower atomic mass (e.g., Argon (40) before Potassium (39), Cobalt (58.9) before Nickel (58.7))."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>3. Position of Isotopes:</strong> Isotopes have the same atomic number but different mass numbers. According to Mendeleev's law, they should be placed in different groups, but chemically they are identical."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>4. Position of Lanthanides and Actinides:</strong> Lanthanides (Ce-58 to Lu-71) and Actinides (Th-90 to Lr-103) were placed outside the main periodic table without proper justification."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>5. Separation of Similar Elements:</strong> Some similar elements were separated (e.g., Cu, Ag, Au), while dissimilar elements were placed in the same group."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "3. Modern Periodic Law (1913)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Modern Periodic Law (Moseley's Law):</strong> \"The physical and chemical properties of elements are periodic functions of their atomic numbers.\""
+    },
+    {
+      "blockType": "note-text",
+      "text": "In 1913, Henry Moseley proposed a new periodic law based on atomic number instead of atomic mass. This solved most of the defects of Mendeleev's table."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3.1 Main Features of Modern Periodic Table"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>1. Periods:</strong> There are 7 horizontal rows called periods."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>2. Groups:</strong> There are 18 vertical columns called groups (numbered 1-18)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>3. Short Periods:</strong> First period (2 elements: H, He). Second and third periods (8 elements each)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>4. Long Periods:</strong> Fourth and fifth periods (18 elements each). Sixth period (32 elements - longest). Seventh period (incomplete - 19 elements known)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>5. Blocks:</strong> Elements are classified into s-block, p-block, d-block, and f-block based on electronic configuration."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "4. Classification of Elements into Blocks"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Elements are classified into four blocks based on the subshell in which the last electron enters:"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "4.1 s-Block Elements"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>s-Block Elements:</strong> Elements in which the last electron enters the s-orbital of the outermost shell."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Groups:</strong> Group 1 (Alkali metals: ns¹) and Group 2 (Alkaline earth metals: ns²). Hydrogen is also kept in s-block but is a non-metal."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>General Electronic Configuration:</strong> ns¹⁻²"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Properties:</strong> Highly reactive metals, low melting and boiling points, low ionization energy, good conductors of electricity."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "4.2 p-Block Elements"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>p-Block Elements:</strong> Elements in which the last electron enters the p-orbital of the outermost shell."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Groups:</strong> Groups 13 to 18 (III A to VIII A)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>General Electronic Configuration:</strong> ns² np¹⁻⁶"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Properties:</strong> Include metals, non-metals, and metalloids. Form covalent compounds. Group 18 elements are noble gases (inert)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Note:</strong> s-block and p-block elements together are called <strong>Representative Elements</strong> or <strong>Main Group Elements</strong>."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "4.3 d-Block Elements"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>d-Block Elements:</strong> Elements in which the last electron enters the d-orbital of the penultimate (second last) shell."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Groups:</strong> Groups 3 to 12."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>General Electronic Configuration:</strong> (n-1)d¹⁻¹⁰ ns⁰⁻²"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Properties:</strong> Also called <strong>Transition Elements</strong>. All are metals. Show variable oxidation states. Form colored compounds. Good conductors of heat and electricity."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "4.4 f-Block Elements"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>f-Block Elements:</strong> Elements in which the last electron enters the f-orbital of the antepenultimate (third last) shell."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Series:</strong> Two series - Lanthanides (4f series: Ce-58 to Lu-71) and Actinides (5f series: Th-90 to Lr-103)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>General Electronic Configuration:</strong> (n-2)f¹⁻¹⁴ (n-1)d⁰⁻¹ ns²"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Properties:</strong> Also called <strong>Inner Transition Elements</strong>. All are metals. Heavy metals with high melting and boiling points. Placed separately at the bottom of the periodic table."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5. Periodic Properties"
+    },
+    {
+      "blockType": "note-text",
+      "text": "The properties of elements that show a regular trend across a period or down a group are called periodic properties."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5.1 Atomic Radius (Atomic Size)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Atomic Radius:</strong> The distance from the nucleus to the outermost shell of an atom."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Types:</strong> Covalent radius, Metallic radius, Van der Waals radius"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Covalent Radius:</strong> Half of the internuclear distance between two bonded atoms in a covalent molecule."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Metallic Radius:</strong> Half of the internuclear distance between two adjacent metal atoms in a metallic crystal."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Van der Waals Radius:</strong> Half of the internuclear distance between two non-bonded atoms of adjacent molecules."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Trend Across a Period (Left to Right):</strong> Atomic radius <strong>decreases</strong> due to increase in nuclear charge while electrons are added to the same shell. Stronger attraction pulls electrons closer."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Trend Down a Group (Top to Bottom):</strong> Atomic radius <strong>increases</strong> due to increase in the number of shells."
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "📊 Example",
+      "text": "Period 2: Li > Be > B > C > N > O > F (decreasing order) • Group 1: Li < Na < K < Rb < Cs (increasing order)"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5.2 Ionic Radius"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Ionic Radius:</strong> The distance from the nucleus to the outermost shell of an ion."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Cation:</strong> Positively charged ion (smaller than parent atom - loss of electrons increases effective nuclear charge)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Anion:</strong> Negatively charged ion (larger than parent atom - gain of electrons decreases effective nuclear charge)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Isoelectronic Species:</strong> Species having the same number of electrons but different nuclear charges."
+    },
+    {
+      "blockType": "note-text",
+      "text": "Example: O²⁻, F⁻, Na⁺, Mg²⁺, Al³⁺ (all have 10 electrons)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Trend:</strong> For isoelectronic species, as nuclear charge increases, ionic radius decreases."
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "⚡ Order",
+      "text": "O²⁻ > F⁻ > Na⁺ > Mg²⁺ > Al³⁺ (decreasing ionic radius for isoelectronic species)"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5.3 Ionization Energy (Ionization Enthalpy)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Ionization Energy:</strong> The minimum amount of energy required to remove the most loosely bound electron from an isolated gaseous atom to form a gaseous cation."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "First Ionization Energy",
+      "formula": "M_{(g)} + \\text{Energy} \\rightarrow M^+_{(g)} + e^-",
+      "note": "Unit: kJ/mol or eV/atom"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Successive Ionization Energies:</strong> IE₁ < IE₂ < IE₃ (removing electrons from positively charged ions requires more energy)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Trend Across a Period:</strong> Ionization energy <strong>increases</strong> from left to right due to increase in nuclear charge and decrease in atomic size."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Trend Down a Group:</strong> Ionization energy <strong>decreases</strong> from top to bottom due to increase in atomic size and shielding effect."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Factors Affecting Ionization Energy:</strong>"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. <strong>Nuclear Charge:</strong> Higher nuclear charge → Higher IE • 2. <strong>Atomic Size:</strong> Larger size → Lower IE • 3. <strong>Shielding Effect:</strong> More inner electrons → Lower IE • 4. <strong>Electronic Configuration:</strong> Half-filled and fully-filled orbitals are more stable → Higher IE"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "⚠️ Exceptions",
+      "text": "Be (2s²) has higher IE than B (2s² 2p¹) due to stable configuration • N (2p³) has higher IE than O (2p⁴) due to half-filled p-orbital"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5.4 Electron Affinity (Electron Gain Enthalpy)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Electron Affinity:</strong> The amount of energy released when an electron is added to an isolated gaseous atom to form a gaseous anion."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Electron Affinity",
+      "formula": "X_{(g)} + e^- \\rightarrow X^-_{(g)} + \\text{Energy}",
+      "note": "Unit: kJ/mol or eV/atom"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Trend Across a Period:</strong> Electron affinity <strong>increases</strong> (becomes more negative) from left to right due to decrease in atomic size and increase in nuclear charge."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Trend Down a Group:</strong> Electron affinity <strong>decreases</strong> (becomes less negative) from top to bottom due to increase in atomic size."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Factors Affecting Electron Affinity:</strong>"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. <strong>Atomic Size:</strong> Smaller size → Higher EA • 2. <strong>Nuclear Charge:</strong> Higher charge → Higher EA • 3. <strong>Electronic Configuration:</strong> Stable configurations (noble gases) have very low or positive EA"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "🎯 Note",
+      "text": "Chlorine (Cl) has the highest electron affinity, not Fluorine (F), because F is very small and electron-electron repulsion is high."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5.5 Electronegativity"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Electronegativity:</strong> The tendency of an atom in a molecule to attract the shared pair of electrons towards itself."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Pauling Scale:</strong> Most commonly used scale. Fluorine has the highest electronegativity (4.0)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Trend Across a Period:</strong> Electronegativity <strong>increases</strong> from left to right."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Trend Down a Group:</strong> Electronegativity <strong>decreases</strong> from top to bottom."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Factors:</strong> Depends on atomic size, nuclear charge, and electronic configuration."
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "📊 Values",
+      "text": "F (4.0) > O (3.5) > N (3.0) > Cl (3.0) • Cs (0.7) and Fr (0.7) have the lowest electronegativity"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "6. Valency"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Valency:</strong> The combining capacity of an element, determined by the number of electrons it can lose, gain, or share to achieve a stable configuration."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Trend Across a Period:</strong> Valency first increases from 1 to 4, then decreases from 4 to 0."
+    },
+    {
+      "blockType": "note-text",
+      "text": "Example (Period 2): Li(1), Be(2), B(3), C(4), N(3), O(2), F(1), Ne(0)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Trend Down a Group:</strong> Valency remains the same (same number of valence electrons)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "7. Metallic and Non-Metallic Character"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Metallic Character:</strong> Tendency to lose electrons and form cations."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Trend:</strong> Decreases across a period, increases down a group."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Non-Metallic Character:</strong> Tendency to gain electrons and form anions."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Trend:</strong> Increases across a period, decreases down a group."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "8. Classification of Solids Based on Bonding"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Solids can be classified based on the type of bonding between their constituent particles:"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "8.1 Ionic Solids"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Ionic Solids:</strong> Solids in which constituent particles are ions held together by strong electrostatic forces (ionic bonds)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Properties:</strong> Hard and brittle • High melting and boiling points • Conduct electricity in molten state or aqueous solution • Soluble in polar solvents • Non-conductors in solid state"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Examples:</strong> NaCl, KCl, CaF₂, MgO"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "8.2 Covalent Solids (Network Solids)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Covalent Solids:</strong> Solids in which constituent particles are atoms held together by covalent bonds in a continuous network."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Properties:</strong> Very hard • Very high melting points • Non-conductors (except graphite) • Insoluble in most solvents"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Examples:</strong> Diamond, Graphite, Silicon carbide (SiC), Quartz (SiO₂)"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "8.3 Molecular Solids"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Molecular Solids:</strong> Solids in which constituent particles are molecules held together by weak van der Waals forces or hydrogen bonds."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Properties:</strong> Soft • Low melting and boiling points • Non-conductors • Generally soluble in non-polar solvents"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Examples:</strong> Ice (H₂O), Solid CO₂ (dry ice), I₂, S₈, P₄"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "8.4 Metallic Solids"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Metallic Solids:</strong> Solids in which constituent particles are metal atoms held together by metallic bonds (sea of delocalized electrons)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Properties:</strong> Malleable and ductile • Good conductors of heat and electricity • Metallic luster • High melting points (except Na, K)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Examples:</strong> Iron (Fe), Copper (Cu), Silver (Ag), Gold (Au), Sodium (Na)"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "9. Important Formulas Summary"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Covalent Radius",
+      "formula": "r_{\\text{covalent}} = \\frac{d_{A-A}}{2}",
+      "note": "Where d = internuclear distance"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Metallic Radius",
+      "formula": "r_{\\text{metallic}} = \\frac{d_{M-M}}{2}",
+      "note": "Where d = distance between metal atoms"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Ionic Radius Trend",
+      "formula": "r_{\\text{anion}} > r_{\\text{parent}} > r_{\\text{cation}}",
+      "note": "For isoelectronic: Higher Z → Smaller radius"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Effective Nuclear Charge",
+      "formula": "Z_{\\text{eff}} = Z - \\sigma",
+      "note": "Z = atomic number, σ = shielding constant"
+    },
+
+    {
+      "blockType": "exam-tip",
+      "label": "🎓 Exam Tips",
+      "text": "• Atomic radius decreases → IE increases → EA increases → EN increases (left to right) • Noble gases have zero electron affinity (stable configuration) • Be and N have higher IE than expected (stable configuration) • Cl has highest EA, F has highest EN • Metallic character: Bottom-left • Non-metallic character: Top-right • Transition elements show variable oxidation states • f-block elements are called rare earth elements"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "10. Common Mistakes to Avoid"
+    },
+    {
+      "blockType": "note-text",
+      "text": "❌ Confusing atomic number with atomic mass • ❌ Forgetting that noble gases have complete octet (very stable) • ❌ Assuming F has highest EA (it's Cl) • ❌ Not considering exceptions in IE (Be, N) • ❌ Confusing ionic radius trends for isoelectronic species • ❌ Forgetting that hydrogen can be placed in both Group 1 and Group 17 • ❌ Mixing up period trends with group trends"
+    }
+  ]
+}

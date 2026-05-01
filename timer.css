@@ -1,0 +1,583 @@
+/* =================================================
+   COREDECK — timer.css
+   Timer Page Styles — extends style.css
+   ================================================= */
+
+/* ─────────────────────────────────────────────────
+   PAGE SCAFFOLD
+   The timer page is a single full-height screen.
+   Everything centres vertically in the viewport.
+   ───────────────────────────────────────────────── */
+.timer-page {
+  height: 100vh;
+  overflow: hidden; /* no scroll — it's a utility app page */
+  display: flex;
+  flex-direction: column;
+}
+
+/* ─────────────────────────────────────────────────
+   BACKGROUND — stars + radial glow
+   ───────────────────────────────────────────────── */
+.timer-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  /* Deeper gradient than the hero — more of a 3am vibe */
+  background: radial-gradient(ellipse at 50% 20%, #111826 0%, #090c14 50%, #080a0f 100%);
+  pointer-events: none;
+}
+
+/* Soft sage-green ambient glow sits behind the card */
+.timer-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -52%);
+  width: 520px;
+  height: 520px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(141,170,145,0.055) 0%, transparent 70%);
+  filter: blur(40px);
+}
+
+/* ─────────────────────────────────────────────────
+   MAIN LAYOUT — centres the deck card
+   ───────────────────────────────────────────────── */
+.timer-main {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--nav-h) 24px 24px;
+  gap: 1.6rem;
+}
+
+/* ─────────────────────────────────────────────────
+   GLASSMORPHISM DECK CARD
+   ──────────────────────────────────────────────────
+   Glassmorphism technique:
+   - Semi-transparent dark background (rgba)
+   - backdrop-filter: blur() blurs whatever is behind the element
+   - A thin light border gives the frosted-glass edge
+   - box-shadow adds depth without a harsh drop shadow
+   ───────────────────────────────────────────────── */
+.timer-deck {
+  background: rgba(18, 22, 30, 0.72);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 24px;
+  box-shadow:
+    0 0 0 1px rgba(141,170,145,0.06),      /* faint sage rim */
+    0 32px 80px rgba(0, 0, 0, 0.55),       /* deep floor shadow */
+    inset 0 1px 0 rgba(255,255,255,0.06);  /* top-edge highlight */
+
+  padding: 2.8rem 3rem 2.4rem;
+  width: min(460px, 92vw);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+
+  /* Entrance animation */
+  animation: deck-rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes deck-rise {
+  from { opacity: 0; transform: translateY(32px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0)    scale(1);    }
+}
+
+/* ─────────────────────────────────────────────────
+   MODE SWITCHER
+   Two text tabs. Active tab gets a sage-green underline.
+   ───────────────────────────────────────────────── */
+.mode-switcher {
+  display: flex;
+  gap: 2.4rem;
+  margin-bottom: 1.8rem;
+}
+
+.mode-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  padding-bottom: 6px;
+  border-bottom: 2px solid transparent;
+  transition: color var(--transition), border-color var(--transition);
+}
+
+.mode-btn:hover {
+  color: var(--text-secondary);
+}
+
+/* Active state: bright text + sage underline */
+.mode-btn.active-mode {
+  color: var(--text-primary);
+  border-bottom-color: var(--accent);
+}
+
+/* ─────────────────────────────────────────────────
+   SESSION LABEL
+   Small uppercase label: "FOCUS SESSION" / "STOPWATCH"
+   ───────────────────────────────────────────────── */
+.session-label {
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1.6rem;
+  opacity: 0.8;
+}
+
+/* ─────────────────────────────────────────────────
+   DISPLAY WRAPPER — SVG ring + time number
+   ───────────────────────────────────────────────── */
+.display-wrapper {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.4rem;
+}
+
+/* ─────────────────────────────────────────────────
+   PROGRESS RING (SVG)
+   ──────────────────────────────────────────────────
+   Uses stroke-dasharray and stroke-dashoffset to draw
+   a circular arc that represents remaining time.
+   Circumference of circle with r=110: 2 * π * 110 ≈ 691px
+
+   JS sets dashoffset = 691 * (secondsLeft / totalSeconds)
+   So at full time: offset = 691 (ring is invisible — fully offset)
+   At zero time:    offset = 0   (ring is fully drawn)
+   The ring is rotated -90° so it starts at the top (12 o'clock).
+   ───────────────────────────────────────────────── */
+.progress-ring {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg); /* start arc at top */
+  transition: opacity 0.4s;
+}
+
+/* Background track circle */
+.ring-track {
+  fill: none;
+  stroke: rgba(255,255,255,0.04);
+  stroke-width: 3;
+}
+
+/* Animated fill arc */
+.ring-fill {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  opacity: 0.75;
+  /* Smooth arc transition every second */
+  transition: stroke-dashoffset 1s linear;
+}
+
+/* Hide the ring entirely in stopwatch mode */
+.timer-deck.stopwatch-mode .progress-ring {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* ─────────────────────────────────────────────────
+   TIME DISPLAY — the big clock numbers
+   ───────────────────────────────────────────────── */
+.time-display {
+  position: relative;
+  z-index: 1;
+  font-family: 'Lora', serif;
+  font-size: clamp(3.4rem, 8vw, 4.6rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  line-height: 1;
+
+  /* Very subtle text glow so numbers feel illuminated */
+  text-shadow: 0 0 40px rgba(249,249,242,0.12);
+
+  /* Tick animation — a tiny scale pulse each second, triggered by JS */
+  transition: transform 0.05s ease-out;
+}
+
+/* JS adds this class momentarily each tick */
+.time-display.tick {
+  transform: scale(1.012);
+}
+
+/* Warning color when ≤5 minutes remain */
+.time-display.warn {
+  color: #d4a06a;
+  text-shadow: 0 0 40px rgba(212,160,106,0.2);
+}
+
+/* ─────────────────────────────────────────────────
+   SESSION DOTS — Pomodoro progress tracker
+   Four dots fill with Sage Green as sessions complete.
+   ───────────────────────────────────────────────── */
+.session-dots {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 2.2rem;
+  transition: opacity 0.3s;
+}
+
+/* Hide dots in stopwatch mode */
+.timer-deck.stopwatch-mode .session-dots {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1.5px solid var(--text-muted);
+  background: transparent;
+  transition: background var(--transition), border-color var(--transition);
+}
+
+/* Filled state — session completed */
+.dot.filled {
+  background: var(--accent);
+  border-color: var(--accent);
+  box-shadow: 0 0 8px var(--accent-glow);
+}
+
+.dot-label {
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  margin-left: 4px;
+  text-transform: uppercase;
+}
+
+/* ─────────────────────────────────────────────────
+   CONTROL BUTTONS
+   Reuse .btn, .btn-primary, .btn-ghost from style.css.
+   Override sizing slightly for the compact deck layout.
+   ───────────────────────────────────────────────── */
+.timer-controls {
+  display: flex;
+  gap: 0.75rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.timer-btn {
+  /* Override base .btn padding for tighter fit */
+  padding: 0.7rem 1.5rem;
+  font-size: 0.76rem;
+  letter-spacing: 0.12em;
+  min-width: 96px;
+  border: 1px solid transparent; /* base — overridden per variant */
+}
+
+/* Re-declare ghost border explicitly here for clarity */
+.timer-btn.btn-ghost {
+  border: 1px solid rgba(255,255,255,0.12);
+}
+.timer-btn.btn-ghost:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Disabled state — visually dimmed, no pointer */
+.timer-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+/* ─────────────────────────────────────────────────
+   ATMOSPHERIC FOOTER QUOTE
+   ───────────────────────────────────────────────── */
+.timer-footer-quote {
+  font-size: 0.72rem;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  font-style: italic;
+  text-align: center;
+  opacity: 0.6;
+  animation: deck-rise 1.2s 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* ─────────────────────────────────────────────────
+   RESPONSIVE ADJUSTMENTS
+   ───────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .timer-deck { padding: 2rem 1.6rem 1.8rem; }
+  .timer-controls { gap: 0.5rem; }
+  .timer-btn { min-width: 78px; padding: 0.65rem 1rem; }
+  .display-wrapper { width: 220px; height: 220px; }
+  .timer-page { height: auto; overflow: auto; }
+}
+
+
+/* =================================================
+   SOUND DECK
+   ================================================= */
+
+/* ─────────────────────────────────────────────────
+   DIVIDER LINE
+   A full-width 1px rule separating the timer controls
+   from the ambient sound panel below them.
+   ───────────────────────────────────────────────── */
+.sound-divider {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255, 255, 255, 0.07) 20%,
+    rgba(255, 255, 255, 0.07) 80%,
+    transparent
+  );
+  margin: 1.8rem 0 1.5rem;
+}
+
+/* ─────────────────────────────────────────────────
+   SOUND DECK WRAPPER
+   ───────────────────────────────────────────────── */
+.sound-deck {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+/* ─────────────────────────────────────────────────
+   TOP ROW — "AMBIENCE" label + three sound buttons
+   ───────────────────────────────────────────────── */
+.sound-top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.sound-deck-label {
+  font-size: 0.60rem;
+  font-weight: 500;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.sound-btns {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* ─────────────────────────────────────────────────
+   INDIVIDUAL SOUND BUTTON
+   ───────────────────────────────────────────────── */
+.sound-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 10px;
+  padding: 0.65rem 0.9rem;
+  cursor: pointer;
+
+  color: var(--text-muted);
+  transition:
+    color       var(--transition),
+    background  var(--transition),
+    border-color var(--transition),
+    transform   var(--transition);
+}
+
+.sound-btn:hover {
+  color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(141, 170, 145, 0.2);
+}
+
+.sound-icon {
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.sound-btn-label {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.58rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* ─────────────────────────────────────────────────
+   ACTIVE SOUND BUTTON STATE + PULSE ANIMATION
+   ──────────────────────────────────────────────────
+   When a sound is playing, JS adds the class 'active'
+   to its button. This does two things:
+
+   1. Changes the icon and label to Sage Green so the
+      user can see at a glance which sound is playing.
+
+   2. Applies the 'sound-pulse' animation — a repeating
+      box-shadow glow that expands and fades, like a
+      sonar ping. This tells the user "audio is live."
+
+   The animation keyframes:
+     0%   — small tight shadow  (just started pulsing)
+     60%  — shadow spreads wide (peak glow)
+     100% — shadow fades out    (cycle resets)
+   The easing 'ease-out' makes the expansion feel natural.
+   ───────────────────────────────────────────────── */
+@keyframes sound-pulse {
+  0% {
+    box-shadow:
+      0 0 0  0   rgba(141, 170, 145, 0.0),
+      inset 0 0  0  0   rgba(141, 170, 145, 0.0);
+  }
+  40% {
+    box-shadow:
+      0 0 0  6px rgba(141, 170, 145, 0.18),
+      inset 0 0  8px 0   rgba(141, 170, 145, 0.08);
+  }
+  100% {
+    box-shadow:
+      0 0 0  12px rgba(141, 170, 145, 0.0),
+      inset 0 0  0   0   rgba(141, 170, 145, 0.0);
+  }
+}
+
+.sound-btn.active {
+  color: var(--accent);
+  background: rgba(141, 170, 145, 0.08);
+  border-color: rgba(141, 170, 145, 0.30);
+
+  /* Pulse runs indefinitely while audio is playing */
+  animation: sound-pulse 2s ease-out infinite;
+}
+
+.sound-btn.active:hover {
+  transform: none; /* suppress lift on already-active button */
+}
+
+
+/* ─────────────────────────────────────────────────
+   VOLUME ROW — speaker icons + range slider
+   ───────────────────────────────────────────────── */
+.sound-volume-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.vol-icon {
+  width: 16px;
+  height: 16px;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+/* ─────────────────────────────────────────────────
+   VOLUME SLIDER STYLING
+   ──────────────────────────────────────────────────
+   input[type=range] has inconsistent default styling
+   across browsers, so we reset everything and redraw.
+   -webkit- prefixes target Chrome/Safari/Edge.
+   -moz-    prefix targets Firefox.
+
+   The track is a thin line; the thumb is a small circle
+   in Ivory (#F9F9F2) matching the text palette.
+   ───────────────────────────────────────────────── */
+.vol-slider {
+  -webkit-appearance: none;   /* remove Chrome/Safari default chrome */
+  appearance: none;
+  flex: 1;
+  height: 3px;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+
+  /* CSS custom property updated by JS for the fill-left effect */
+  --fill: 60%;
+  background: linear-gradient(
+    to right,
+    var(--accent) 0%,
+    var(--accent) var(--fill),
+    rgba(255,255,255,0.1) var(--fill),
+    rgba(255,255,255,0.1) 100%
+  );
+  transition: background 0.05s;
+}
+
+/* Thumb — Chrome / Safari / Edge */
+.vol-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--text-primary);   /* Ivory */
+  box-shadow: 0 0 6px rgba(249,249,242,0.3);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.vol-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.3);
+  box-shadow: 0 0 10px rgba(249,249,242,0.5);
+}
+
+/* Thumb — Firefox */
+.vol-slider::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border: none;
+  border-radius: 50%;
+  background: var(--text-primary);
+  box-shadow: 0 0 6px rgba(249,249,242,0.3);
+  cursor: pointer;
+  transition: transform var(--transition);
+}
+.vol-slider::-moz-range-thumb:hover {
+  transform: scale(1.3);
+}
+
+/* Firefox track */
+.vol-slider::-moz-range-track {
+  height: 3px;
+  border-radius: 2px;
+  background: rgba(255,255,255,0.1);
+}
+
+
+/* ─────────────────────────────────────────────────
+   RESPONSIVE — compact on small screens
+   ───────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .sound-top-row { flex-direction: column; align-items: flex-start; gap: 0.8rem; }
+  .sound-btns    { width: 100%; justify-content: space-between; }
+  .sound-btn     { flex: 1; }
+}

@@ -1,0 +1,44 @@
+{
+  "subjectTag": "Physics",
+  "title": "Reflection at Curved Mirrors",
+  "subtitle": "Chapter 11: Curved Mirrors — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Types of Curved Mirrors"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Concave Mirror: Converging mirror (curves inward). Convex Mirror: Diverging mirror (curves outward)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2. Key Terms"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Pole (P): Center of mirror surface. Focus (F): Point where parallel rays converge/diverge. Focal Length (f): Distance P to F ($f = R/2$)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3. Mirror Formula & Magnification"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Mirror Equation",
+      "formula": "\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f}",
+      "note": "u = object distance, v = image distance, f = focal length. Use New Cartesian Sign Convention."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Magnification",
+      "formula": "m = \\frac{-v}{u} = \\frac{h'}{h}",
+      "note": "m > 1: Magnified; m < 1: Diminished; m is negative: Real/Inverted; m is positive: Virtual/Erect."
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "💡 Pro Tip:",
+      "text": "Convex mirrors ALWAYS form virtual, erect, and diminished images, making them perfect for rear-view mirrors in vehicles."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "subjectTag": "Mathematics",
+  "title": "Vectors",
+  "subtitle": "Chapter 4: Vectors — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Vector vs Scalar"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Scalars have magnitude only (mass, speed). Vectors have magnitude AND direction (force, velocity)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2. Vector Operations"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Magnitude & Unit Vector",
+      "formula": "|\\vec{a}| = \\sqrt{x^2 + y^2 + z^2} \\\\ \\hat{a} = \\frac{\\vec{a}}{|\\vec{a}|}",
+      "note": ""
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Dot Product (Scalar)",
+      "formula": "\\vec{a} \\cdot \\vec{b} = |a||b| \\cos \\theta",
+      "note": "If dot product = 0, vectors are perpendicular."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Cross Product (Vector)",
+      "formula": "\\vec{a} \\times \\vec{b} = |a||b| \\sin \\theta \\mathbf{n}",
+      "note": "If cross product = 0, vectors are parallel."
+    }
+  ]
+}

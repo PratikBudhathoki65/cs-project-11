@@ -1,0 +1,73 @@
+{
+  "subjectTag": "Physics",
+  "title": "Kinematics",
+  "subtitle": "Chapter 2: Kinematics — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Introduction to Kinematics"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Kinematics is the branch of physics that deals with the motion of objects without considering the forces causing the motion."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2. Distance and Displacement"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Distance: Total path length (Scalar, always positive). Displacement: Shortest distance between initial and final position (Vector, can be zero/positive/negative)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3. Speed and Velocity"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Speed & Velocity",
+      "formula": "\\text{Speed} = \\frac{\\text{Distance}}{\\text{Time}} \\quad \\text{Velocity} = \\frac{\\text{Displacement}}{\\text{Time}}",
+      "note": "Speed is scalar; Velocity is vector."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "4. Acceleration"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Acceleration Formula",
+      "formula": "a = \\frac{v - u}{t}",
+      "note": "u = initial velocity, v = final velocity, t = time. Vector quantity."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5. Equations of Motion (Uniform Acceleration)"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Kinematic Equations",
+      "formula": "v = u + at \\\\ s = ut + \\frac{1}{2}at^2 \\\\ v^2 = u^2 + 2as",
+      "note": "Applicable only for constant acceleration."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "6. Motion Under Gravity"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Gravity Equations",
+      "formula": "v = u + gt \\\\ s = ut + \\frac{1}{2}gt^2 \\\\ v^2 = u^2 + 2gs",
+      "note": "g $\\approx$ 9.8 m/s² (downward)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "7. Uniform Circular Motion"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Centripetal Acceleration",
+      "formula": "a = \\frac{v^2}{r}",
+      "note": "Acceleration acts towards the center in circular motion."
+    }
+  ]
+}

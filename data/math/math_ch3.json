@@ -1,0 +1,47 @@
+{
+  "subjectTag": "Mathematics",
+  "title": "Coordinate Geometry",
+  "subtitle": "Chapter 3: Coordinate Geometry — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Cartesian Coordinate System"
+    },
+    {
+      "blockType": "note-text",
+      "text": "A 2D plane defined by x and y axes. Quadrants: Q1(+,+), Q2(-,+), Q3(-,-), Q4(+,-)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2. Slope & Equations of a Line"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Slope (m)",
+      "formula": "m = \\frac{y_2 - y_1}{x_2 - x_1} = \\tan \\theta",
+      "note": "Parallel lines: m1 = m2. Perpendicular lines: m1 \\times m2 = -1."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Straight Line Forms",
+      "formula": "y = mx + c \\\\ y - y_1 = m(x - x_1) \\\\ \\frac{x}{a} + \\frac{y}{b} = 1",
+      "note": "Slope-intercept, Point-slope, and Intercept forms."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3. Conic Sections"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Circle",
+      "formula": "(x - h)^2 + (y - k)^2 = r^2",
+      "note": "Center (h,k), Radius r."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Parabola",
+      "formula": "y^2 = 4ax \\quad (axis\\ along\\ x) \\\\ x^2 = 4ay \\quad (axis\\ along\\ y)",
+      "note": ""
+    }
+  ]
+}

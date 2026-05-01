@@ -1,0 +1,63 @@
+{
+  "subjectTag": "Mathematics",
+  "title": "Algebra",
+  "subtitle": "Chapter 1: Algebra — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Sequence"
+    },
+    {
+      "blockType": "note-def",
+      "text": "An ordered list of numbers arranged according to a definite rule. Each number in the list is called a term."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2. Arithmetic Progression (AP)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "A sequence where consecutive terms differ by a fixed constant called the Common Difference (d)."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "AP Formulas",
+      "formula": "a_n = a + (n-1)d \\\\ S_n = \\frac{n}{2}[2a + (n-1)d] \\\\ S_n = \\frac{n}{2}(a + l)",
+      "note": "a = first term, d = common difference, l = last term, n = number of terms."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3. Geometric Progression (GP)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "A sequence where each term is obtained by multiplying the previous term by a fixed constant called the Common Ratio (r)."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "GP Formulas",
+      "formula": "a_n = a \\cdot r^{n-1} \\\\ S_n = \\frac{a(1-r^n)}{1-r} \\\\ S_{\\infty} = \\frac{a}{1-r} \\quad (|r| < 1)",
+      "note": "r = common ratio."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "4. Quadratic Equation"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Quadratic Formula",
+      "formula": "ax^2 + bx + c = 0 \\\\ x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}",
+      "note": "Discriminant (D) = b² - 4ac. If D > 0: Real/Distinct; D = 0: Real/Equal; D < 0: Complex."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5. Matrix"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "2x2 Matrix Operations",
+      "formula": "A = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix} \\\\ |A| = ad - bc \\\\ A^{-1} = \\frac{1}{|A|} \\begin{bmatrix} d & -b \\\\ -c & a \\end{bmatrix}",
+      "note": "If |A| = 0, the matrix is Singular and has no inverse."
+    }
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "subjectTag": "Chemistry",
+  "title": "Atomic Structure",
+  "subtitle": "Chapter 3: Structure of Atom — Complete NEB Notes",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Introduction to Atomic Structure"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Atom is the smallest particle of an element that retains its chemical properties. Modern atomic theory is based on the discovery of subatomic particles: <strong>Electron</strong>, <strong>Proton</strong>, and <strong>Neutron</strong>."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2. Subatomic Particles"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Comparison of Fundamental Particles:</strong>"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Electron (e⁻):</strong> Discovered by J.J. Thomson (1897). Mass = 9.1 × 10⁻³¹ kg = 0.00055 u. Charge = -1.6 × 10⁻¹⁹ C = -1 unit."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Proton (p⁺):</strong> Discovered by Goldstein (1886). Mass = 1.672 × 10⁻²⁷ kg ≈ 1 u. Charge = +1.6 × 10⁻¹⁹ C = +1 unit."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Neutron (n⁰):</strong> Discovered by Chadwick (1932). Mass = 1.675 × 10⁻²⁷ kg ≈ 1 u. Charge = 0 (neutral)."
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "💡 Quick Tip",
+      "text": "Mass of proton ≈ Mass of neutron ≈ 1837 × Mass of electron. Electron is the lightest subatomic particle."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "3. Atomic Number (Z) and Mass Number (A)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Atomic Number (Z):</strong> Number of protons in the nucleus. For neutral atom: Z = number of protons = number of electrons."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Mass Number (A):</strong> Total number of protons and neutrons in the nucleus. A = Z + N, where N = number of neutrons."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Relation",
+      "formula": "A = Z + N \\quad ; \\quad N = A - Z",
+      "note": "Example: ₁₁²³Na → Z=11, A=23, N=23-11=12"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "4. Isotopes, Isobars, Isotones"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Isotopes:</strong> Atoms of same element (same Z) with different mass numbers (different A). Due to different number of neutrons. Examples: ¹H, ²H, ³H (Hydrogen isotopes); ¹²C, ¹³C, ¹⁴C."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Isobars:</strong> Atoms of different elements (different Z) with same mass number (same A). Examples: ₁₈⁴⁰Ar and ₂₀⁴⁰Ca; ₂₇⁵⁹Co and ₂₈⁵⁹Ni."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Isotones:</strong> Atoms with same number of neutrons (same N) but different Z and A. Examples: ₆¹³C (N=7) and ₇¹⁴N (N=7); ₁₅³¹P (N=16) and ₁₆³²S (N=16)."
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "🎯 Memory Trick",
+      "text": "Iso<strong>topes</strong> → Same place (Z) in periodic table • Iso<strong>bars</strong> → Same weight (A) • Iso<strong>tones</strong> → Same neutrons (N)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "5. Thomson's Atomic Model (Plum Pudding Model, 1904)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "J.J. Thomson proposed that atom is a sphere of positive charge with electrons embedded in it like plums in a pudding (or seeds in a watermelon)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Postulates:</strong> • Atom is electrically neutral • Positive charge and mass are uniformly distributed • Electrons are embedded to balance positive charge"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "❌ Drawback",
+      "text": "Could not explain Rutherford's α-scattering results. Failed to account for stability of atom and discrete spectral lines."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "6. Rutherford's α-Scattering Experiment (1911)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Experimental Setup:</strong> α-particles from radioactive source (Po/Ra) → Lead block (collimator) → Thin gold foil (~10⁻⁷ m) → Zinc sulphide (ZnS) screen (produces flash when α-particle hits)"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "6.1 Observations"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. <strong>Most α-particles</strong> passed through gold foil without deviation → Atom has large empty space."
+    },
+    {
+      "blockType": "note-text",
+      "text": "2. <strong>Some α-particles</strong> deviated by small angles → Positive charge is concentrated in a small region."
+    },
+    {
+      "blockType": "note-text",
+      "text": "3. <strong>Very few α-particles</strong> (1 in 8000) bounced back (180°) → Positive charge and mass are concentrated in a very small volume called <strong>nucleus</strong>."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "6.2 Conclusions (Nuclear Model)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Nucleus:</strong> Small, dense, positively charged central core containing protons and neutrons. Size ~10⁻¹⁵ m (vs atom size ~10⁻¹⁰ m)."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Electrons:</strong> Revolve around nucleus in circular orbits. Atom is electrically neutral (Z protons = Z electrons)."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Empty Space:</strong> Most of the atom is empty space."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "6.3 Drawbacks of Rutherford's Model"
+    },
+    {
+      "blockType": "note-text",
+      "text": "❌ <strong>Stability Problem:</strong> According to classical EM theory, accelerating electron (in circular motion) should radiate energy, spiral inward, and fall into nucleus → Atom should collapse (but atoms are stable)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "❌ <strong>Spectrum Problem:</strong> Should produce continuous spectrum, but hydrogen gives line spectrum (discrete wavelengths)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "❌ <strong>No explanation</strong> for electron distribution or quantization of energy."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "7. Bohr's Atomic Model (1913) — For Hydrogen-like Atoms"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Niels Bohr combined Rutherford's nuclear model with Planck's quantum theory to explain hydrogen spectrum."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "7.1 Postulates of Bohr's Model"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>1. Stationary Orbits:</strong> Electrons revolve in fixed circular orbits (stationary states) without radiating energy. Each orbit has fixed energy → Called energy levels/shells (K, L, M, N... or n=1,2,3...)."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>2. Angular Momentum Quantization:</strong> Only those orbits are allowed for which angular momentum is integral multiple of h/2π."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Quantization Condition",
+      "formula": "mvr = n\\frac{h}{2\\pi} \\quad ; \\quad n = 1,2,3,\\dots",
+      "note": "m = electron mass, v = velocity, r = radius, h = Planck's constant (6.626×10⁻³⁴ J·s), n = principal quantum number"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>3. Energy Emission/Absorption:</strong> Energy is emitted or absorbed only when electron jumps between orbits. Energy of photon: ΔE = E₂ - E₁ = hν = hc/λ"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Photon Energy",
+      "formula": "\\Delta E = E_{\\text{final}} - E_{\\text{initial}} = h\\nu = \\frac{hc}{\\lambda}",
+      "note": "ν = frequency, λ = wavelength, c = speed of light (3×10⁸ m/s)"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "⚡ Key Point",
+      "text": "Electron absorbs energy to jump to higher level (excited state). Emits photon when falling to lower level. Energy difference determines color/wavelength of light."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "7.2 Success of Bohr's Model"
+    },
+    {
+      "blockType": "note-text",
+      "text": "✅ Explained stability of hydrogen atom • ✅ Calculated radius & energy of nth orbit • ✅ Successfully explained hydrogen line spectrum • ✅ Derived Rydberg formula theoretically"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Radius of nth Orbit (Hydrogen)",
+      "formula": "r_n = 0.529 \\times \\frac{n^2}{Z} \\ \\text{Å} \\quad (1 \\text{Å} = 10^{-10} \\text{m})",
+      "note": "For H (Z=1): r₁ = 0.529 Å, r₂ = 2.116 Å, r₃ = 4.761 Å..."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Energy of nth Orbit (Hydrogen)",
+      "formula": "E_n = -13.6 \\times \\frac{Z^2}{n^2} \\ \\text{eV/atom} \\quad \\text{or} \\quad E_n = -2.18 \\times 10^{-18} \\times \\frac{Z^2}{n^2} \\ \\text{J/atom}",
+      "note": "Negative sign indicates bound state. E₁ = -13.6 eV (ground state). E∞ = 0 (ionization)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "8. Hydrogen Spectrum & Spectral Series"
+    },
+    {
+      "blockType": "note-text",
+      "text": "When hydrogen gas is excited (electric discharge), it emits light of specific wavelengths. Passing through prism gives line spectrum (not continuous)."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Rydberg Formula",
+      "formula": "\\frac{1}{\\lambda} = R_H \\left( \\frac{1}{n_1^2} - \\frac{1}{n_2^2} \\right)",
+      "note": "R_H = Rydberg constant = 109,677 cm⁻¹ ≈ 1.097×10⁷ m⁻¹; n₂ > n₁; λ = wavelength of emitted light"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "8.1 Spectral Series of Hydrogen"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>1. Lyman Series:</strong> n₁=1, n₂=2,3,4... → UV region • <strong>2. Balmer Series:</strong> n₁=2, n₂=3,4,5... → Visible region (Hα=656nm red, Hβ=486nm blue-green) • <strong>3. Paschen Series:</strong> n₁=3, n₂=4,5,6... → IR region • <strong>4. Brackett Series:</strong> n₁=4, n₂=5,6,7... → Far-IR • <strong>5. Pfund Series:</strong> n₁=5, n₂=6,7,8... → Far-IR"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "🎨 Visible Lines",
+      "text": "Only Balmer series is visible to human eye. Lyman is UV (harmful), others are IR (heat). Remember: <strong>L</strong>yman = <strong>L</strong>owest (n=1), <strong>B</strong>almer = <strong>B</strong>eautiful (visible)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "8.2 Energy Level Diagram"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Energy levels get closer as n increases. Ionization energy of H = 13.6 eV (energy to remove e⁻ from n=1 to n=∞). Transition from higher→lower emits photon; lower→higher absorbs photon."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "9. Drawbacks of Bohr's Model"
+    },
+    {
+      "blockType": "note-text",
+      "text": "❌ Only works for hydrogen & hydrogen-like ions (He⁺, Li²⁺) — fails for multi-electron atoms • ❌ Could not explain fine structure of spectral lines (splitting in magnetic/electric fields: Zeeman & Stark effects) • ❌ Contradicts Heisenberg's uncertainty principle (assumes definite path) • ❌ Did not explain chemical bonding • ❌ No justification for angular momentum quantization (ad-hoc assumption)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "10. Dual Nature of Matter — De Broglie Hypothesis (1924)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Louis de Broglie proposed that matter (like light) has dual character: particle nature and wave nature. Moving particles exhibit wave properties."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "De Broglie Wavelength",
+      "formula": "\\lambda = \\frac{h}{p} = \\frac{h}{mv}",
+      "note": "λ = wavelength, h = Planck's constant, p = momentum, m = mass, v = velocity. For macroscopic objects, λ is negligible; for electrons, λ is significant."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Derivation:</strong> From Einstein: E = mc²; From Planck: E = hν = hc/λ → mc² = hc/λ → λ = h/mc. For particle with velocity v: λ = h/mv"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "🔬 Application",
+      "text": "Electron microscope works on wave nature of electrons (λ much smaller than light → higher resolution). Davisson-Germer experiment (1927) confirmed electron diffraction → proved wave nature."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "11. Heisenberg's Uncertainty Principle (1927)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "It is impossible to determine simultaneously the exact position and exact momentum (or velocity) of a microscopic particle like electron."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Mathematical Form",
+      "formula": "\\Delta x \\cdot \\Delta p \\geq \\frac{h}{4\\pi} \\quad \\text{or} \\quad \\Delta x \\cdot m\\Delta v \\geq \\frac{h}{4\\pi}",
+      "note": "Δx = uncertainty in position, Δp = uncertainty in momentum, h = Planck's constant. Product of uncertainties has minimum value h/4π."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Implications:</strong> • Concept of definite electron path (orbit) is meaningless → replaced by 'orbital' (probability region) • Significant only for microscopic particles (negligible for macroscopic objects)"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "💭 Conceptual",
+      "text": "If we know position very accurately (Δx small), momentum becomes highly uncertain (Δp large), and vice versa. This is fundamental property of nature, not measurement limitation."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "12. Quantum Mechanical Model — Orbitals"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Orbital:</strong> Three-dimensional region around nucleus where probability of finding an electron is maximum (≥90%). Replaces Bohr's 'orbit' (definite path)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Orbital vs Orbit:</strong> Orbit = definite circular path (Bohr, incorrect) • Orbital = probability cloud (quantum model, correct)"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "12.1 Shapes of Orbitals"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>s-orbital (l=0):</strong> Spherical, non-directional, size increases with n. One s-orbital per shell. • <strong>p-orbital (l=1):</strong> Dumb-bell shaped, three orientations (pₓ, pᵧ, p_z), directional. • <strong>d-orbital (l=2):</strong> Double dumb-bell/cloverleaf, five orientations (dₓᵧ, dᵧz, d_zₓ, dₓ²₋ᵧ², d_z²)."
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "🎨 Visualization",
+      "text": "s = sphere • p = dumbbell (3 mutually perpendicular) • d = cloverleaf (4) + one with doughnut (d_z²). Nodes increase with energy."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "13. Quantum Numbers"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Four quantum numbers describe the complete state of an electron in an atom:"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>1. Principal Quantum Number (n):</strong> Indicates main energy shell/level. n = 1,2,3... (K,L,M...). Determines size and energy of orbital. Max electrons in shell = 2n²."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>2. Azimuthal Quantum Number (l):</strong> Indicates subshell/shape. l = 0 to (n-1). l=0→s, l=1→p, l=2→d, l=3→f. Determines orbital angular momentum: √[l(l+1)]·h/2π."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>3. Magnetic Quantum Number (mₗ):</strong> Indicates orientation in space. mₗ = -l to +l (including 0). Number of orbitals in subshell = (2l+1)."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>4. Spin Quantum Number (mₛ):</strong> Indicates electron spin direction. mₛ = +½ (↑, clockwise) or -½ (↓, anticlockwise). Two electrons per orbital must have opposite spins."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Quantum Number Summary",
+      "formula": "n = 1,2,3\\dots \\quad ; \\quad l = 0,1,2\\dots(n-1) \\quad ; \\quad m_l = -l,\\dots,0,\\dots,+l \\quad ; \\quad m_s = \\pm\\frac{1}{2}",
+      "note": "Example: For 2p orbital: n=2, l=1, mₗ = -1,0,+1 (three 2p orbitals), each holds 2 e⁻ with opposite spins."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "14. Rules for Electronic Configuration"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>1. Aufbau Principle:</strong> Electrons fill orbitals in order of increasing energy. Order: 1s→2s→2p→3s→3p→4s→3d→4p→5s→4d→5p→6s→4f→5d→6p→7s... (Remember: (n+l) rule; if same (n+l), lower n fills first)."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>2. Pauli's Exclusion Principle:</strong> No two electrons in an atom can have same set of all four quantum numbers. → Maximum 2 electrons per orbital with opposite spins."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>3. Hund's Rule of Maximum Multiplicity:</strong> Electron pairing in degenerate orbitals (same energy: p,d,f) does not occur until each orbital has one electron with parallel spins. → Maximizes total spin, minimizes repulsion."
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "✏️ Writing Config",
+      "text": "Write in order of increasing n, not filling order: e.g., Fe (26): 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁶ (not 3d⁶ 4s²). Noble gas shorthand: [Ar] 4s² 3d⁶"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "15. Exceptions in Electronic Configuration"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Half-filled (d⁵, f⁷) and fully-filled (d¹⁰, f¹⁴) subshells are extra stable due to symmetry and exchange energy."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Chromium (Cr, Z=24):</strong> Expected: [Ar] 4s² 3d⁴ • Actual: [Ar] 4s¹ 3d⁵ (half-filled d-subshell more stable)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Copper (Cu, Z=29):</strong> Expected: [Ar] 4s² 3d⁹ • Actual: [Ar] 4s¹ 3d¹⁰ (fully-filled d-subshell more stable)"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "🎯 Memory Aid",
+      "text": "Cr & Cu steal one electron from 4s to make d-subshell half/full. Similar exceptions: Mo (42), Ag (47), Au (79)."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "16. Important Formulas Summary"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Bohr Model (Hydrogen)",
+      "formula": "r_n = 0.529 \\frac{n^2}{Z} \\text{Å} \\quad ; \\quad E_n = -13.6 \\frac{Z^2}{n^2} \\text{eV} \\quad ; \\quad v_n = 2.18 \\times 10^6 \\frac{Z}{n} \\text{m/s}",
+      "note": ""
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Spectral Lines",
+      "formula": "\\frac{1}{\\lambda} = R_H \\left( \\frac{1}{n_1^2} - \\frac{1}{n_2^2} \\right) \\quad ; \\quad \\Delta E = 13.6 Z^2 \\left( \\frac{1}{n_1^2} - \\frac{1}{n_2^2} \\right) \\text{eV}",
+      "note": ""
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Wave-Particle Duality",
+      "formula": "\\lambda = \\frac{h}{mv} \\quad ; \\quad \\Delta x \\cdot \\Delta p \\geq \\frac{h}{4\\pi}",
+      "note": ""
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Quantum Numbers",
+      "formula": "l = 0 \\text{ to } (n-1) \\quad ; \\quad m_l = -l \\text{ to } +l \\quad ; \\quad \\text{Orbitals/subshell} = 2l+1 \\quad ; \\quad \\text{e⁻/orbital} = 2",
+      "note": ""
+    },
+
+    {
+      "blockType": "exam-tip",
+      "label": "🎓 Exam Tips",
+      "text": "• Always convert nm to m (×10⁻⁹) or cm (×10⁻⁷) for Rydberg formula • Ionization energy = |E₁| = 13.6Z² eV • For multi-electron atoms, energy order: ns < (n-1)d < np • Degenerate orbitals: same n & l (e.g., three 2p orbitals) • Nodal planes: s=0, p=1, d=2"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "17. Common Mistakes to Avoid"
+    },
+    {
+      "blockType": "note-text",
+      "text": "❌ Using Bohr model for atoms other than H, He⁺, Li²⁺ • ❌ Forgetting negative sign in energy formula (indicates bound state) • ❌ Confusing orbit (path) with orbital (probability region) • ❌ Writing electronic configuration in filling order instead of n-order • ❌ Missing exceptions: Cr, Cu, Mo, Ag • ❌ Using °C instead of K in energy calculations (rare but possible) • ❌ Assuming all spectral series are visible (only Balmer is)"
+    }
+  ]
+}

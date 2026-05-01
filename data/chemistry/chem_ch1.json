@@ -1,0 +1,294 @@
+{
+  "subjectTag": "Chemistry",
+  "title": "Language of Chemistry",
+  "subtitle": "Chapter 1: Chemical Arithmetic & Stoichiometry — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Dalton's Atomic Theory"
+    },
+    {
+      "blockType": "note-def",
+      "text": "John Dalton (1808) le propose gareko atomic theory ko postulates:"
+    },
+    {
+      "blockType": "note-text",
+      "text": "① All matter consists of extremely small, indivisible particles called atoms."
+    },
+    {
+      "blockType": "note-text",
+      "text": "② Atoms of the same element are identical in all respects (mass, size, properties)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "③ Atoms of different elements are different and have different properties."
+    },
+    {
+      "blockType": "note-text",
+      "text": "④ Atoms can neither be created nor destroyed in a chemical reaction. (Law of Conservation of Mass)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "⑤ Atoms combine in simple whole number ratios to form compounds."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2. Laws of Chemical Combination"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2.1 Law of Conservation of Mass"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Lavoisier (1774): Matter can neither be created nor destroyed in a chemical reaction. Total mass of reactants = Total mass of products."
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "💡 Experiment:",
+      "text": "Landolt's experiment: H-shaped tube ma NaCl ra AgNO₃ solution mix garda white precipitate (AgCl) bancha. Reaction agadi ra pachi ko total mass equal hunxa."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "General Equation",
+      "formula": "A + B \\rightarrow C + D \\\\ \\text{Mass}_{reactants} = \\text{Mass}_{products}",
+      "note": "Applies to all closed system chemical reactions."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2.2 Law of Definite (Constant) Proportions"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Proust (1799): A pure chemical compound always contains the same elements combined in a fixed proportion by mass, regardless of source or method of preparation."
+    },
+    {
+      "blockType": "note-text",
+      "text": "Example: Water (H₂O) from any source always has H:O mass ratio = 1:8 (2g H : 16g O)"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "🔬 Numerical:",
+      "text": "5.4g CuO ma 1.08g O bhaye, Cu:O = 4.32:1.08 = 4:1. Arko experiment ma 2.3g CuO ma 1.84g Cu bhaye, O = 0.46g, ratio = 1.84:0.46 = 4:1 → Same ratio!"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2.3 Law of Multiple Proportions"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Dalton (1803): When two elements form more than one compound, the masses of one element that combine with a fixed mass of the other are in simple whole number ratios."
+    },
+    {
+      "blockType": "note-text",
+      "text": "Example: H₂O ra H₂O₂ ma, 2g H sanga combine hunxa: 16g O (water) ra 32g O (hydrogen peroxide). Ratio of O = 16:32 = 1:2 ✓"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2.4 Law of Reciprocal Proportions"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Richter (1792): When two different elements combine separately with a fixed mass of a third element, the ratio of their masses is either same or simple multiple of the ratio in which they combine with each other."
+    },
+    {
+      "blockType": "note-text",
+      "text": "Example: C + O₂ → CO₂ (12g C : 32g O); 2H₂ + O₂ → 2H₂O (4g H : 32g O). C ra H ko ratio = 12:4 = 3:1. CH₄ ma C:H = 12:4 = 3:1 → Same ratio!"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2.5 Gay-Lussac's Law of Combining Volumes"
+    },
+    {
+      "blockType": "note-def",
+      "text": "When gases react, they do so in volumes that bear a simple whole number ratio to each other and to the volumes of gaseous products (at same T & P)."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Example: Ammonia Synthesis",
+      "formula": "N_2(g) + 3H_2(g) \\rightarrow 2NH_3(g) \\\\ 1\\text{ vol} : 3\\text{ vol} : 2\\text{ vol}",
+      "note": "1L N₂ reacts with 3L H₂ to produce 2L NH₃"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "3. Atomic Weight & Molecular Weight"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Atomic Weight: Average mass of an atom of an element compared to 1/12th mass of C-12 isotope."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Atomic Mass Unit (amu/u)",
+      "formula": "1\\ \\text{amu} = \\frac{1}{12} \\times \\text{mass of one } ^{12}\\text{C atom} = 1.66 \\times 10^{-24}\\ \\text{g}",
+      "note": "Also called unified atomic mass unit (u)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Molecular Weight: Sum of atomic weights of all atoms in a molecule."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Examples",
+      "formula": "\\text{H}_2\\text{O} = (2 \\times 1) + 16 = 18\\ \\text{amu} \\\\ \\text{CO}_2 = 12 + (2 \\times 16) = 44\\ \\text{amu} \\\\ \\text{H}_2\\text{SO}_4 = (2 \\times 1) + 32 + (4 \\times 16) = 98\\ \\text{amu}",
+      "note": "Unit: amu or g/mol"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "4. Mole Concept"
+    },
+    {
+      "blockType": "note-def",
+      "text": "1 mole = Amount of substance containing Avogadro's number (Nₐ) of particles = 6.022 × 10²³ particles"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Key Relations",
+      "formula": "n = \\frac{\\text{Given mass (g)}}{\\text{Molar mass (g/mol)}} = \\frac{\\text{Number of particles}}{N_A} = \\frac{\\text{Volume at STP (L)}}{22.4\\ \\text{L/mol}}",
+      "note": "STP: 0°C, 1 atm; Molar volume of any gas = 22.4 L"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "🧮 Numerical Tips:",
+      "text": "• 12g C = 1 mole C atoms = 6.022×10²³ atoms\n• 18g H₂O = 1 mole H₂O = 6.022×10²³ molecules\n• 44g CO₂ at STP occupies 22.4 L"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "5. Stoichiometry"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Calculation of reactants and products in a chemical reaction using balanced equation."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5.1 Mass-Mass Relationship"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Example: CaCO₃ decomposition",
+      "formula": "CaCO_3 \\xrightarrow{\\Delta} CaO + CO_2 \\\\ 100\\text{g} \\quad\\quad 56\\text{g} \\quad 44\\text{g}",
+      "note": "100g CaCO₃ produces 56g CaO and 44g CO₂"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Q: How much CaO from 10g CaCO₃? \nAns: (56/100) × 10 = 5.6g CaO"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "5.2 Mass-Volume Relationship"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Example: Zn + H₂SO₄",
+      "formula": "Zn + H_2SO_4 \\rightarrow ZnSO_4 + H_2 \\\\ 65\\text{g} \\quad\\quad\\quad\\quad\\quad\\quad\\quad 22.4\\text{L at STP}",
+      "note": "65g Zn produces 22.4L H₂ gas at STP"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "5.3 Volume-Volume Relationship"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Example: CH₄ combustion",
+      "formula": "CH_4(g) + 2O_2(g) \\rightarrow CO_2(g) + 2H_2O(g) \\\\ 1\\text{L} \\quad\\quad 2\\text{L} \\quad\\quad 1\\text{L} \\quad\\quad 2\\text{L}",
+      "note": "1L CH₄ requires 2L O₂ for complete combustion"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "6. Limiting Reactant"
+    },
+    {
+      "blockType": "note-def",
+      "text": "The reactant that is completely consumed first in a reaction, limiting the amount of product formed."
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "🎯 How to find:",
+      "text": "1. Write balanced equation\n2. Convert masses to moles\n3. Compare mole ratio with stoichiometric ratio\n4. The reactant with lesser ratio is limiting"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Example",
+      "formula": "Na_2CO_3 + 2HCl \\rightarrow 2NaCl + H_2O + CO_2 \\\\ 10.6\\text{g} \\quad 7.3\\text{g}",
+      "note": "10.6g Na₂CO₃ = 0.1 mol; 7.3g HCl = 0.2 mol. Ratio required 1:2 → Exact match, no excess!"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "7. Empirical & Molecular Formula"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Empirical Formula: Simplest whole number ratio of atoms in a compound.\nMolecular Formula: Actual number of atoms in a molecule."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Relation",
+      "formula": "\\text{Molecular Formula} = n \\times \\text{Empirical Formula} \\\\ n = \\frac{\\text{Molecular Mass}}{\\text{Empirical Formula Mass}}",
+      "note": "n is always a whole number (1, 2, 3...)"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "📝 Steps to find:",
+      "text": "1. Convert % composition to grams (assume 100g sample)\n2. Convert grams to moles (÷ atomic mass)\n3. Divide by smallest mole value → simple ratio\n4. Multiply to get whole numbers → Empirical formula\n5. Find n = Molecular mass / Empirical mass"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Example: Compound with C=26.6%, H=2.2%, O=71.2%, Mol. mass=90\n→ Empirical: C₁H₁O₂ (mass=45) → n=90/45=2 → Molecular: C₂H₂O₄"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "8. Avogadro's Hypothesis"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Equal volumes of all gases at same temperature and pressure contain equal number of molecules."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Mathematical Form",
+      "formula": "V \\propto n \\quad (\\text{at constant T, P}) \\\\ \\frac{V_1}{n_1} = \\frac{V_2}{n_2}",
+      "note": "Basis for determining atomicity and molecular formulas of gases"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "🔬 Application:",
+      "text": "• Determine atomicity: H₂ + Cl₂ → 2HCl (1 vol + 1 vol → 2 vol) → H and Cl are diatomic\n• Find molecular formula from vapour density: Mol. wt. = 2 × V.D."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "9. Vapour Density & Molecular Weight"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Key Formula",
+      "formula": "\\text{Vapour Density (V.D.)} = \\frac{\\text{Mass of certain volume of gas}}{\\text{Mass of same volume of } H_2} \\\\ \\text{Molecular Weight} = 2 \\times \\text{V.D.}",
+      "note": "Because H₂ molecular weight = 2"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Example: Gas with V.D. = 22 → Mol. wt. = 44 → Could be CO₂"
+    },
+
+    {
+      "blockType": "exam-tip",
+      "label": "🎓 Exam Important Points:",
+      "text": "✓ Dalton's theory explains laws of chemical combination\n✓ Law of conservation of mass verified by Landolt\n✓ Mole concept connects microscopic & macroscopic world\n✓ Limiting reactant determines theoretical yield\n✓ Empirical formula from % composition; molecular from V.D. or mass spec\n✓ Avogadro's law → 22.4 L/mol at STP"
+    }
+  ]
+}

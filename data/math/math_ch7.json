@@ -1,0 +1,35 @@
+{
+  "subjectTag": "Mathematics",
+  "title": "Calculus",
+  "subtitle": "Chapter 7: Calculus — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Limits"
+    },
+    {
+      "blockType": "note-text",
+      "text": "A limit describes the value a function approaches. Limit exists if Left-Hand Limit (LHL) = Right-Hand Limit (RHL)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2. Derivatives"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Differentiation Rules",
+      "formula": "\\frac{d}{dx}(x^n) = nx^{n-1} \\\\ \\frac{d}{dx}(e^x) = e^x \\\\ \\frac{d}{dx}(\\sin x) = \\cos x",
+      "note": "Derivative represents the instantaneous rate of change."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3. Integration"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Integration Rules",
+      "formula": "\\int x^n dx = \\frac{x^{n+1}}{n+1} + C \\\\ \\int \\sin x dx = -\\cos x + C",
+      "note": "Integration is the reverse of differentiation."
+    }
+  ]
+}

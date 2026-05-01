@@ -1,0 +1,43 @@
+{
+  "subjectTag": "Physics",
+  "title": "Ideal Gas",
+  "subtitle": "Chapter 10: Ideal Gas — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. What is an Ideal Gas?"
+    },
+    {
+      "blockType": "note-def",
+      "text": "A theoretical gas whose molecules have no intermolecular forces and negligible volume, obeying gas laws perfectly."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2. The Gas Laws"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Boyle's, Charles', & Gay-Lussac's",
+      "formula": "P_1V_1 = P_2V_2 \\quad \\frac{V_1}{T_1} = \\frac{V_2}{T_2} \\quad \\frac{P_1}{T_1} = \\frac{P_2}{T_2}",
+      "note": "Boyle's (T constant), Charles's (P constant), Gay-Lussac's (V constant)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3. Ideal Gas Equation"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "The Equation",
+      "formula": "PV = nRT \\quad \\text{or} \\quad PV = NkT",
+      "note": "n = moles, R = gas constant, N = number of molecules, k = Boltzmann constant."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "4. Real Gas vs Ideal Gas"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Real gases deviate from ideal behavior at LOW temperature and HIGH pressure. They possess intermolecular forces (van der Waals forces)."
+    }
+  ]
+}

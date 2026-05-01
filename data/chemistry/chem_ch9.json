@@ -1,0 +1,108 @@
+{
+  "subjectTag": "Chemistry",
+  "title": "Non-Metals I",
+  "subtitle": "General Properties & Overview — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Definition & Overview"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Non-metals are elements that lack metallic properties. Tini haru usually brittle, poor conductors of heat and electricity huncha, and gain electrons in reactions to form negative ions (anions)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2. General Characteristics"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2.1 Physical Properties"
+    },
+    {
+      "blockType": "note-text",
+      "text": "① Usually gases or solids at room temperature (exception: Bromine \\( Br_2 \\) is a liquid).\n② Brittle when in solid state — bend garda toot-cha.\n③ Dull in appearance (non-lustrous).\n④ Low density and low melting/boiling points (generally)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2.2 Chemical Properties"
+    },
+    {
+      "blockType": "note-text",
+      "text": "① Tend to gain electrons → form anions (negative ions).\n② React with metals → form ionic compounds.\n③ React with other non-metals → form covalent compounds."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2.3 Electrical & Thermal Conductivity"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• Generally poor conductors of heat and electricity.\n• Exception: Graphite (allotrope of carbon) conducts electricity due to delocalized π electrons."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2.4 State at Room Temperature"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• Gases: \\( O_2,\\ N_2,\\ Cl_2,\\ F_2,\\ H_2 \\), Noble gases\n• Solids: S, P, \\( I_2 \\), C, Si\n• Liquid (only one): \\( Br_2 \\)"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3. Position in Periodic Table"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• Found on the right-hand side of the periodic table.\n• Groups 14–18 (except H — top of Group 1, but a non-metal).\n• Separated from metals by the 'metalloid staircase' (B, Si, Ge, As, Sb, Te)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "4. Examples of Non-Metals"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• Hydrogen (H), Carbon (C), Nitrogen (N), Oxygen (O), Sulphur (S), Phosphorus (P)\n• Halogens: F, Cl, Br, I, At\n• Noble Gases: He, Ne, Ar, Kr, Xe"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5. Key Trends in Non-Metals"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5.1 Reactivity"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• Across a period (left → right): Reactivity ↑ (electronegativity increases).\n• Down a group: Reactivity ↓ (atomic size increases → weaker electron attraction)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5.2 Electronegativity"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• Non-metals have high electronegativity → strong tendency to attract electrons.\n• Fluorine (F) is the most electronegative element in the entire periodic table."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5.3 Ionization Energy"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• High ionization energy → difficult to remove electrons from non-metals.\n• This is why non-metals gain electrons rather than lose them."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "6. Uses of Non-Metals"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• \\( O_2 \\) → respiration, combustion, steel production\n• \\( N_2 \\) → fertilizers (via \\( NH_3 \\) synthesis), food packaging\n• S → matches, gunpowder, vulcanization of rubber\n• P → fertilizers, explosives, safety matches\n• Halogens: \\( Cl_2 \\) → water disinfection; \\( I_2 \\) → antiseptics, medicine"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "🎓 Key Points to Remember:",
+      "text": "✓ Non-metals → right side of periodic table (Groups 14–18 + H).\n✓ Brittle, non-lustrous, low conductors (except graphite).\n✓ Gain electrons → form anions; high electronegativity & ionisation energy.\n✓ React with metals → ionic bonds; react with non-metals → covalent bonds.\n✓ Only liquid non-metal at RT = Br₂; only conducting non-metal = graphite.\n✓ Most electronegative element = Fluorine (F)."
+    }
+  ]
+}

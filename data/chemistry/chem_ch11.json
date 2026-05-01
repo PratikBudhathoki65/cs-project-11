@@ -1,0 +1,84 @@
+{
+  "subjectTag": "Chemistry",
+  "title": "Introduction to Organic Chemistry",
+  "subtitle": "Chapter 11: Organic Chemistry Basics — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Definition"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Organic chemistry is the branch of chemistry that deals with the study of carbon compounds (except some simple carbon-containing compounds like CO, CO$_2$, carbides, and carbonates). It focuses on the structure, properties, reactions, and synthesis of organic compounds."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2. Why Carbon is Special in Organic Chemistry"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. **Catenation:** Carbon atoms can form long chains and rings by bonding to other carbon atoms.\n2. **Tetravalency:** Carbon forms four covalent bonds with other atoms (H, O, N, halogens, etc.).\n3. **Ability to Form Multiple Bonds:** Carbon can form single, double, and triple bonds.\n4. **Formation of Stable Compounds:** Carbon-carbon and carbon-hydrogen bonds are strong and stable."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3. Classification of Organic Compounds"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3.1 Based on Structure"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• **Alkanes (Saturated):** C–C single bonds (e.g., CH$_4$, C$_2$H$_6$)\n• **Alkenes (Unsaturated):** C=C double bonds (e.g., C$_2$H$_4$, C$_3$H$_6$)\n• **Alkynes (Unsaturated):** C$\equiv$C triple bonds (e.g., C$_2$H$_2$, C$_3$H$_4$)\n• **Aromatic Compounds:** Contain benzene ring (e.g., C$_6$H$_6$, toluene)"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3.2 Based on Functional Group"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• **Alcohols:** –OH group\n• **Aldehydes:** –CHO group\n• **Ketones:** –CO– group\n• **Carboxylic acids:** –COOH group\n• **Amines:** –NH$_2$ group\n• **Halides:** –Cl, –Br, –I groups"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "4. Nomenclature of Organic Compounds"
+    },
+    {
+      "blockType": "note-def",
+      "text": "The IUPAC system gives systematic names based on carbon chain length and functional groups."
+    },
+    {
+      "blockType": "note-text",
+      "text": "Steps in IUPAC Nomenclature:\n1. **Identify Parent Chain:** The longest continuous carbon chain.\n2. **Identify Functional Groups:** Determine highest priority group.\n3. **Number the Chain:** Number so functional group/substituents get the lowest possible number.\n4. **Name Substituents:** Use prefixes (e.g., methyl, chloro) and indicate position with numbers.\n5. **Combine Name:** Substituents (alphabetical) + Parent Chain + Suffix."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5. Isomerism in Organic Chemistry"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5.1 Structural Isomerism"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Same molecular formula, different structural arrangement.\nTypes: Chain, Position, and Functional group isomerism."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5.2 Stereoisomerism"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Same structural formula but different spatial arrangement.\nTypes: Geometrical (cis/trans) and Optical."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "6. Key Points to Remember"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "💡 Summary",
+      "text": "• Organic chemistry = study of carbon compounds.\n• Carbon is special due to catenation and tetravalency.\n• Nomenclature is systematic (IUPAC).\n• Isomers have the same formula but different structures/arrangements."
+    }
+  ]
+}

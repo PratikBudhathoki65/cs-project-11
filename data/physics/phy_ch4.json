@@ -1,0 +1,97 @@
+{
+  "subjectTag": "Physics",
+  "title": "Laws of Motion",
+  "subtitle": "Chapter 4: Laws of Motion — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Introduction to Dynamics"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Dynamics is the branch of mechanics that deals with the motion of objects and the forces causing that motion."
+    },
+    {
+      "blockType": "note-text",
+      "text": "Kinematics: Study of motion without considering forces. Dynamics: Study of motion with forces."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2. Force"
+    },
+    {
+      "blockType": "note-def",
+      "text": "A force is a push or pull that can change the state of rest or motion of a body. SI unit: Newton (N)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "Types of forces: Contact forces (friction, tension, normal force) and Non-contact forces (gravitational, electric, magnetic)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3. Newton's Laws of Motion"
+    },
+    {
+      "blockType": "note-def",
+      "text": "First Law (Law of Inertia): A body remains at rest or in uniform motion unless acted upon by an external force."
+    },
+    {
+      "blockType": "note-text",
+      "text": "Inertia: The tendency of a body to resist change in its state."
+    },
+    {
+      "blockType": "note-def",
+      "text": "Second Law: The rate of change of momentum is directly proportional to the applied force."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Newton's Second Law",
+      "formula": "F = ma",
+      "note": "F = force, m = mass, a = acceleration."
+    },
+    {
+      "blockType": "note-def",
+      "text": "Third Law: For every action, there is an equal and opposite reaction."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "4. Momentum"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Momentum Formula",
+      "formula": "p = mv",
+      "note": "p = momentum, m = mass, v = velocity. Momentum is a vector quantity. SI unit: kg·m/s."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5. Conservation of Momentum"
+    },
+    {
+      "blockType": "note-text",
+      "text": "In an isolated system, total momentum remains constant. Examples: collisions and explosions."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "6. Types of Forces in Motion"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Friction: Opposes motion between surfaces in contact (Static and Kinetic). Tension: Force transmitted through a string or rope. Normal Reaction: Force exerted by a surface perpendicular to it."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "7. Circular Motion"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Motion in a circular path with constant speed. It requires a centripetal force directed towards the center."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Centripetal Force",
+      "formula": "F = \\frac{mv^2}{r}",
+      "note": "F = centripetal force, m = mass, v = velocity, r = radius."
+    }
+  ]
+}

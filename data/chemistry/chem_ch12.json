@@ -1,0 +1,76 @@
+{
+  "subjectTag": "Chemistry",
+  "title": "Hydrocarbons",
+  "subtitle": "Chapter 12: Hydrocarbons — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Definition"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Hydrocarbons are organic compounds composed entirely of carbon (C) and hydrogen (H) atoms. They are the simplest class of organic compounds and serve as the basis of organic chemistry."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2. Classification of Hydrocarbons"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2.1 Alkanes (Saturated Hydrocarbons)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• **Definition:** Hydrocarbons with only single bonds (C–C).\n• **General Formula:** C$_n$H$_{2n+2}$\n• **Properties:** Saturated, chemically less reactive, non-polar, insoluble in water.\n• **Reactions:** React with halogens under UV light (substitution reaction).\n• **Examples:** Methane (CH$_4$), Ethane (C$_2$H$_6$), Propane (C$_3$H$_8$)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2.2 Alkenes (Unsaturated Hydrocarbons)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• **Definition:** Hydrocarbons with one or more carbon-carbon double bonds (C=C).\n• **General Formula:** C$_n$H$_{2n}$ (for one double bond).\n• **Properties:** Unsaturated, more reactive than alkanes.\n• **Reactions:** Undergo addition reactions.\n• **Examples:** Ethene (C$_2$H$_4$), Propene (C$_3$H$_6$)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2.3 Alkynes (Unsaturated Hydrocarbons)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• **Definition:** Hydrocarbons with one or more carbon-carbon triple bonds (C$\equiv$C).\n• **General Formula:** C$_n$H$_{2n-2}$ (for one triple bond).\n• **Properties:** Highly reactive, undergo addition reactions.\n• **Examples:** Ethyne (C$_2$H$_2$), Propyne (C$_3$H$_4$)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2.4 Aromatic Hydrocarbons (Arenes)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• **Definition:** Hydrocarbons containing benzene rings.\n• **General Formula:** C$_6$H$_6$ for benzene.\n• **Properties:** Stable due to resonance (delocalized $\\pi$ electrons); undergo substitution reactions rather than addition.\n• **Examples:** Benzene (C$_6$H$_6$), Toluene (C$_6$H$_5$CH$_3$)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3. Important Reactions"
+    },
+    {
+      "blockType": "note-text",
+      "text": "| Hydrocarbon | Typical Reaction | Example |\n| :--- | :--- | :--- |\n| Alkane | Substitution | CH$_4$ + Cl$_2$ $\\rightarrow$ CH$_3$Cl + HCl |\n| Alkene | Addition | C$_2$H$_4$ + H$_2$ $\\rightarrow$ C$_2$H$_6$ |\n| Alkyne | Addition | C$_2$H$_2$ + Br$_2$ $\\rightarrow$ C$_2$H$_2$Br$_2$ |\n| Aromatic | Substitution | C$_6$H$_6$ + Br$_2$ $\\rightarrow$ C$_6$H$_5$Br + HBr |"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "4. Sources of Hydrocarbons"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• **Natural sources:** Petroleum, natural gas, coal.\n• **Manufactured:** By chemical synthesis in laboratories."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5. Key Points to Remember"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "💡 Summary",
+      "text": "• Hydrocarbons consist only of C and H.\n• Saturated (alkanes) have single bonds and are less reactive.\n• Unsaturated (alkenes/alkynes) have double/triple bonds and are more reactive.\n• Aromatic compounds are stable due to resonance."
+    }
+  ]
+}

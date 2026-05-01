@@ -1,0 +1,314 @@
+{
+  "subjectTag": "Chemistry",
+  "title": "Oxidation and Reduction",
+  "subtitle": "Chapter 6: Redox Reactions — Complete NEB Notes",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Introduction to Oxidation and Reduction"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Oxidation and reduction are complementary processes that occur simultaneously in chemical reactions. These reactions are called <strong>Redox Reactions</strong>."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2. Classical Concept of Oxidation"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Oxidation:</strong> The process that involves addition of oxygen or any electronegative element, or removal of hydrogen or any electropositive element."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Examples:</strong> • C + O₂ → CO₂ (Addition of oxygen) • Mg + Cl₂ → MgCl₂ (Addition of electronegative element) • H₂S + Cl₂ → 2HCl + S (Removal of hydrogen) • 2KI + Cl₂ → 2KCl + I₂ (Removal of electropositive element K)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "3. Classical Concept of Reduction"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Reduction:</strong> The process that involves removal of oxygen or any electronegative element, or addition of hydrogen or any electropositive element."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Examples:</strong> • CuO + H₂ → Cu + H₂O (Removal of oxygen) • FeCl₃ + ½H₂ → FeCl₂ + HCl (Removal of electronegative element Cl) • Cl₂ + H₂ → 2HCl (Addition of hydrogen) • 2HgCl₂ + SnCl₂ → Hg₂Cl₂ + SnCl₄ (Addition of electropositive element)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "4. Modern Electronic Concept"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Oxidation:</strong> The process that involves loss of electrons. Simply, loss of electrons is called oxidation."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Examples:</strong> • Na → Na⁺ + e • Mg → Mg²⁺ + 2e⁻ • Fe²⁺ → Fe³⁺ + e⁻ • 2Cl⁻ → Cl₂ + 2e⁻"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Reduction:</strong> The process that involves gain of electrons. Gain of electrons is called reduction."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Examples:</strong> • Cl₂ + 2e⁻ → 2Cl⁻ • O₂ + 4e⁻ → 2O²⁻ • Fe³⁺ + e⁻ → Fe²⁺ • Cu²⁺ + 2e⁻ → Cu"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "💡 Memory Trick",
+      "text": "<strong>OIL RIG:</strong> Oxidation Is Loss (of electrons), Reduction Is Gain (of electrons) • <strong>LEO says GER:</strong> Lose Electrons Oxidation, Gain Electrons Reduction"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "5. Oxidizing and Reducing Agents"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Oxidizing Agent (Oxidant):</strong> A substance that oxidizes another substance but itself gets reduced in the reaction. It accepts electrons."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Examples:</strong> All non-metals are oxidizing agents (except H and noble gases). Acids like H₂SO₄, HNO₃ are oxidizing agents. Substances like MnO₂, KMnO₄, K₂Cr₂O₇ are strong oxidizing agents."
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Reducing Agent (Reductant):</strong> A substance that reduces another substance but itself gets oxidized in the reaction. It donates electrons."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Examples:</strong> All metals are reducing agents. Non-metals like C, H₂, S are reducing agents. Compounds like H₂S, SO₂, HI are reducing agents."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "6. Oxidation Number (Oxidation State)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Oxidation Number:</strong> The residual charge that an atom appears to have when all other atoms from the molecule are removed as ions with their bonding electrons assigned to the more electronegative atom."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "6.1 Rules for Assigning Oxidation Number"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Rule 1:</strong> Oxidation number of an element in its free or elementary state is zero. Example: H₂ = 0, O₂ = 0, Na = 0, Cl₂ = 0"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Rule 2:</strong> Oxidation number of elements in Group IA (alkali metals) is +1 and Group IIA (alkaline earth metals) is +2 in their compounds."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Rule 3:</strong> Oxidation number of hydrogen is +1 in most compounds (except in metal hydrides where it is -1)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Rule 4:</strong> Oxidation number of oxygen is -2 in most compounds (except in peroxides where it is -1, and in OF₂ where it is +2)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Rule 5:</strong> Sum of oxidation numbers of all atoms in a neutral molecule is equal to zero."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Rule 6:</strong> Sum of oxidation numbers of all atoms in an ion is equal to the ionic charge."
+    },
+    {
+      "blockType": "exam-tip",
+      "label": " Quick Reference",
+      "text": "F is always -1 • Cl, Br, I are -1 except with O or F • Alkali metals always +1 • Alkaline earth metals always +2 • Al is always +3"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "7. Calculating Oxidation Numbers - Examples"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example 1:</strong> Calculate oxidation number of S in H₂SO₄"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Solution",
+      "formula": "2(+1) + x + 4(-2) = 0 \\\\ 2 + x - 8 = 0 \\\\ x - 6 = 0 \\\\ x = +6",
+      "note": "Oxidation number of S in H₂SO₄ is +6"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example 2:</strong> Calculate oxidation number of Cr in K₂Cr₂O₇"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Solution",
+      "formula": "2(+1) + 2x + 7(-2) = 0 \\\\ 2 + 2x - 14 = 0 \\\\ 2x - 12 = 0 \\\\ 2x = 12 \\\\ x = +6",
+      "note": "Oxidation number of Cr in K₂Cr₂O₇ is +6"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example 3:</strong> Calculate oxidation number of Mn in KMnO₄"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Solution",
+      "formula": "+1 + x + 4(-2) = 0 \\\\ 1 + x - 8 = 0 \\\\ x - 7 = 0 \\\\ x = +7",
+      "note": "Oxidation number of Mn in KMnO₄ is +7"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example 4:</strong> Calculate oxidation number of N in NO₃⁻"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Solution",
+      "formula": "x + 3(-2) = -1 \\\\ x - 6 = -1 \\\\ x = +5",
+      "note": "Oxidation number of N in NO₃⁻ is +5"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "8. Balancing Redox Reactions - Oxidation Number Method"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Steps for Balancing:</strong>"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. Write the unbalanced chemical equation and assign oxidation numbers to all atoms"
+    },
+    {
+      "blockType": "note-text",
+      "text": "2. Identify the elements that undergo change in oxidation number (oxidation and reduction)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "3. Calculate the increase and decrease in oxidation number"
+    },
+    {
+      "blockType": "note-text",
+      "text": "4. Make the increase equal to decrease by multiplying with suitable coefficients"
+    },
+    {
+      "blockType": "note-text",
+      "text": "5. Balance all atoms except H and O"
+    },
+    {
+      "blockType": "note-text",
+      "text": "6. Balance O atoms by adding H₂O"
+    },
+    {
+      "blockType": "note-text",
+      "text": "7. Balance H atoms by adding H⁺ (in acidic medium) or OH⁻ (in basic medium)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "9. Solved Examples - Balancing Redox Reactions"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example 1:</strong> Balance: Cu + HNO₃ → Cu(NO₃)₂ + NO + H₂O"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Solution",
+      "formula": "\\text{Step 1: Assign oxidation numbers} \\\\ Cu^0 + H\\overset{+5}{N}O_3 \\rightarrow Cu^{+2}(NO_3)_2 + \\overset{+2}{N}O + H_2O \\\\ \\\\ \\text{Step 2: Identify changes} \\\\ Cu: 0 \\rightarrow +2 \\quad \\text{(increase by 2)} \\\\ N: +5 \\rightarrow +2 \\quad \\text{(decrease by 3)} \\\\ \\\\ \\text{Step 3: Equalize changes (multiply Cu by 3, N by 2)} \\\\ 3Cu + 8HNO_3 \\rightarrow 3Cu(NO_3)_2 + 2NO + 4H_2O",
+      "note": "Balanced equation: 3Cu + 8HNO₃ → 3Cu(NO₃)₂ + 2NO + 4H₂O"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example 2:</strong> Balance: KMnO₄ + HCl → KCl + MnCl₂ + Cl₂ + H₂O"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Solution",
+      "formula": "\\text{Oxidation number changes:} \\\\ Mn: +7 \\rightarrow +2 \\quad \\text{(decrease by 5)} \\\\ Cl: -1 \\rightarrow 0 \\quad \\text{(increase by 1, but 2 Cl atoms)} \\\\ \\\\ \\text{Multiply KMnO₄ by 2 and Cl₂ by 5} \\\\ 2KMnO_4 + 16HCl \\rightarrow 2KCl + 2MnCl_2 + 5Cl_2 + 8H_2O",
+      "note": "Balanced equation: 2KMnO₄ + 16HCl → 2KCl + 2MnCl₂ + 5Cl₂ + 8H₂O"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example 3:</strong> Balance: K₂Cr₂O₇ + FeSO₄ + H₂SO₄ → K₂SO₄ + Cr₂(SO₄)₃ + Fe₂(SO₄)₃ + H₂O"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Solution",
+      "formula": "\\text{Oxidation number changes:} \\\\ Cr: +6 \\rightarrow +3 \\quad \\text{(decrease by 3, but 2 Cr atoms = 6)} \\\\ Fe: +2 \\rightarrow +3 \\quad \\text{(increase by 1, but 2 Fe atoms = 2)} \\\\ \\\\ \\text{Multiply FeSO₄ by 6 and K₂Cr₂O₇ by 1} \\\\ K_2Cr_2O_7 + 6FeSO_4 + 7H_2SO_4 \\rightarrow K_2SO_4 + Cr_2(SO_4)_3 + 3Fe_2(SO_4)_3 + 7H_2O",
+      "note": "Balanced equation: K₂Cr₂O₇ + 6FeSO₄ + 7H₂SO₄ → K₂SO₄ + Cr₂(SO₄)₃ + 3Fe₂(SO₄)₃ + 7H₂O"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "10. More Practice Examples"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example 4:</strong> Zn + HNO₃ → Zn(NO₃)₂ + NH₄NO₃ + H₂O"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Balanced Equation",
+      "formula": "4Zn + 10HNO_3 \\rightarrow 4Zn(NO_3)_2 + NH_4NO_3 + 3H_2O",
+      "note": "Zn: 0→+2 (increase by 2), N: +5→-3 (decrease by 8)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example 5:</strong> Cu + HNO₃ → Cu(NO₃)₂ + NO₂ + H₂O"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Balanced Equation",
+      "formula": "Cu + 4HNO_3 \\rightarrow Cu(NO_3)_2 + 2NO_2 + 2H_2O",
+      "note": "Cu: 0→+2 (increase by 2), N: +5→+4 (decrease by 1)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example 6:</strong> I₂ + NaOH → NaI + NaIO₃ + H₂O (Disproportionation)"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Balanced Equation",
+      "formula": "3I_2 + 6NaOH \\rightarrow 5NaI + NaIO_3 + 3H_2O",
+      "note": "I₂ undergoes both oxidation (0→+5) and reduction (0→-1)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "11. Important Formulas Summary"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Oxidation Number Rules",
+      "formula": "\\sum \\text{O.N. in neutral molecule} = 0 \\\\ \\sum \\text{O.N. in ion} = \\text{ionic charge}",
+      "note": ""
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Redox Balancing",
+      "formula": "\\text{Total increase in O.N.} = \\text{Total decrease in O.N.}",
+      "note": ""
+    },
+
+    {
+      "blockType": "exam-tip",
+      "label": "🎓 Exam Tips",
+      "text": "• Oxidation and reduction always occur together • Oxidizing agent gets reduced, reducing agent gets oxidized • In peroxides (H₂O₂, Na₂O₂), O has O.N. = -1 • In metal hydrides (NaH, CaH₂), H has O.N. = -1 • F always has O.N. = -1 (most electronegative) • For balancing, first balance atoms other than H and O • Then balance O by adding H₂O • Finally balance H by adding H⁺ or OH⁻"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "12. Common Mistakes to Avoid"
+    },
+      {
+      "blockType": "note-text",
+      "text": "❌ Forgetting that oxidation number is different from actual charge • ❌ Not considering all atoms when calculating total change • ❌ Mixing up oxidizing agent with oxidation • ❌ Forgetting to multiply by number of atoms in molecule • ❌ Not balancing charge in ionic equations • ❌ Assuming O is always -2 (remember peroxides and OF₂) • ❌ Assuming H is always +1 (remember metal hydrides)"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "subjectTag": "Mathematics",
+  "title": "Probability",
+  "subtitle": "Chapter 6: Probability — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Basic Concepts"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Probability of Event A",
+      "formula": "P(A) = \\frac{\\text{Favourable outcomes}}{\\text{Total outcomes}}",
+      "note": "0 $\\leq$ P(A) $\\leq$ 1."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2. Addition & Multiplication Rules"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Union & Intersection",
+      "formula": "P(A \\cup B) = P(A) + P(B) - P(A \\cap B) \\\\ P(A \\cap B) = P(A) \\cdot P(B|A)",
+      "note": "If mutually exclusive, $P(A \\cap B) = 0$."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3. Counting Principles"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Permutations & Combinations",
+      "formula": "P(n,r) = \\frac{n!}{(n-r)!} \\\\ C(n,r) = \\frac{n!}{r!(n-r)!}",
+      "note": "Permutation = Order matters. Combination = Selection only."
+    }
+  ]
+}

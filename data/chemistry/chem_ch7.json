@@ -1,0 +1,605 @@
+{
+  "subjectTag": "Chemistry",
+  "title": "Chemical Equilibrium",
+  "subtitle": "Chapter 8: Chemical Equilibrium — Complete NEB Notes",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Introduction to Equilibrium"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Equilibrium:</strong> The state of a reversible reaction in which the rate of forward reaction becomes equal to the rate of backward reaction, and there is no change in the concentration of reactants and products with time."
+    },
+    {
+      "blockType": "note-text",
+      "text": "At equilibrium, the reaction appears to stop but actually both forward and backward reactions continue to occur at equal rates. This is called <strong>dynamic equilibrium</strong>."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2. Types of Equilibrium"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>1. Physical Equilibrium:</strong> Equilibrium established in physical processes (phase changes)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>2. Chemical Equilibrium:</strong> Equilibrium established in chemical reactions where opposing processes involve chemical changes."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2.1 Physical Equilibrium Examples"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Liquid-Vapour Equilibrium:</strong> H₂O(l) ⇌ H₂O(g) — Rate of evaporation = Rate of condensation"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Solid-Liquid Equilibrium:</strong> Ice ⇌ Water at 0°C and 1 atm — Rate of melting = Rate of freezing"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Solid-Gas Equilibrium:</strong> Sublimation ⇌ Condensation (e.g., I₂(s) ⇌ I₂(g))"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Solute-Solution Equilibrium:</strong> Dissolution ⇌ Crystallization (e.g., NaCl(s) ⇌ Na⁺(aq) + Cl⁻(aq))"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "3. Reversible and Irreversible Reactions"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Reversible Reaction:</strong> A reaction that can proceed in both forward and backward directions simultaneously under the same conditions. Represented by double arrow (⇌)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example:</strong> N₂(g) + 3H₂(g) ⇌ 2NH₃(g)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Irreversible Reaction:</strong> A reaction that proceeds in one direction only and goes to completion. Represented by single arrow (→)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example:</strong> AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq)"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "🔑 Key Differences",
+      "text": "Reversible: Never goes to completion, maintains equilibrium, occurs in closed vessel • Irreversible: Goes to completion, no equilibrium, can occur in open or closed vessel"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "4. Law of Mass Action"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Law of Mass Action (Guldberg and Waage, 1864):</strong> The rate of a chemical reaction at a given temperature is directly proportional to the product of the active masses (molar concentrations) of the reactants raised to the power of their stoichiometric coefficients."
+    },
+    {
+      "blockType": "note-text",
+      "text": "For a reaction: aA + bB → Products"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Rate Expression",
+      "formula": "Rate \\propto [A]^a [B]^b \\quad \\text{or} \\quad Rate = k[A]^a[B]^b",
+      "note": "k = rate constant, [A] and [B] = molar concentrations"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Active Mass:</strong> Molar concentration expressed in mol/L or M. For gases, it can also be expressed in terms of partial pressure."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "5. Equilibrium Constant (Kc)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "For a general reversible reaction: aA + bB ⇌ cC + dD"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Equilibrium Constant Expression",
+      "formula": "K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}",
+      "note": "Kc = equilibrium constant in terms of concentration"
+    },
+    {
+      "blockType": "note-text",
+      "text": "At equilibrium: Rate of forward reaction = Rate of backward reaction"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Derivation",
+      "formula": "k_f[A]^a[B]^b = k_b[C]^c[D]^d \\quad \\Rightarrow \\quad \\frac{k_f}{k_b} = \\frac{[C]^c[D]^d}{[A]^a[B]^b} = K_c",
+      "note": "kf = forward rate constant, kb = backward rate constant"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "📌 Important Points",
+      "text": "• Kc is constant at a given temperature • Independent of initial concentrations • Depends only on temperature • Pure solids and liquids are not included (their activity = 1)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "6. Equilibrium Constant in Terms of Pressure (Kp)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "For gaseous reactions, equilibrium constant can be expressed in terms of partial pressures:"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Kp Expression",
+      "formula": "K_p = \\frac{(P_C)^c (P_D)^d}{(P_A)^a (P_B)^b}",
+      "note": "PA, PB, PC, PD = partial pressures of gases A, B, C, D"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "7. Relationship Between Kp and Kc"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Relationship",
+      "formula": "K_p = K_c (RT)^{\\Delta n}",
+      "note": "R = gas constant (0.0821 L·atm·mol⁻¹·K⁻¹), T = temperature in Kelvin, Δn = (c+d) - (a+b) = change in number of moles"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Three Cases:</strong>"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. <strong>Δn = 0:</strong> Kp = Kc (e.g., H₂ + I₂ ⇌ 2HI)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "2. <strong>Δn > 0:</strong> Kp > Kc (e.g., PCl₅ ⇌ PCl₃ + Cl₂, Δn = 1)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "3. <strong>Δn < 0:</strong> Kp < Kc (e.g., N₂ + 3H₂ ⇌ 2NH₃, Δn = -2)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "8. Characteristics of Equilibrium Constant"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. <strong>Constant Value:</strong> Kc or Kp has a definite value for a particular reaction at a given temperature."
+    },
+    {
+      "blockType": "note-text",
+      "text": "2. <strong>Temperature Dependence:</strong> K changes with temperature but is independent of concentration, pressure, or catalyst."
+    },
+    {
+      "blockType": "note-text",
+      "text": "3. <strong>Reversing Reaction:</strong> If reaction is reversed, K' = 1/K"
+    },
+    {
+      "blockType": "note-text",
+      "text": "4. <strong>Multiplying Coefficients:</strong> If coefficients are multiplied by n, K' = Kⁿ"
+    },
+    {
+      "blockType": "note-text",
+      "text": "5. <strong>Adding Reactions:</strong> If reactions are added, K = K₁ × K₂"
+    },
+    {
+      "blockType": "note-text",
+      "text": "6. <strong>Magnitude Indicates Extent:</strong> Large K (>>1) favors products; Small K (<<1) favors reactants"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "9. Le Chatelier's Principle"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Le Chatelier's Principle (1884):</strong> \"If a system at equilibrium is subjected to a change in concentration, temperature, or pressure, the equilibrium shifts in that direction which tends to neutralize or counteract the effect of the change.\""
+    },
+    {
+      "blockType": "topic-title",
+      "text": "9.1 Effect of Concentration"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Increasing Reactant Concentration:</strong> Equilibrium shifts in forward direction (towards products)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Increasing Product Concentration:</strong> Equilibrium shifts in backward direction (towards reactants)"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "9.2 Effect of Temperature"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Exothermic Reaction (ΔH < 0):</strong> Increasing temperature shifts equilibrium backward (towards reactants)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Endothermic Reaction (ΔH > 0):</strong> Increasing temperature shifts equilibrium forward (towards products)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example:</strong> N₂ + 3H₂ ⇌ 2NH₃ + Heat (ΔH = -92 kJ/mol) — Exothermic, so low temperature favors NH₃ formation"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "9.3 Effect of Pressure"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Increasing Pressure:</strong> Equilibrium shifts towards the side with fewer moles of gas"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Decreasing Pressure:</strong> Equilibrium shifts towards the side with more moles of gas"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example:</strong> N₂(g) + 3H₂(g) ⇌ 2NH₃(g) — 4 moles → 2 moles, so high pressure favors forward reaction"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Note:</strong> Pressure has no effect if Δn = 0 (equal moles on both sides)"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "9.4 Effect of Catalyst"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Catalyst <strong>does not affect</strong> the position of equilibrium. It only increases the rate of both forward and backward reactions equally, helping to reach equilibrium faster."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "10. Industrial Applications of Le Chatelier's Principle"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "10.1 Haber's Process (Ammonia Synthesis)"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Reaction",
+      "formula": "N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g) \\quad \\Delta H = -92.4 \\text{ kJ/mol}",
+      "note": "Exothermic, Δn = -2"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Optimum Conditions:</strong>"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. <strong>Temperature:</strong> 723-773 K (450-500°C) — Moderate temperature (compromise between yield and rate)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "2. <strong>Pressure:</strong> 200-300 atm — High pressure favors forward reaction"
+    },
+    {
+      "blockType": "note-text",
+      "text": "3. <strong>Catalyst:</strong> Finely divided iron with molybdenum promoter"
+    },
+    {
+      "blockType": "note-text",
+      "text": "4. <strong>Concentration:</strong> Excess N₂ and H₂"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "10.2 Contact Process (Sulfuric Acid Manufacture)"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Key Reaction",
+      "formula": "2SO_2(g) + O_2(g) \\rightleftharpoons 2SO_3(g) \\quad \\Delta H = -196 \\text{ kJ/mol}",
+      "note": "Exothermic, Δn = -1"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Optimum Conditions:</strong>"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. <strong>Temperature:</strong> 723 K (450°C)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "2. <strong>Pressure:</strong> 1.5-2 atm (slightly above atmospheric)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "3. <strong>Catalyst:</strong> V₂O₅ (Vanadium pentoxide) or Pt"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "10.3 Birkeland-Eyde Process (Nitric Acid)"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Reaction",
+      "formula": "N_2(g) + O_2(g) \\rightleftharpoons 2NO(g) \\quad \\Delta H = +180.8 \\text{ kJ/mol}",
+      "note": "Endothermic, Δn = 0"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Conditions:</strong>"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. <strong>Temperature:</strong> 3000°C (very high, as reaction is endothermic)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "2. <strong>Pressure:</strong> No effect (Δn = 0)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "3. <strong>Electric Arc:</strong> Used to produce high temperature"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "11. Ionic Equilibrium"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Ionic Equilibrium:</strong> The equilibrium established between unionized molecules and ions in solution of weak electrolytes."
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example:</strong> CH₃COOH(aq) ⇌ CH₃COO⁻(aq) + H⁺(aq)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "12. Acids and Bases"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "12.1 Arrhenius Concept"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Arrhenius Acid:</strong> Substance that gives H⁺ ions in aqueous solution. Example: HCl, H₂SO₄, HNO₃"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Arrhenius Base:</strong> Substance that gives OH⁻ ions in aqueous solution. Example: NaOH, KOH, Ca(OH)₂"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Limitations:</strong> Only applicable to aqueous solutions; cannot explain acidic/basic nature of non-aqueous substances"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "12.2 Bronsted-Lowry Concept"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Bronsted-Lowry Acid:</strong> Proton (H⁺) donor"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Bronsted-Lowry Base:</strong> Proton (H⁺) acceptor"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example:</strong> HCl + NH₃ → NH₄⁺ + Cl (HCl donates H⁺, NH₃ accepts H⁺)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Conjugate Acid-Base Pair:</strong> Two species that differ by one proton (H⁺)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "Example: NH₃ (base) and NH₄⁺ (conjugate acid); HCl (acid) and Cl⁻ (conjugate base)"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "12.3 Lewis Concept"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Lewis Acid:</strong> Electron pair acceptor. Examples: BF₃, AlCl₃, Fe³⁺, H⁺"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Lewis Base:</strong> Electron pair donor. Examples: NH₃, H₂O, OH⁻, Cl⁻"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Example:</strong> BF₃ + :NH₃ → F₃B:NH₃ (BF₃ accepts electron pair, NH₃ donates)"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "📊 Comparison",
+      "text": "Arrhenius: Limited to aqueous • Bronsted-Lowry: Proton transfer • Lewis: Electron pair transfer (most general)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "13. pH and pOH"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>pH:</strong> Negative logarithm (base 10) of hydrogen ion concentration."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "pH Formula",
+      "formula": "pH = -\\log_{10}[H^+] \\quad \\text{or} \\quad [H^+] = 10^{-pH}",
+      "note": ""
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>pOH:</strong> Negative logarithm of hydroxide ion concentration."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "pOH Formula",
+      "formula": "pOH = -\\log_{10}[OH^-] \\quad \\text{or} \\quad [OH^-] = 10^{-pOH}",
+      "note": ""
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Relationship",
+      "formula": "pH + pOH = 14 \\quad \\text{(at 25°C)}",
+      "note": "For neutral solution: pH = pOH = 7"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>pH Scale:</strong> Acidic: pH < 7 • Neutral: pH = 7 • Basic: pH > 7"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "💡 Quick Calculation",
+      "text": "If [H⁺] = 10⁻³ M, then pH = 3 • If pH = 5, then [H⁺] = 10⁻⁵ M"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "14. Buffer Solutions"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Buffer Solution:</strong> A solution that resists changes in pH upon addition of small amounts of acid or base, or upon dilution."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "14.1 Types of Buffers"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>1. Acidic Buffer:</strong> Weak acid + its salt with strong base. Example: CH₃COOH + CH₃COONa (pH ≈ 4.75)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>2. Basic Buffer:</strong> Weak base + its salt with strong acid. Example: NH₄OH + NH₄Cl (pH ≈ 9.25)"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "14.2 Buffer Action"
+    },
+    {
+      "blockType": "note-text",
+      "text": "When acid is added: Base component neutralizes H⁺ • When base is added: Acid component neutralizes OH⁻"
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Applications:</strong> Blood (pH 7.4), Industrial processes, Laboratory work, Food preservation"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "15. Solubility Product (Ksp)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "<strong>Solubility Product (Ksp):</strong> The product of molar concentrations of ions in a saturated solution of a sparingly soluble salt at constant temperature."
+    },
+    {
+      "blockType": "note-text",
+      "text": "For a salt: AₓB(s) ⇌ xAʸ⁺(aq) + yBˣ⁻(aq)"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Ksp Expression",
+      "formula": "K_{sp} = [A^{y+}]^x [B^{x-}]^y",
+      "note": ""
+    },
+    {
+      "blockType": "note-text",
+      "text": "<strong>Examples:</strong>"
+    },
+    {
+      "blockType": "note-text",
+      "text": "AgCl(s) ⇌ Ag⁺ + Cl⁻ → Ksp = [Ag⁺][Cl⁻]"
+    },
+    {
+      "blockType": "note-text",
+      "text": "CaF₂(s) ⇌ Ca²⁺ + 2F⁻ → Ksp = [Ca²⁺][F⁻]²"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Al(OH)₃(s) ⇌ Al³⁺ + 3OH⁻ → Ksp = [Al³⁺][OH⁻]³"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "15.1 Applications of Ksp"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. <strong>Predicting Precipitation:</strong> If ionic product > Ksp, precipitation occurs"
+    },
+    {
+      "blockType": "note-text",
+      "text": "2. <strong>Purification of Common Salt:</strong> Passing HCl gas through saturated NaCl solution"
+    },
+    {
+      "blockType": "note-text",
+      "text": "3. <strong>Qualitative Analysis:</strong> Group separation in salt analysis"
+    },
+    {
+      "blockType": "note-text",
+      "text": "4. <strong>Soap Manufacturing:</strong> Adding NaCl to precipitate soap"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "16. Important Formulas Summary"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Equilibrium Constants",
+      "formula": "K_c = \\frac{[Products]^{coefficients}}{[Reactants]^{coefficients}} \\quad ; \\quad K_p = K_c(RT)^{\\Delta n}",
+      "note": ""
+    },
+    {
+      "blockType": "formula-block",
+      "name": "pH and pOH",
+      "formula": "pH = -\\log[H^+] \\quad ; \\quad pOH = -\\log[OH^-] \\quad ; \\quad pH + pOH = 14",
+      "note": ""
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Solubility Product",
+      "formula": "K_{sp} = [A^{y+}]^x [B^{x-}]^y",
+      "note": ""
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Henderson-Hasselbalch Equation",
+      "formula": "pH = pK_a + \\log\\frac{[Salt]}{[Acid]} \\quad \\text{(for acidic buffer)}",
+      "note": ""
+    },
+
+    {
+      "blockType": "exam-tip",
+      "label": "🎓 Exam Tips",
+      "text": "• For exothermic reactions: Low T favors products • For endothermic reactions: High T favors products • High P favors side with fewer gas moles • Catalyst doesn't change K, only speeds up equilibrium • K >> 1 means reaction favors products • K << 1 means reaction favors reactants • Pure solids/liquids not included in K expression • Δn = moles of gaseous products - moles of gaseous reactants"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "17. Common Mistakes to Avoid"
+    },
+    {
+      "blockType": "note-text",
+      "text": "❌ Forgetting to convert °C to Kelvin (K = °C + 273) • ❌ Including pure solids/liquids in K expression • ❌ Confusing Kp and Kc (remember Δn) • ❌ Assuming catalyst changes equilibrium position • ❌ Forgetting that K changes with temperature • ❌ Mixing up acidic and basic buffer components • ❌ Not balancing equation before writing K expression • ❌ Forgetting that pH + pOH = 14 only at 25°C"
+    }
+  ]
+}

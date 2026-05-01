@@ -1,0 +1,84 @@
+{
+  "subjectTag": "Chemistry",
+  "title": "Bioinorganic Chemistry",
+  "subtitle": "Chapter 10: Bioinorganic Chemistry — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Definition"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Bioinorganic chemistry is the study of the role of inorganic elements (mainly metals and non-metals) in biological systems. It explains how metal ions and inorganic compounds are essential for the structure and function of biomolecules."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2. Importance of Bioinorganic Chemistry"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• Essential for life processes\n• Explains biochemical functions of metals in enzymes, proteins, and coenzymes\n• Helps in understanding metabolism, oxygen transport, and electron transfer"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3. Essential Inorganic Elements in Biology"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3.1 Major (Macronutrients)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Needed in large amounts. Examples: Na⁺, K⁺, Ca²⁺, Mg²⁺, Cl⁻, P, S"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "Functions of Macronutrients"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• Na⁺, K⁺ $\\rightarrow$ nerve impulse transmission, water balance\n• Ca²⁺ $\\rightarrow$ bones, teeth, blood clotting, muscle contraction\n• Mg²⁺ $\\rightarrow$ cofactor for enzymes, chlorophyll\n• P $\\rightarrow$ nucleic acids, ATP\n• S $\\rightarrow$ amino acids (cysteine, methionine)"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3.2 Trace Elements (Micronutrients)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Needed in very small amounts. Examples: Fe, Cu, Zn, Mn, Mo, Co, I"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "Functions of Micronutrients"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• Fe $\\rightarrow$ hemoglobin, oxygen transport\n• Cu $\\rightarrow$ electron transport, enzymes (cytochrome oxidase)\n• Zn $\\rightarrow$ enzyme activation, DNA synthesis\n• Co $\\rightarrow$ component of Vitamin B$_{12}$\n• I $\\rightarrow$ thyroid hormone (thyroxine)"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "4. Biological Role of Metal Ions"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. **Oxygen Transport:** Fe in hemoglobin (red blood cells) carries O$_2$; Cu in hemocyanin (mollusks/arthropods).\n2. **Electron Transfer (Respiration):** Fe and Cu ions in cytochromes and metalloproteins.\n3. **Enzyme Activation:** Mg$^{2+}$, Zn$^{2+}$, Mn$^{2+}$ act as cofactors for enzymes.\n4. **Structural Role:** Ca$^{2+}$ in bones and teeth; Mg$^{2+}$ in chlorophyll.\n5. **Regulation of Metabolism:** Na$^+$ and K$^+$ maintain osmotic balance and nerve signals."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5. Important Compounds in Bioinorganic Chemistry"
+    },
+    {
+      "blockType": "note-text",
+      "text": "| Compound | Role |\n| :--- | :--- |\n| Hemoglobin (Fe$^{2+}$) | Oxygen transport in blood |\n| Myoglobin (Fe$^{2+}$) | Oxygen storage in muscles |\n| Chlorophyll (Mg$^{2+}$) | Photosynthesis in plants |\n| Vitamin B$_{12}$ (Co) | Red blood cell formation, enzyme cofactor |\n| Cytochromes (Fe, Cu) | Electron transport in respiration |"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "6. Key Points to Remember"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "💡 Summary",
+      "text": "• Bioinorganic chemistry deals with metal ions and inorganic compounds in life.\n• Metal ions act as essential cofactors in biochemical reactions.\n• Essential elements are divided into Macronutrients (large amounts) and Microelements (trace amounts)."
+    }
+  ]
+}

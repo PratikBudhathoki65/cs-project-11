@@ -1,0 +1,100 @@
+{
+  "subjectTag": "Chemistry",
+  "title": "Metals and Metallurgical Principles",
+  "subtitle": "Chapter 13: Metals & Metallurgy — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Metals"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Metals are elements that are good conductors of heat and electricity, malleable, ductile, and usually solid at room temperature (except mercury)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "1.1 Physical Properties of Metals"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. **Luster:** Shiny appearance.\n2. **Malleability:** Can be hammered into sheets.\n3. **Ductility:** Can be drawn into wires.\n4. **Conductivity:** Good conductor of heat and electricity.\n5. **Density:** Generally high.\n6. **Melting and Boiling Points:** Usually high.\n7. **Sonority:** Produce sound when struck."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "1.2 Chemical Properties of Metals"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. **Tendency to lose electrons:** Form cations.\n2. **Reaction with oxygen:** Form metal oxides. Example: 2Na + O$_2$ $\\rightarrow$ Na$_2$O$_2$.\n3. **Reaction with water:** Form hydroxides and hydrogen gas. Example: 2Na + 2H$_2$O $\\rightarrow$ 2NaOH + H$_2$.\n4. **Reaction with acids:** Produce salt and hydrogen gas. Example: Zn + 2HCl $\\rightarrow$ ZnCl$_2$ + H$_2$."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "1.3 Occurrence of Metals"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• Found in **ores** in the earth's crust.\n• Some metals exist **free (native metals)** like gold, platinum.\n• Most metals are combined with oxygen, sulfur, or carbonates."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2. Metallurgy"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Metallurgy is the science and technology of extracting metals from their ores and preparing them in a usable form."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2.1 Steps in Metallurgy"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2.1.1 Concentration of Ore (Enrichment)"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Removing impurities (gangue) from ore.\nMethods: Gravity separation (Zn, Pb), Froth flotation (Cu, Pb, Zn), Magnetic separation (Fe ore)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2.1.2 Conversion of Ore to Oxide"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• **Roasting:** Heating sulfide ores in air $\\rightarrow$ oxide + SO$_2$. Example: 2ZnS + 3O$_2$ $\\rightarrow$ 2ZnO + 2SO$_2$.\n• **Calcination:** Heating carbonate ores in limited air $\\rightarrow$ oxide + CO$_2$. Example: CaCO$_3$ $\\rightarrow$ CaO + CO$_2$."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2.1.3 Reduction of Metal from Oxide"
+    },
+    {
+      "blockType": "note-text",
+      "text": "| Reactivity | Method |\n| :--- | :--- |\n| Low reactivity (Au, Ag, Cu) | Heating alone (self-reduction) |\n| Medium reactivity (Fe, Zn, Pb) | Reduction with carbon (coke) |\n| High reactivity (Na, K, Ca, Mg) | Electrolytic reduction |"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2.1.4 Purification of Metals"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• Electrolytic refining (Cu, Zn)\n• Distillation (Hg)\n• Zone refining (Si, Ge)"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2.2 Examples of Extraction"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. **Iron (Fe):** Ore: Hematite (Fe$_2$O$_3$). Concentration: Magnetic separation. Reduction: Blast furnace with coke $\\rightarrow$ Fe.\n2. **Aluminium (Al):** Ore: Bauxite (Al$_2$O$_3 \\cdot$ 2H$_2$O). Extraction: Electrolytic reduction (Hall-Héroult process)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3. Key Points to Remember"
+    },
+    {
+      "blockType": "exam-tip",
+      "label": "💡 Summary",
+      "text": "• Metals are malleable, ductile, and good conductors.\n• Metallurgy steps: Concentration $\\rightarrow$ Conversion to Oxide $\\rightarrow$ Reduction $\\rightarrow$ Purification.\n• Extraction method depends on reactivity: Electrolysis for high reactivity, Carbon for medium reactivity."
+    }
+  ]
+}

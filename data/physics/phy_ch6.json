@@ -1,0 +1,93 @@
+{
+  "subjectTag": "Physics",
+  "title": "Circular Motion",
+  "subtitle": "Chapter 6: Circular Motion — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. What is Circular Motion?"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Circular motion is the motion of a body along a circular path. Even if the speed is constant, the velocity keeps changing because its direction changes continuously."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2. Types of Circular Motion"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Uniform Circular Motion: Speed remains constant, but direction of velocity changes. Example: A satellite moving around Earth."
+    },
+    {
+      "blockType": "note-text",
+      "text": "Non-Uniform Circular Motion: Both magnitude (speed) and direction of velocity change. Example: A car accelerating on a circular track."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3. Angular Quantities"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Angular Displacement",
+      "formula": "\\theta",
+      "note": "Angle covered by the particle at the center. Unit: Radian (rad)."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Angular Velocity",
+      "formula": "\\omega = \\frac{\\theta}{t}",
+      "note": "Rate of change of angular displacement. Unit: rad/s."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Angular Acceleration",
+      "formula": "\\alpha = \\frac{d\\omega}{dt}",
+      "note": "Rate of change of angular velocity. Unit: rad/s²."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "4. Relation Between Linear and Angular Quantities"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Linear Relations",
+      "formula": "v = r\\omega \\quad a = r\\alpha",
+      "note": "r = radius of the circular path."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5. Centripetal Acceleration & Force"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Centripetal Acceleration",
+      "formula": "a_n = \\frac{v^2}{r} = r\\omega^2",
+      "note": "Acceleration directed towards the center."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Centripetal Force",
+      "formula": "F = \\frac{mv^2}{r} = mr\\omega^2",
+      "note": "Force required to keep a body moving in a circle. Always directed towards the center."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "6. Centrifugal Force"
+    },
+    {
+      "blockType": "note-def",
+      "text": "A pseudo force observed in a rotating frame. It acts away from the center and is equal in magnitude and opposite to centripetal force."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "7. Banking of Roads"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Banking Angle",
+      "formula": "\\tan(\\theta) = \\frac{v^2}{rg}",
+      "note": "Roads are tilted at an angle for safe turning and to prevent skidding."
+    }
+  ]
+}

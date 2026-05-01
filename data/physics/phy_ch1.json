@@ -1,0 +1,81 @@
+{
+  "subjectTag": "Physics",
+  "title": "Units and Measurement",
+  "subtitle": "Chapter 1: Units and Measurement — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Physical Quantities & Units"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Physical quantity: Anything that can be measured (length, mass, time, temperature, etc.)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "Fundamental quantities: 7 base quantities in SI system."
+    },
+    {
+      "blockType": "note-text",
+      "text": "Derived quantities: Obtained by combining fundamental ones (e.g., velocity, force, energy)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "Supplementary quantities: Plane angle (radian, rad) and solid angle (steradian, sr)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2. SI System"
+    },
+    {
+      "blockType": "note-text",
+      "text": "SI (Système International d'Unités) is the internationally accepted metric system. Advantages: coherent, decimal-based, universally accepted, and easy conversion."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "SI Base Units",
+      "formula": "\\text{Length: m, Mass: kg, Time: s, Temp: K, Current: A, Substance: mol, Intensity: cd}",
+      "note": "Standard international units for base quantities."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3. Dimensional Analysis"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Dimension: Expresses a quantity in terms of M (mass), L (length), T (time), I (current), $\\theta$ (temperature), N (amount), and J (luminous intensity)."
+    },
+    {
+      "blockType": "note-text",
+      "text": "Principle of Homogeneity: Both sides of a physical equation must have the same dimensions."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Common Dimensional Formulas",
+      "formula": "Force: $MLT^{-2}$ | Energy: $ML^2T^{-2}$ | Pressure: $ML^{-1}T^{-2}$ | Velocity: $LT^{-1}$ | Acceleration: $LT^{-2}$ | Momentum: $MLT^{-1}$",
+      "note": "Essential for checking equation correctness and deriving relations."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "4. Significant Figures"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Rules: All non-zero digits are significant; zeros between non-zeros are significant; trailing zeros after a decimal point are significant; leading zeros are NOT significant."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5. Errors in Measurement"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Systematic error: Consistent, one-directional error (caused by faulty instruments). Random error: Irregular, unpredictable error (reduced by averaging)."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Error Expressions",
+      "formula": "\\text{Absolute error} = |\\text{True} - \\text{Measured}| \\\\ \\text{Relative error} = \\frac{\\text{Absolute error}}{\\text{True value}} \\\\ \\text{Percentage error} = \\text{Relative error} \\times 100\\%",
+      "note": "Used to quantify uncertainty in measurements."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "subjectTag": "Physics",
+  "title": "Work, Energy and Power",
+  "subtitle": "Chapter 5: Work, Energy & Power — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Work"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Work is said to be done when a force applied on an object causes displacement."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Work Formula",
+      "formula": "W = F \\times s \\times \\cos(\\theta)",
+      "note": "F = Force applied, s = Displacement, $\\theta$ = Angle between force and displacement."
+    },
+    {
+      "blockType": "note-text",
+      "text": "Types of Work: Positive (Force and displacement in same direction), Negative (Opposite directions), Zero (No displacement or force is perpendicular to displacement)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2. Energy"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Energy is the capacity to do work. Unit: Joule (J)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2.1 Kinetic Energy (KE)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Energy possessed by a body due to its motion."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Kinetic Energy",
+      "formula": "KE = \\frac{1}{2}mv^2",
+      "note": "m = mass, v = velocity"
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2.2 Potential Energy (PE)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Energy possessed by a body due to its position or configuration."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Gravitational Potential Energy",
+      "formula": "PE = mgh",
+      "note": "m = mass, g = acceleration due to gravity, h = height"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Law of Conservation of Energy: Energy can neither be created nor destroyed; it can only be transformed from one form to another."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3. Power"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Power is the rate of doing work."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Power Formulas",
+      "formula": "P = \\frac{W}{t} = F \\times v",
+      "note": "Unit: Watt (W). v = velocity."
+    }
+  ]
+}

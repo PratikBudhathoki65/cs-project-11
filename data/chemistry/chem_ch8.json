@@ -1,0 +1,147 @@
+{
+  "subjectTag": "Chemistry",
+  "title": "Alkali Metals & Alkaline Earth Metals",
+  "subtitle": "s-Block Elements — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Alkali Metals (Group 1)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Elements: Li (Lithium), Na (Sodium), K (Potassium), Rb (Rubidium), Cs (Caesium), Fr (Francium). Sab s-block elements hun — outermost shell ma 1 valence electron."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "1.1 Physical Properties"
+    },
+    {
+      "blockType": "note-text",
+      "text": "① Soft metals — knife le cut garna sakkincha.\n② Low density — Li, Na, K float on water.\n③ Shiny, silvery appearance.\n④ Low melting and boiling points — group tala jane sanga decrease huncha."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "1.2 Chemical Properties"
+    },
+    {
+      "blockType": "note-text",
+      "text": "① Highly reactive — especially with water, oxygen, and halogens.\n② Form strong bases (alkalis) when dissolved in water.\n③ Group tala jane sanga reactivity badhcha."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Reaction with Water",
+      "formula": "2Na + 2H_2O \\rightarrow 2NaOH + H_2\\uparrow",
+      "note": "Vigorous reaction; NaOH is a strong base. Li is slowest, Cs is most explosive among stable alkali metals."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Reaction with Oxygen",
+      "formula": "4Li + O_2 \\rightarrow 2Li_2O \\quad (\\text{oxide}) \\\\ 2Na + O_2 \\rightarrow Na_2O_2 \\quad (\\text{peroxide}) \\\\ K + O_2 \\rightarrow KO_2 \\quad (\\text{superoxide})",
+      "note": "Li → oxide; Na → peroxide; K, Rb, Cs → superoxide. Product type changes down the group."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Reaction with Halogens",
+      "formula": "2Na + Cl_2 \\rightarrow 2NaCl \\\\ 2K + Br_2 \\rightarrow 2KBr",
+      "note": "Form ionic halides. All alkali metals react vigorously with halogens."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "1.3 Trends Down Group 1"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• Reactivity ↑ (ionisation energy decreases → easier to lose electron)\n• Density ↑ (except Li < Na > K anomaly is absent; general trend is ↑)\n• Melting & boiling point ↓ (weaker metallic bonding down the group)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "1.4 Uses of Alkali Metals"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• Na → table salt (NaCl), soap making, organic synthesis\n• K → fertilizers (KCl, KNO₃)\n• Li → rechargeable batteries, psychiatric medicine (Li₂CO₃)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2. Alkaline Earth Metals (Group 2)"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Elements: Be (Beryllium), Mg (Magnesium), Ca (Calcium), Sr (Strontium), Ba (Barium), Ra (Radium). Outermost shell ma 2 valence electrons — s-block elements."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2.1 Physical Properties"
+    },
+    {
+      "blockType": "note-text",
+      "text": "① Harder than alkali metals (2 valence electrons → stronger metallic bond).\n② Higher melting and boiling points than Group 1.\n③ Less dense than alkali metals (generally).\n④ Silvery-white appearance."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2.2 Chemical Properties"
+    },
+    {
+      "blockType": "note-text",
+      "text": "① Reactivity lower than alkali metals but still reactive.\n② Be ra Mg react slowly with water; Ca, Sr, Ba react readily.\n③ React with oxygen to form oxides.\n④ React with halogens to form halides."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Reaction with Water",
+      "formula": "Ca + 2H_2O \\rightarrow Ca(OH)_2 + H_2\\uparrow",
+      "note": "Be does NOT react with water; Mg reacts only with hot water/steam; Ca, Sr, Ba react with cold water. Reactivity ↑ down the group."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Reaction with Oxygen",
+      "formula": "2Mg + O_2 \\rightarrow 2MgO \\\\ 2Ca + O_2 \\rightarrow 2CaO",
+      "note": "Form basic oxides. MgO and CaO are widely used in industry."
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Reaction with Halogens",
+      "formula": "Ca + Cl_2 \\rightarrow CaCl_2",
+      "note": "Form ionic dihalides (MX₂). CaCl₂ is used as a desiccant."
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2.3 Trends Down Group 2"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• Reactivity ↑ (ionisation energy decreases down the group)\n• Density ↑\n• Melting & boiling point ↓ (weaker metallic bonding)"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "2.4 Uses of Alkaline Earth Metals"
+    },
+    {
+      "blockType": "note-text",
+      "text": "• Ca → cement, steel manufacturing, plaster of Paris\n• Mg → lightweight alloys (aircraft, cars), fireworks (bright white flame)\n• Ba → drilling fluids (BaSO₄), paints"
+    },
+
+    {
+      "blockType": "topic-title",
+      "text": "3. Comparison: Alkali vs Alkaline Earth Metals"
+    },
+    {
+      "blockType": "note-text",
+      "text": "Property | Alkali Metals (Group 1) | Alkaline Earth Metals (Group 2)\nValence electrons | 1 | 2\nReactivity | Very high | High, but less than Group 1\nDensity | Low | Higher than Group 1\nHardness | Soft | Harder than Group 1\nReaction with water | Vigorous | Less vigorous (Be/Mg: slow)\nMelting point | Low | Higher than Group 1"
+    },
+
+    {
+      "blockType": "exam-tip",
+      "label": "🎓 Key Points to Remember:",
+      "text": "✓ Both groups are s-block elements.\n✓ Alkali metals → 1 valence e⁻; Alkaline earth metals → 2 valence e⁻.\n✓ Alkali metals: extremely reactive, form strong bases (MOH).\n✓ Alkaline earth metals: reactive but less so; form less soluble hydroxides.\n✓ Reactivity ↑ down both groups (ionisation energy ↓).\n✓ Melting/boiling point ↓ down both groups.\n✓ Na forms peroxide (Na₂O₂); Li forms normal oxide (Li₂O); K forms superoxide (KO₂) — classic MCQ!\n✓ Be is anomalous — does not react with water and shows amphoteric behaviour."
+    }
+  ]
+}

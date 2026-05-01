@@ -1,0 +1,43 @@
+{
+  "subjectTag": "Mathematics",
+  "title": "Trigonometry",
+  "subtitle": "Chapter 2: Trigonometry — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Trigonometric Ratios"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Basic Ratios",
+      "formula": "\\sin \\theta = \\frac{Opp}{Hyp} \\quad \\cos \\theta = \\frac{Adj}{Hyp} \\quad \\tan \\theta = \\frac{Opp}{Adj}",
+      "note": "Use SOH-CAH-TOA for right-angled triangles."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2. Pythagorean Identities"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Identities",
+      "formula": "\\sin^2 \\theta + \\cos^2 \\theta = 1 \\\\ 1 + \\tan^2 \\theta = \\sec^2 \\theta \\\\ 1 + \\cot^2 \\theta = \\text{cosec}^2 \\theta",
+      "note": "True for all values of $\\theta$."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3. Compound & Double Angle Formulas"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Compound Angles",
+      "formula": "\\sin(A \\pm B) = \\sin A \\cos B \\pm \\cos A \\sin B \\\\ \\cos(A \\pm B) = \\cos A \\cos B \\mp \\sin A \\sin B \\\\ \\tan(A \\pm B) = \\frac{\\tan A \\pm \\tan B}{1 \\mp \\tan A \\tan B}",
+      "note": ""
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Double Angles",
+      "formula": "\\sin 2A = 2 \\sin A \\cos A \\\\ \\cos 2A = \\cos^2 A - \\sin^2 A = 2\\cos^2 A - 1 = 1 - 2\\sin^2 A",
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "subjectTag": "Mathematics",
+  "title": "Statistics",
+  "subtitle": "Chapter 5: Statistics — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Measures of Central Tendency"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Mean, Median, Mode",
+      "formula": "\\bar{x} = \\frac{\\sum x}{n} \\\\ \\text{Median: Middle value} \\\\ \\text{Mode: Most frequent}",
+      "note": "For symmetric distributions: Mean = Median = Mode."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2. Measures of Dispersion"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Variance & Standard Deviation",
+      "formula": "\\sigma^2 = \\frac{\\sum (x - \\bar{x})^2}{n} \\\\ \\sigma = \\sqrt{\\text{Variance}}",
+      "note": "Coefficient of Variation (CV) = ($\\sigma$ / $\\bar{x}$) $\\times$ 100%."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "subjectTag": "Physics",
+  "title": "Gravitation",
+  "subtitle": "Chapter 8: Gravitation — NEB Class 11",
+  "content": [
+    {
+      "blockType": "topic-title",
+      "text": "1. Introduction"
+    },
+    {
+      "blockType": "note-def",
+      "text": "Gravity is the force of attraction between any two masses in the universe. It is a universal force that acts between all objects with mass."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "2. Newton's Law of Universal Gravitation"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Law of Gravitation",
+      "formula": "F = G \\frac{m_1 m_2}{r^2}",
+      "note": "F $\\propto$ product of masses; F $\\propto$ 1/r². G $\\approx$ 6.67 $\\times$ 10$^{-11}$ Nm²/kg²."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "3. Acceleration Due to Gravity (g)"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Gravity Formula",
+      "formula": "g = \\frac{GM}{R^2}",
+      "note": "M = mass of Earth, R = radius of Earth. Value: g $\\approx$ 9.8 m/s²."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "4. Variation of g"
+    },
+    {
+      "blockType": "note-text",
+      "text": "g decreases as height increases ($g_h = g(1 - 2h/R)$) and as depth increases ($g_d = g(1 - d/R)$). Due to rotation, g is maximum at poles and minimum at equator."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "5. Gravitational Potential & Field"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Potential & Intensity",
+      "formula": "V = -\\frac{GM}{r} \\quad E = \\frac{GM}{r^2}",
+      "note": "V is Gravitational Potential (J/kg); E is Field Intensity (N/kg)."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "6. Escape & Orbital Velocity"
+    },
+    {
+      "blockType": "formula-block",
+      "name": "Velocity Formulas",
+      "formula": "v_e = \\sqrt{\\frac{2GM}{R}} \\approx 11.2\\text{ km/s} \\quad v_o = \\sqrt{\\frac{GM}{R}} \\approx 7.9\\text{ km/s}",
+      "note": "Escape velocity ($v_e$) is the minimum speed to escape Earth's gravity. Orbital velocity ($v_o$) keeps a satellite in orbit."
+    },
+    {
+      "blockType": "topic-title",
+      "text": "7. Kepler's Laws of Planetary Motion"
+    },
+    {
+      "blockType": "note-text",
+      "text": "1. Planets move in elliptical orbits with the Sun at one focus. 2. Equal areas are swept in equal time. 3. $T^2 \\propto R^3$ (T = time period, R = orbital radius)."
+    }
+  ]
+}
